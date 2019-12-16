@@ -1,0 +1,12 @@
+ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/FileKit" "${PODS_CONFIGURATION_BUILD_DIR}/HXPhotoPicker" "${PODS_CONFIGURATION_BUILD_DIR}/JXPhotoBrowser" "${PODS_CONFIGURATION_BUILD_DIR}/Kingfisher" "${PODS_CONFIGURATION_BUILD_DIR}/SHPathManager" "${PODS_CONFIGURATION_BUILD_DIR}/SHTManager" "${PODS_CONFIGURATION_BUILD_DIR}/SwiftDate" "${PODS_CONFIGURATION_BUILD_DIR}/TLPhotoPicker" "${PODS_CONFIGURATION_BUILD_DIR}/YYCache" "${PODS_CONFIGURATION_BUILD_DIR}/YYImage" "${PODS_CONFIGURATION_BUILD_DIR}/YYWebImage"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/FileKit/FileKit.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/HXPhotoPicker/HXPhotoPicker.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/JXPhotoBrowser/JXPhotoBrowser.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/Kingfisher/Kingfisher.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/SHPathManager/SHPathManager.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/SHTManager/SHTManager.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/SwiftDate/SwiftDate.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/TLPhotoPicker/TLPhotoPicker.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/YYCache/YYCache.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/YYImage/YYImage.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/YYWebImage/YYWebImage.framework/Headers"
+LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
+OTHER_LDFLAGS = $(inherited) -l"sqlite3" -l"z" -framework "Accelerate" -framework "AssetsLibrary" -framework "CFNetwork" -framework "CoreFoundation" -framework "FileKit" -framework "Foundation" -framework "HXPhotoPicker" -framework "ImageIO" -framework "JXPhotoBrowser" -framework "Kingfisher" -framework "MobileCoreServices" -framework "Photos" -framework "PhotosUI" -framework "QuartzCore" -framework "SHPathManager" -framework "SHTManager" -framework "SwiftDate" -framework "TLPhotoPicker" -framework "UIKit" -framework "YYCache" -framework "YYImage" -framework "YYWebImage"
+OTHER_SWIFT_FLAGS = $(inherited) -D COCOAPODS
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
+PODS_ROOT = ${SRCROOT}/Pods
+USE_RECURSIVE_SCRIPT_INPUTS_IN_SCRIPT_PHASES = YES
