@@ -39,7 +39,18 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "13.0"
   s.source       = { :git => "https://github.com/brandy2015/XYZPhotoKit.git", :tag => "0.0.1"}
   s.source_files = "XYZPhotoKit/Source/*"
-  s.dependency 'MBProgressHUD'         #HUD支持
+  
+  
+  
+    s.dependency 'HXPhotoPicker'
+    s.dependency 'TLPhotoPicker'
+    s.dependency 'JXPhotoBrowser'        #点按照片后左右浏览
+    s.dependency 'SHPathManager'         #路径
+    s.dependency 'FileKit'
+    s.dependency 'Kingfisher'
+
+
+
 
   #  When using multiple platforms
   # s.ios.deployment_target = "5.0"
