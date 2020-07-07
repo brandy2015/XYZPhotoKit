@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "XYZPhotoKit"
-  s.version      = "0.0.4"
+  s.version      = "0.0.5"
   s.summary      = "持续升级"
 
   s.description  = <<-DESC
@@ -37,8 +37,8 @@ Pod::Spec.new do |s|
   s.author             = { "Brandy" => "" }
   s.authors            = { "Brandy" => "zhangqianbrandy2012@gmail.com" }
   s.platform     = :ios, "13.0"
-  s.source       = { :git => "https://github.com/brandy2015/XYZPhotoKit.git", :tag => "0.0.4"}
-  s.source_files = "XYZPhotoKit/Source/*,XYZPhotoKit/Source/*/*"
+  s.source       = { :git => "https://github.com/brandy2015/XYZPhotoKit.git", :tag => "0.0.5"}
+  s.source_files = "XYZPhotoKit/Source/*,XYZPhotoKit/Source/**/*"
   
   
   
