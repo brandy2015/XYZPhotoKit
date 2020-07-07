@@ -9,9 +9,9 @@
 import Foundation
 import TLPhotoPicker
 
-class CustomPhotoPickerViewController: TLPhotosPickerViewController {
+public class CustomPhotoPickerViewController: TLPhotosPickerViewController {
     
-    override var selectedAssets: [TLPHAsset] {
+    public override var selectedAssets: [TLPHAsset] {
         willSet {
             self.doneButton?.isEnabled = newValue.count > 0
         }
@@ -20,7 +20,7 @@ class CustomPhotoPickerViewController: TLPhotosPickerViewController {
 
     
   
-    override func traitCollectionDidChange(_ previousTraitCollection: UITraitCollection?) {
+    public override func traitCollectionDidChange(_ previousTraitCollection: UITraitCollection?) {
         super.traitCollectionDidChange(previousTraitCollection)
         self.view.backgroundColor = .black
         self.collectionView.backgroundColor = .black
@@ -39,7 +39,7 @@ class CustomPhotoPickerViewController: TLPhotosPickerViewController {
 //        }
     }
     
-    override func makeUI() {
+    public override func makeUI() {
         super.makeUI()
         
         var 暗黑模式 = false
