@@ -105,12 +105,6 @@
 		D6855A2F24B44CFB00EACB3C /* CustomCells */ = {
 			isa = PBXGroup;
 			children = (
-				D6855A3024B44CFB00EACB3C /* PreviewView.swift */,
-				D6855A3124B44CFB00EACB3C /* CustomCameraCell.xib */,
-				D6855A3224B44CFB00EACB3C /* CustomCell_Instagram.xib */,
-				D6855A3324B44CFB00EACB3C /* CustomCell_Instagram.swift */,
-				D6855A3424B44CFB00EACB3C /* PhotoCaptureDelegate.swift */,
-				D6855A3524B44CFB00EACB3C /* CustomCameraCell.swift */,
 			);
 			path = CustomCells;
 			sourceTree = "<group>";
@@ -118,11 +112,6 @@
 		D6855A3624B44CFB00EACB3C /* CustomPhotoPicker */ = {
 			isa = PBXGroup;
 			children = (
-				D6855A3724B44CFB00EACB3C /* CustomPhotoPickerViewController.swift */,
-				D6855A3824B44CFB00EACB3C /* TLPhotosPicker+Extension.swift */,
-				D6855A3924B44CFB00EACB3C /* ImagePreviewViewController.swift */,
-				D6855A3A24B44CFB00EACB3C /* ImagePreviewViewController.xib */,
-				D6855A3B24B44CFB00EACB3C /* PhotoPickerWithNavigationViewController.swift */,
 			);
 			path = CustomPhotoPicker;
 			sourceTree = "<group>";
@@ -166,6 +155,17 @@
 		D6947D0E23A7AC8F00EBDF12 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				D6855A3024B44CFB00EACB3C /* PreviewView.swift */,
+				D6855A3124B44CFB00EACB3C /* CustomCameraCell.xib */,
+				D6855A3224B44CFB00EACB3C /* CustomCell_Instagram.xib */,
+				D6855A3324B44CFB00EACB3C /* CustomCell_Instagram.swift */,
+				D6855A3424B44CFB00EACB3C /* PhotoCaptureDelegate.swift */,
+				D6855A3524B44CFB00EACB3C /* CustomCameraCell.swift */,
+				D6855A3724B44CFB00EACB3C /* CustomPhotoPickerViewController.swift */,
+				D6855A3824B44CFB00EACB3C /* TLPhotosPicker+Extension.swift */,
+				D6855A3924B44CFB00EACB3C /* ImagePreviewViewController.swift */,
+				D6855A3A24B44CFB00EACB3C /* ImagePreviewViewController.xib */,
+				D6855A3B24B44CFB00EACB3C /* PhotoPickerWithNavigationViewController.swift */,
 				D6855A2E24B44CFB00EACB3C /* TLPhotoPicker_podNeed */,
 				D6947D0F23A7ACCE00EBDF12 /* XYZPHAsset.swift */,
 				D6947D1423A7B06B00EBDF12 /* JXPhoto_Extension.swift */,
