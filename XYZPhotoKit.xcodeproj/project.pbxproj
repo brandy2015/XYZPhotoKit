@@ -31,6 +31,7 @@
 		D6947D4F23A7BE0600EBDF12 /* XYZPhotoKit.podspec in Resources */ = {isa = PBXBuildFile; fileRef = D6947D4C23A7BE0600EBDF12 /* XYZPhotoKit.podspec */; };
 		D6947D5023A7BE0600EBDF12 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = D6947D4D23A7BE0600EBDF12 /* README.md */; };
 		D6947D5123A7BE0600EBDF12 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = D6947D4E23A7BE0600EBDF12 /* LICENSE */; };
+		D6C9367B24B4634300E3BABF /* XYZQR_TLPhotoPickerNeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C9367A24B4634300E3BABF /* XYZQR_TLPhotoPickerNeed.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -61,6 +62,7 @@
 		D6947D4C23A7BE0600EBDF12 /* XYZPhotoKit.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = XYZPhotoKit.podspec; sourceTree = "<group>"; };
 		D6947D4D23A7BE0600EBDF12 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		D6947D4E23A7BE0600EBDF12 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		D6C9367A24B4634300E3BABF /* XYZQR_TLPhotoPickerNeed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XYZQR_TLPhotoPickerNeed.swift; sourceTree = "<group>"; };
 		F2DAD203847A6EE080510985 /* Pods_XYZPhotoKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XYZPhotoKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -170,6 +172,7 @@
 				D6947D0F23A7ACCE00EBDF12 /* XYZPHAsset.swift */,
 				D6947D1423A7B06B00EBDF12 /* JXPhoto_Extension.swift */,
 				D6855A4724B451FB00EACB3C /* XYZTLPhotoPicker.swift */,
+				D6C9367A24B4634300E3BABF /* XYZQR_TLPhotoPickerNeed.swift */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -306,6 +309,7 @@
 				D6855A4224B44CFB00EACB3C /* CustomPhotoPickerViewController.swift in Sources */,
 				D6947D1523A7B06C00EBDF12 /* JXPhoto_Extension.swift in Sources */,
 				D6855A4024B44CFB00EACB3C /* PhotoCaptureDelegate.swift in Sources */,
+				D6C9367B24B4634300E3BABF /* XYZQR_TLPhotoPickerNeed.swift in Sources */,
 				D6855A4324B44CFB00EACB3C /* TLPhotosPicker+Extension.swift in Sources */,
 				D6855A4424B44CFB00EACB3C /* ImagePreviewViewController.swift in Sources */,
 				D6855A3C24B44CFB00EACB3C /* PreviewView.swift in Sources */,
