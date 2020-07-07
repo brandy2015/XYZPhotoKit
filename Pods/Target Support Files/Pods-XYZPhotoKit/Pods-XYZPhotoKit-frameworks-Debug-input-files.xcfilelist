@@ -3,10 +3,7 @@ ${BUILT_PRODUCTS_DIR}/FileKit/FileKit.framework
 ${BUILT_PRODUCTS_DIR}/HXPhotoPicker/HXPhotoPicker.framework
 ${BUILT_PRODUCTS_DIR}/JXPhotoBrowser/JXPhotoBrowser.framework
 ${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework
-${BUILT_PRODUCTS_DIR}/SHPathManager/SHPathManager.framework
-${BUILT_PRODUCTS_DIR}/SHTManager/SHTManager.framework
 ${BUILT_PRODUCTS_DIR}/SwiftDate/SwiftDate.framework
 ${BUILT_PRODUCTS_DIR}/TLPhotoPicker/TLPhotoPicker.framework
-${BUILT_PRODUCTS_DIR}/YYCache/YYCache.framework
-${BUILT_PRODUCTS_DIR}/YYImage/YYImage.framework
-${BUILT_PRODUCTS_DIR}/YYWebImage/YYWebImage.framework
+${BUILT_PRODUCTS_DIR}/XYZPathKit/XYZPathKit.framework
+${BUILT_PRODUCTS_DIR}/XYZTimeKit/XYZTimeKit.framework

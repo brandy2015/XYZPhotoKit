@@ -44,6 +44,12 @@ typedef NS_ENUM(NSUInteger, HXPhotoStyle) {
     HXPhotoStyleDark            //!< 暗黑
 };
 
+typedef NS_ENUM(NSUInteger, HXVideoAutoPlayType) {
+    HXVideoAutoPlayTypeNormal = 0, //!< 不自动播放
+    HXVideoAutoPlayTypeWiFi,       //!< wifi网络下自动播放
+    HXVideoAutoPlayTypeAll         //!< 蜂窝移动和wifi网络下自动播放
+};
+
 @class
 HXPhotoBottomView,
 HXPhotoPreviewBottomView,
@@ -52,6 +58,26 @@ HXPhotoModel,
 HXPhotoPreviewViewController;
 
 @interface HXPhotoConfiguration : NSObject
+
+/// 照片编辑时底部比例选项
+/// 默认: @[@{@"原始值" : @"{0, 0}"},
+///        @{@"正方形" : @"{1, 1}"},
+///        @{@"2:3" : @"{2, 3}"},
+///        @{@"3:4" : @"{3, 4}"},
+///        @{@"9:16" : @"{9, 16}"},
+///        @{@"16:9" : @"{16, 9}"}]
+@property (copy, nonatomic) NSArray *photoEditCustomRatios;
+
+/// 编辑后的照片/视频是否添加到系统相册中
+/// 默认为NO
+@property (assign, nonatomic) BOOL editAssetSaveSystemAblum;
+
+/// 预览视频时是否先下载视频再播放
+/// 只有当项目有AFNetworking网络框架的时候才有用
+@property (assign, nonatomic) BOOL downloadNetworkVideo;
+
+/// 预览视频时是否自动播放
+@property (assign, nonatomic) HXVideoAutoPlayType videoAutoPlayType;
 
 /// 相机聚焦框颜色
 @property (strong, nonatomic) UIColor *cameraFocusBoxColor;
@@ -65,6 +91,7 @@ HXPhotoPreviewViewController;
 
 /// 限制视频的大小 单位：b 字节
 /// 默认 0字节 不限制
+/// 网络视频不限制
 @property (assign, nonatomic) NSUInteger limitVideoSize;
 
 /// 选择照片时是否限制照片大小
@@ -72,6 +99,7 @@ HXPhotoPreviewViewController;
 
 /// 限制照片的大小 单位：b 字节
 /// 默认 0字节 不限制
+/// 网络图片不限制
 @property (assign, nonatomic) NSUInteger limitPhotoSize;
 
 /// 相机界面默认前置摄像头
@@ -133,7 +161,8 @@ HXPhotoPreviewViewController;
 /// 原图按钮显示已选照片大小时是否显示加载菊花
 @property (assign, nonatomic) BOOL showOriginalBytesLoading;
 
-/// 导出裁剪视频的质量 - default AVAssetExportPresetHighestQuality
+/// 导出裁剪视频的质量
+/// iPhoneX -> AVAssetExportPresetHighestQuality
 @property (copy, nonatomic) NSString *editVideoExportPresetName;
 
 /// 编辑视频时裁剪的最小秒数，如果小于1秒，则为1秒
@@ -155,9 +184,13 @@ HXPhotoPreviewViewController;
 /// 如果选择完照片返回之后
 /// 原有界面继承UIScrollView的视图都往下偏移一个导航栏距离的话
 /// 那么请将这个属性设置为YES，即可恢复。
+/// v2.3.7 之后的版本内部自动修复了
 @property (assign, nonatomic) BOOL restoreNavigationBar DEPRECATED_MSG_ATTRIBUTE("Invalid attribute");
 
-/// 照片列表是否按照片添加日期排序  默认YES
+/// 照片列表是否按照片创建日期排序
+/// 如果按日期分隔显示时为YES
+/// 列表显示 默认NO
+/// 需要在 showDateSectionHeader set之后设置
 @property (assign, nonatomic) BOOL creationDateSort;
 
 /// 相册列表展示方式
@@ -196,14 +229,6 @@ HXPhotoPreviewViewController;
 
 /// 照片是否可以编辑   default YES
 @property (assign, nonatomic) BOOL photoCanEdit;
-
-/// 过渡动画枚举
-/// 时间函数曲线相关
-/// UIViewAnimationOptionCurveEaseInOut
-/// UIViewAnimationOptionCurveEaseIn
-/// UIViewAnimationOptionCurveEaseOut   -->    default
-/// UIViewAnimationOptionCurveLinear
-@property (assign, nonatomic) UIViewAnimationOptions transitionAnimationOption;
 
 /// push动画时长 default 0.45f
 @property (assign, nonatomic) NSTimeInterval pushTransitionDuration;
@@ -425,7 +450,7 @@ HXPhotoPreviewViewController;
 @property (assign, nonatomic) NSInteger horizontalRowCount;
 
 /**
- 是否需要显示日期section  默认YES
+ 是否需要显示日期section  默认NO
  */
 @property (assign, nonatomic) BOOL showDateSectionHeader;
 
@@ -528,7 +553,7 @@ HXPhotoPreviewViewController;
 /// 小图照片清晰度 越大越清晰、越消耗性能
 /// 设置太大的话获取图片资源时耗时长且内存消耗大可能会引起界面卡顿
 /// default：[UIScreen mainScreen].bounds.size.width
-/// 320    ->  0.8  |  375    ->  1.4  |  x      ->  2.4  |  other  ->  1.7
+/// 320    ->  0.8  |  375    ->  1.4  |  x      ->  3.0  |  other  ->  1.7
 @property (assign, nonatomic) CGFloat clarityScale;
 
 #pragma mark - < block返回的视图 >

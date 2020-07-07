@@ -1,62 +1,49 @@
 PODS:
   - FileKit (5.2.0)
-  - HXPhotoPicker (2.3.8):
-    - YYWebImage
-  - JXPhotoBrowser (3.0.3)
-  - Kingfisher (5.12.0):
-    - Kingfisher/Core (= 5.12.0)
-  - Kingfisher/Core (5.12.0)
-  - SHPathManager (1.1.1):
-    - FileKit
-    - SHTManager
-    - SwiftDate
-  - SHTManager (1.1.1):
-    - SwiftDate
+  - HXPhotoPicker (2.4.2)
+  - JXPhotoBrowser (3.0.9)
+  - Kingfisher (5.13.4):
+    - Kingfisher/Core (= 5.13.4)
+  - Kingfisher/Core (5.13.4)
   - SwiftDate (6.1.0)
-  - TLPhotoPicker (2.0.7)
-  - YYCache (1.0.4)
-  - YYImage (1.0.4):
-    - YYImage/Core (= 1.0.4)
-  - YYImage/Core (1.0.4)
-  - YYWebImage (1.0.5):
-    - YYCache
-    - YYImage
+  - TLPhotoPicker (2.0.11)
+  - XYZPathKit (2.0.5):
+    - FileKit
+    - SwiftDate
+    - XYZTimeKit
+  - XYZTimeKit (2.0.2):
+    - SwiftDate
 
 DEPENDENCIES:
   - FileKit
   - HXPhotoPicker
   - JXPhotoBrowser
   - Kingfisher
-  - SHPathManager
   - TLPhotoPicker
+  - XYZPathKit
+  - XYZTimeKit
 
 SPEC REPOS:
-  trunk:
+  https://github.com/CocoaPods/Specs.git:
     - FileKit
     - HXPhotoPicker
     - JXPhotoBrowser
     - Kingfisher
-    - SHPathManager
-    - SHTManager
     - SwiftDate
     - TLPhotoPicker
-    - YYCache
-    - YYImage
-    - YYWebImage
+    - XYZPathKit
+    - XYZTimeKit
 
 SPEC CHECKSUMS:
   FileKit: 10bfd8a3023a0b09f24c9f49546cbbddf43fd464
-  HXPhotoPicker: 046f554393137119f71a15cf7c9d84031f298c02
-  JXPhotoBrowser: 8ac621d78e4692cb632919cf7c26a67f1d8aae7e
-  Kingfisher: dc6e0f53bb5b12c3e75bedb0e01bbd7a640eea69
-  SHPathManager: 01f50414c1c91da661aea1179eb24f612577ed4b
-  SHTManager: ad5f32c70807dd4bd6e663babd77db5ee0c09da3
+  HXPhotoPicker: 0b0751fe5d64271edefcd5cc4ffa9b6300ca58b7
+  JXPhotoBrowser: b22932bfd53492848a63da85a568bf959548fefc
+  Kingfisher: d2279a7abece3c7f25a80cd2b7f363ca5cf3f44c
   SwiftDate: fa2bb3962056bb44047b4b85a30044e5eae30b03
-  TLPhotoPicker: 04e4ef38b31ee51388058c3e1e7bbdbd79614cef
-  YYCache: 8105b6638f5e849296c71f331ff83891a4942952
-  YYImage: 1e1b62a9997399593e4b9c4ecfbbabbf1d3f3b54
-  YYWebImage: 5f7f36aee2ae293f016d418c7d6ba05c4863e928
+  TLPhotoPicker: a5c339732b8326bb16cbb4e00ed01a86f2bfbbb3
+  XYZPathKit: a1514eae12ed935a02e0fcb00ba21c6c44ea4de2
+  XYZTimeKit: 2df74d11cfa495ff7e2964017339943f44fefefe
 
-PODFILE CHECKSUM: 2ebabf1e91c9cf2f32b1960b44c05e080898ba31
+PODFILE CHECKSUM: c420ef2d98ad4fa9ec66e5e249343c6d1395aa7d
 
-COCOAPODS: 1.8.4
+COCOAPODS: 1.9.1

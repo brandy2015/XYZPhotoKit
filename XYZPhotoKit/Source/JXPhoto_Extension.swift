@@ -8,8 +8,9 @@
 
 import UIKit
 import JXPhotoBrowser
-import SHPathManager
+//import SHPathManager
 import Kingfisher
+import XYZPathKit
 
 public extension JXPhotoBrowser{
     static func openPhotoBrowser(index: Int,ImageURLs:[URL]) {

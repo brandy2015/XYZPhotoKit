@@ -699,12 +699,27 @@
     UIImage *image;
     if (self.manager.configuration.movableCropBox) {
         image = [self clipImage];
-        
 //        [self changeClipImageView];
     }else {
         image = self.imageView.image;
     }
-    HXPhotoModel *model = [HXPhotoModel photoModelWithImage:image];
+    if (self.manager.configuration.editAssetSaveSystemAblum) {
+        HXWeakSelf
+        [self.view hx_showLoadingHUDText:nil];
+        [HXPhotoTools savePhotoToCustomAlbumWithName:self.manager.configuration.customAlbumName photo:image location:nil complete:^(HXPhotoModel * _Nullable model, BOOL success) {
+            [weakSelf.view hx_handleLoading:YES];
+            if (model) {
+                [weakSelf editPhotoCompletionWithModel:model];
+            }else {
+                [weakSelf.view hx_showImageHUDText:[NSBundle hx_localizedStringForKey:@"处理失败，请重试"]];
+            }
+        }];
+    }else {
+        HXPhotoModel *model = [HXPhotoModel photoModelWithImage:image];
+        [self editPhotoCompletionWithModel:model];
+    }
+}
+- (void)editPhotoCompletionWithModel:(HXPhotoModel *)model {
     if (self.outside) {
         if (self.navigationController.viewControllers.count > 1) {
             if ([self.delegate respondsToSelector:@selector(photoEditViewControllerDidClipClick:beforeModel:afterModel:)]) {
@@ -926,22 +941,14 @@
         pop.sourceView = self;
         pop.sourceRect = self.bounds;
     }
-    [alertController addAction:[UIAlertAction actionWithTitle:[NSBundle hx_localizedStringForKey:@"原始值"] style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
-        [self setupRatioWithValue1:0 value2:0];
-    }]];
-    [alertController addAction:[UIAlertAction actionWithTitle:[NSBundle hx_localizedStringForKey:@"正方形"] style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
-        [self setupRatioWithValue1:1 value2:1];
-    }]];
-    [alertController addAction:[UIAlertAction actionWithTitle:@"2:3" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
-        [self setupRatioWithValue1:2 value2:3];
-    }]];
-    [alertController addAction:[UIAlertAction actionWithTitle:@"3:4" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
-        [self setupRatioWithValue1:3 value2:4];
-    }]];
-    [alertController addAction:[UIAlertAction actionWithTitle:@"9:16" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
-        [self setupRatioWithValue1:9 value2:16];
-    }]];
-    
+    NSArray *ratios = self.manager.configuration.photoEditCustomRatios;
+    for (NSDictionary *ratioDict in ratios) {
+        NSString *key = ratioDict.allKeys.firstObject;
+        CGPoint ratio = CGPointFromString([ratioDict objectForKey:key]);
+        [alertController addAction:[UIAlertAction actionWithTitle:[NSBundle hx_localizedStringForKey:key] style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
+            [self setupRatioWithValue1:ratio.x value2:ratio.y];
+        }]];
+    }
     [alertController addAction:[UIAlertAction actionWithTitle:[NSBundle hx_localizedStringForKey:@"取消"] style:UIAlertActionStyleCancel handler:nil]];
     
     [self.hx_viewController presentViewController:alertController animated:YES completion:nil];
@@ -1155,8 +1162,10 @@
 - (id)initWithValue1:(CGFloat)value1 value2:(CGFloat)value2 {
     self = [super init];
     if(self){
-        _longSide  = MAX(fabs(value1), fabs(value2));
-        _shortSide = MIN(fabs(value1), fabs(value2));
+//        _longSide  = MAX(fabs(value1), fabs(value2));
+//        _shortSide = MIN(fabs(value1), fabs(value2));
+        _longSide  = value2;
+        _shortSide = value1;
     }
     return self;
 }
