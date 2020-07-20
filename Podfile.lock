@@ -1,49 +1,34 @@
 PODS:
-  - FileKit (5.2.0)
-  - HXPhotoPicker (2.4.2)
-  - JXPhotoBrowser (3.0.9)
-  - Kingfisher (5.13.4):
-    - Kingfisher/Core (= 5.13.4)
-  - Kingfisher/Core (5.13.4)
-  - SwiftDate (6.1.0)
+  - JXPhotoBrowser (3.1.2)
+  - Kingfisher (5.14.1):
+    - Kingfisher/Core (= 5.14.1)
+  - Kingfisher/Core (5.14.1)
   - TLPhotoPicker (2.0.11)
-  - XYZPathKit (2.0.5):
-    - FileKit
-    - SwiftDate
+  - XYZPathKit (2.1.2):
     - XYZTimeKit
-  - XYZTimeKit (2.0.2):
-    - SwiftDate
+  - XYZTimeKit (2.0.5)
 
 DEPENDENCIES:
-  - FileKit
-  - HXPhotoPicker
   - JXPhotoBrowser
   - Kingfisher
   - TLPhotoPicker
   - XYZPathKit
-  - XYZTimeKit
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
-    - FileKit
-    - HXPhotoPicker
     - JXPhotoBrowser
     - Kingfisher
-    - SwiftDate
     - TLPhotoPicker
     - XYZPathKit
     - XYZTimeKit
 
 SPEC CHECKSUMS:
-  FileKit: 10bfd8a3023a0b09f24c9f49546cbbddf43fd464
-  HXPhotoPicker: 0b0751fe5d64271edefcd5cc4ffa9b6300ca58b7
-  JXPhotoBrowser: b22932bfd53492848a63da85a568bf959548fefc
-  Kingfisher: d2279a7abece3c7f25a80cd2b7f363ca5cf3f44c
-  SwiftDate: fa2bb3962056bb44047b4b85a30044e5eae30b03
+  JXPhotoBrowser: 7f0bc11f02fbc84ae06829f922f32ce822aa9661
+  Kingfisher: 8050bc6f7f68cbf3908bd04df7ccbac188f6d6d6
   TLPhotoPicker: a5c339732b8326bb16cbb4e00ed01a86f2bfbbb3
-  XYZPathKit: a1514eae12ed935a02e0fcb00ba21c6c44ea4de2
-  XYZTimeKit: 2df74d11cfa495ff7e2964017339943f44fefefe
+  XYZPathKit: abe58b33866d8b8ff220645dac2bbbe8b98227be
+  XYZTimeKit: 20dd15aabbf318cc9a18da7409f63d58ccdf4f1a
 
-PODFILE CHECKSUM: c420ef2d98ad4fa9ec66e5e249343c6d1395aa7d
+PODFILE CHECKSUM: 00dfacab57233d20521312f6b0c142f2236e2259
 
-COCOAPODS: 1.9.1
+COCOAPODS: 1.9.3

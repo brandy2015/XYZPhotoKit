@@ -1,9 +1,6 @@
 ${PODS_ROOT}/Target Support Files/Pods-XYZPhotoKit/Pods-XYZPhotoKit-frameworks.sh
-${BUILT_PRODUCTS_DIR}/FileKit/FileKit.framework
-${BUILT_PRODUCTS_DIR}/HXPhotoPicker/HXPhotoPicker.framework
 ${BUILT_PRODUCTS_DIR}/JXPhotoBrowser/JXPhotoBrowser.framework
 ${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework
-${BUILT_PRODUCTS_DIR}/SwiftDate/SwiftDate.framework
 ${BUILT_PRODUCTS_DIR}/TLPhotoPicker/TLPhotoPicker.framework
 ${BUILT_PRODUCTS_DIR}/XYZPathKit/XYZPathKit.framework
 ${BUILT_PRODUCTS_DIR}/XYZTimeKit/XYZTimeKit.framework
