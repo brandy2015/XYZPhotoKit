@@ -1,12 +1,10 @@
 PODS:
   - JXPhotoBrowser (3.1.2)
-  - Kingfisher (5.14.1):
-    - Kingfisher/Core (= 5.14.1)
-  - Kingfisher/Core (5.14.1)
-  - TLPhotoPicker (2.0.11)
-  - XYZPathKit (2.1.2):
+  - Kingfisher (6.0.1)
+  - TLPhotoPicker (2.1.3)
+  - XYZPathKit (3.0.1):
     - XYZTimeKit
-  - XYZTimeKit (2.0.5)
+  - XYZTimeKit (3.0.1)
 
 DEPENDENCIES:
   - JXPhotoBrowser
@@ -24,11 +22,11 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   JXPhotoBrowser: 7f0bc11f02fbc84ae06829f922f32ce822aa9661
-  Kingfisher: 8050bc6f7f68cbf3908bd04df7ccbac188f6d6d6
-  TLPhotoPicker: a5c339732b8326bb16cbb4e00ed01a86f2bfbbb3
-  XYZPathKit: abe58b33866d8b8ff220645dac2bbbe8b98227be
-  XYZTimeKit: 20dd15aabbf318cc9a18da7409f63d58ccdf4f1a
+  Kingfisher: adde87a4f74f6a3845395769354efff593581740
+  TLPhotoPicker: 2c4a20d62952bd368edbf44d18476f663a718ada
+  XYZPathKit: 156c2652202f98e47f41a8767b62be8e614ea80c
+  XYZTimeKit: 83a8914a1ee29119ba8afc1615edae979594db1c
 
-PODFILE CHECKSUM: 00dfacab57233d20521312f6b0c142f2236e2259
+PODFILE CHECKSUM: f0a928e02dc618ca08eb4271dc42b9dca636f345
 
-COCOAPODS: 1.9.3
+COCOAPODS: 1.10.1
