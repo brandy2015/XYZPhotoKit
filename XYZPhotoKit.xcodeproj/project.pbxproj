@@ -95,29 +95,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D6855A2E24B44CFB00EACB3C /* TLPhotoPicker_podNeed */ = {
-			isa = PBXGroup;
-			children = (
-				D6855A2F24B44CFB00EACB3C /* CustomCells */,
-				D6855A3624B44CFB00EACB3C /* CustomPhotoPicker */,
-			);
-			path = TLPhotoPicker_podNeed;
-			sourceTree = "<group>";
-		};
-		D6855A2F24B44CFB00EACB3C /* CustomCells */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = CustomCells;
-			sourceTree = "<group>";
-		};
-		D6855A3624B44CFB00EACB3C /* CustomPhotoPicker */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = CustomPhotoPicker;
-			sourceTree = "<group>";
-		};
 		D6947CEE23A7AC0F00EBDF12 = {
 			isa = PBXGroup;
 			children = (
@@ -168,7 +145,6 @@
 				D6855A3924B44CFB00EACB3C /* ImagePreviewViewController.swift */,
 				D6855A3A24B44CFB00EACB3C /* ImagePreviewViewController.xib */,
 				D6855A3B24B44CFB00EACB3C /* PhotoPickerWithNavigationViewController.swift */,
-				D6855A2E24B44CFB00EACB3C /* TLPhotoPicker_podNeed */,
 				D6947D0F23A7ACCE00EBDF12 /* XYZPHAsset.swift */,
 				D6947D1423A7B06B00EBDF12 /* JXPhoto_Extension.swift */,
 				D6855A4724B451FB00EACB3C /* XYZTLPhotoPicker.swift */,

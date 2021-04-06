@@ -154,9 +154,16 @@ class CustomCameraCell: TLPhotoCollectionViewCell, AVCaptureFileOutputRecordingD
                      Use the status bar orientation as the initial video orientation. Subsequent orientation changes are
                      handled by CameraViewController.viewWillTransition(to:with:).
                      */
-                    let statusBarOrientation = UIApplication.shared.statusBarOrientation
+//                    let statusBarOrientation = UIApplication.shared.statusBarOrientation
+                    
+                    guard let statusBarOrientation = UIApplication.shared.windows.first(where: { $0.isKeyWindow })?.windowScene?.interfaceOrientation else{
+                        return
+                     // Use interfaceOrientation
+                    }
+                    
+                    
                     var initialVideoOrientation: AVCaptureVideoOrientation = .portrait
-                    if statusBarOrientation != .unknown {
+                    if statusBarOrientation != UIInterfaceOrientation.unknown {
                         if let videoOrientation = AVCaptureVideoOrientation(rawValue: statusBarOrientation.rawValue) {
                             initialVideoOrientation = videoOrientation
                         }
