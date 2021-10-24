@@ -29,7 +29,7 @@
 		0ED8FBFD9A86D21BF69137EC9350E575 /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A308E45F99B7F3FE8C7B2D06DA31FD7 /* SessionDelegate.swift */; };
 		0FA7A01E18989089F2E03169769224B6 /* PropertyListType.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD8F6FA24F47F6915983048F9CC476D /* PropertyListType.swift */; };
 		1185A2B40E14F2FCBC761FC99777CAD8 /* ExtensionHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CBAD068AF0FDF948D10459A040122C /* ExtensionHelpers.swift */; };
-		11C9252356C20E8C3C5F1C8A33F3C92B /* TLPhotoPicker-TLPhotoPicker in Resources */ = {isa = PBXBuildFile; fileRef = C8C6E1BE6D4ADFD0CEC50AE8305BF3CD /* TLPhotoPicker-TLPhotoPicker */; };
+		11C9252356C20E8C3C5F1C8A33F3C92B /* TLPhotoPicker.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C8C6E1BE6D4ADFD0CEC50AE8305BF3CD /* TLPhotoPicker.bundle */; };
 		122980E44B15C64CF0B14DC94D7EB5C9 /* Kingfisher-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AC14B678721F1CFEFFF0F8772664DBCD /* Kingfisher-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		129EAD618DBCDC9A97AD50C01F84C3E3 /* Locales.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ACC579E269E70042A701B03DD170E42 /* Locales.swift */; };
 		1371C465D17425F82021B94CCE265773 /* RelativeFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CCF410D0080BE25C7AACE9CFE8F75C /* RelativeFormatter.swift */; };
@@ -300,7 +300,7 @@
 		0FE1831C1108F18D069A716BE78337B8 /* XYZPathKit_IsWhichType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XYZPathKit_IsWhichType.swift; path = XYZPathKit/Source/XYZPathKit_IsWhichType.swift; sourceTree = "<group>"; };
 		108F98AD19F5C6B49BB0921E28454B9E /* XYZTimeKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XYZTimeKit-dummy.m"; sourceTree = "<group>"; };
 		117637E4DF85B222465DED177A01C914 /* Array+File.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Array+File.swift"; path = "XYZPathKit/Source/Sources/Array+File.swift"; sourceTree = "<group>"; };
-		117887665FB3C7A539BB6F806956A01A /* JXPhotoBrowser */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JXPhotoBrowser; path = JXPhotoBrowser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		117887665FB3C7A539BB6F806956A01A /* JXPhotoBrowser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JXPhotoBrowser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		120923DBAF9D7F205886313FD354C42C /* XYZTime_GoToAnotherDate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XYZTime_GoToAnotherDate.swift; path = XYZTimeKit/Source/XYZTime_GoToAnotherDate.swift; sourceTree = "<group>"; };
 		12725F4A7A3EC8D3B9FDCC4D3B01175B /* XYZTimeKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XYZTimeKit-prefix.pch"; sourceTree = "<group>"; };
 		13533B84614E216882E2A08603E0BDFB /* RelativeFormatterLanguage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RelativeFormatterLanguage.swift; path = XYZTimeKit/Source/SwiftDate/Formatters/RelativeFormatter/RelativeFormatterLanguage.swift; sourceTree = "<group>"; };
@@ -324,11 +324,11 @@
 		204336F5FF8236228E30AB94B8685312 /* XYZPath_UIImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XYZPath_UIImage.swift; path = XYZPathKit/Source/XYZPath_UIImage.swift; sourceTree = "<group>"; };
 		23596513622B09A65B80A873B5A4DE82 /* Operators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Operators.swift; path = XYZPathKit/Source/Sources/Operators.swift; sourceTree = "<group>"; };
 		24163F4B7EE29FACB1309412EED659EF /* ResourceBundle-TLPhotoPicker-TLPhotoPicker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-TLPhotoPicker-TLPhotoPicker-Info.plist"; sourceTree = "<group>"; };
-		25FB84CD4F43412B7B72A0944FFA2506 /* ur.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = ur.lproj; path = TLPhotoPicker/ur.lproj; sourceTree = "<group>"; };
+		25FB84CD4F43412B7B72A0944FFA2506 /* ur.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = ur.lproj; path = TLPhotoPicker/ur.lproj; sourceTree = "<group>"; };
 		26D2B116B105567CE90033248ED4DC4D /* Process+FileKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Process+FileKit.swift"; path = "XYZPathKit/Source/Sources/Process+FileKit.swift"; sourceTree = "<group>"; };
 		26D3F1A891CBCBA90A53144A04E95B03 /* Kingfisher.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Kingfisher.release.xcconfig; sourceTree = "<group>"; };
 		281BB3FBB0293DA4035BA50C7D088253 /* XYZPathKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XYZPathKit.debug.xcconfig; sourceTree = "<group>"; };
-		28FEBF03C2D5B028D0C55D99B129793A /* TLPhotoPicker */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TLPhotoPicker; path = TLPhotoPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		28FEBF03C2D5B028D0C55D99B129793A /* TLPhotoPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TLPhotoPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BFE7B6FB3DEEEEB98A46BDDE14DC914 /* KFAnimatedImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KFAnimatedImage.swift; path = Sources/SwiftUI/KFAnimatedImage.swift; sourceTree = "<group>"; };
 		2DCC2040904E9C031691D45735114EC0 /* DateComponents+Extras.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DateComponents+Extras.swift"; path = "XYZTimeKit/Source/SwiftDate/Foundation+Extras/DateComponents+Extras.swift"; sourceTree = "<group>"; };
 		304BBE6D5114FF04874420AF24880128 /* Calendars.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Calendars.swift; path = XYZTimeKit/Source/SwiftDate/Supports/Calendars.swift; sourceTree = "<group>"; };
@@ -391,10 +391,10 @@
 		5DA05E6CDC88E4D151AD4F467A9ADBC7 /* Filter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Filter.swift; path = Sources/Image/Filter.swift; sourceTree = "<group>"; };
 		5E1DA3900C2132F3E29AB06523FB2F8A /* TLPhotoPicker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TLPhotoPicker-Info.plist"; sourceTree = "<group>"; };
 		5FC50C3B1AB9042D722C61C8CC3423DC /* Indicator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Indicator.swift; path = Sources/Views/Indicator.swift; sourceTree = "<group>"; };
-		60AD459ECE2035D93812B6FB6910A7DA /* or.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = or.lproj; path = TLPhotoPicker/or.lproj; sourceTree = "<group>"; };
+		60AD459ECE2035D93812B6FB6910A7DA /* or.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = or.lproj; path = TLPhotoPicker/or.lproj; sourceTree = "<group>"; };
 		618F0ED67DA48261BEED60CA0BCE63A4 /* JXPhotoBrowser-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JXPhotoBrowser-prefix.pch"; sourceTree = "<group>"; };
 		61B97066C2217440ED539575CBEACC57 /* JXPhotoBrowser-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JXPhotoBrowser-umbrella.h"; sourceTree = "<group>"; };
-		6347A09DB3E01A42BC9E6D4560B9E979 /* pa.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = pa.lproj; path = TLPhotoPicker/pa.lproj; sourceTree = "<group>"; };
+		6347A09DB3E01A42BC9E6D4560B9E979 /* pa.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = pa.lproj; path = TLPhotoPicker/pa.lproj; sourceTree = "<group>"; };
 		65D163CECD184F18397A67645883095F /* XYZPathKit_URL_Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XYZPathKit_URL_Extension.swift; path = XYZPathKit/Source/XYZPathKit_URL_Extension.swift; sourceTree = "<group>"; };
 		66DAAF845EC49EF1EB1914D7BDBE8D45 /* AssociatedValues.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AssociatedValues.swift; path = XYZTimeKit/Source/SwiftDate/Supports/AssociatedValues.swift; sourceTree = "<group>"; };
 		670C3BC0C7B76E6C798A041DD10F830D /* Date+Math.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Date+Math.swift"; path = "XYZTimeKit/Source/SwiftDate/Date/Date+Math.swift"; sourceTree = "<group>"; };
@@ -406,7 +406,7 @@
 		7140A4B4E0D2598F1AF8EBBE33280131 /* Kingfisher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Kingfisher.swift; path = Sources/General/Kingfisher.swift; sourceTree = "<group>"; };
 		73E823F908E65A8801E181FFB2316D9A /* JXPhotoBrowser.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JXPhotoBrowser.release.xcconfig; sourceTree = "<group>"; };
 		743904A32F60CB7D4760BA9A926FCBD4 /* XYZPathKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XYZPathKit.release.xcconfig; sourceTree = "<group>"; };
-		7502F155A2A8F86E4C508AF2683F30B0 /* en.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = en.lproj; path = TLPhotoPicker/en.lproj; sourceTree = "<group>"; };
+		7502F155A2A8F86E4C508AF2683F30B0 /* en.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = en.lproj; path = TLPhotoPicker/en.lproj; sourceTree = "<group>"; };
 		753B9F6AF1D5BEA90D31AEF8A43DB413 /* FileSystemEventStream.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FileSystemEventStream.swift; path = XYZPathKit/Source/Sources/FileSystemEventStream.swift; sourceTree = "<group>"; };
 		769EA5E0E9AB551F84814DEC4E39B1BC /* Data+FileKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Data+FileKit.swift"; path = "XYZPathKit/Source/Sources/Data+FileKit.swift"; sourceTree = "<group>"; };
 		7779905E97A1A615A911E56B48C7EFCB /* XYZPathKit_Bundle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XYZPathKit_Bundle.swift; path = XYZPathKit/Source/XYZPathKit_Bundle.swift; sourceTree = "<group>"; };
@@ -434,10 +434,10 @@
 		96AA30D6D16AFE14E57A0E4A1F441A11 /* ImageFormat.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageFormat.swift; path = Sources/Image/ImageFormat.swift; sourceTree = "<group>"; };
 		9A7FF77154B805C9270AD6F905CD69E4 /* XYZPath_JudgeFileType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XYZPath_JudgeFileType.swift; path = XYZPathKit/Source/XYZPath_JudgeFileType.swift; sourceTree = "<group>"; };
 		9AB1934C2D20B0EB6F838118DD726C7A /* XYZPathKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XYZPathKit.modulemap; sourceTree = "<group>"; };
-		9BE0F2FFC23A3790ABE2CFCC2FA47B21 /* bn.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = bn.lproj; path = TLPhotoPicker/bn.lproj; sourceTree = "<group>"; };
+		9BE0F2FFC23A3790ABE2CFCC2FA47B21 /* bn.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = bn.lproj; path = TLPhotoPicker/bn.lproj; sourceTree = "<group>"; };
 		9D0FC399645B483256E22A9E9A2CC6DB /* Resource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Resource.swift; path = Sources/General/ImageSource/Resource.swift; sourceTree = "<group>"; };
 		9D0FCF27D7215E37BE9E324A99F9F52F /* JXPhotoBrowserImageCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JXPhotoBrowserImageCell.swift; path = Sources/JXPhotoBrowser/JXPhotoBrowserImageCell.swift; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E26F1E87C29A8B85C18B269C3A6334D /* JXPhotoBrowserZoomSupportedCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JXPhotoBrowserZoomSupportedCell.swift; path = Sources/JXPhotoBrowser/JXPhotoBrowserZoomSupportedCell.swift; sourceTree = "<group>"; };
 		9E77E9E16D13933EC18F8E55D2D8D28A /* TLPhotoPickerController.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = TLPhotoPickerController.bundle; path = TLPhotoPicker/TLPhotoPickerController.bundle; sourceTree = "<group>"; };
 		A1D8BF860120821BAC32D8423394D02E /* MemoryStorage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MemoryStorage.swift; path = Sources/Cache/MemoryStorage.swift; sourceTree = "<group>"; };
@@ -446,7 +446,7 @@
 		A39FF14A3645C728C0FB2E88681115CD /* TLPhotoPicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TLPhotoPicker-prefix.pch"; sourceTree = "<group>"; };
 		A40F0FE63D95B42CD41B4A8918FE9553 /* DateInRegion+Math.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DateInRegion+Math.swift"; path = "XYZTimeKit/Source/SwiftDate/DateInRegion/DateInRegion+Math.swift"; sourceTree = "<group>"; };
 		A581AAC1E0438750243B675BD83FEA86 /* ImageContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageContext.swift; path = Sources/SwiftUI/ImageContext.swift; sourceTree = "<group>"; };
-		A696A5F01323463658A725C17A79F562 /* hi.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = hi.lproj; path = TLPhotoPicker/hi.lproj; sourceTree = "<group>"; };
+		A696A5F01323463658A725C17A79F562 /* hi.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = hi.lproj; path = TLPhotoPicker/hi.lproj; sourceTree = "<group>"; };
 		A734C26897944DD29C561661B3A10147 /* ImageView+Kingfisher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ImageView+Kingfisher.swift"; path = "Sources/Extensions/ImageView+Kingfisher.swift"; sourceTree = "<group>"; };
 		A815C7CA28175C331B7083B58E8A4DF3 /* Pods-XYZPhotoKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XYZPhotoKit-Info.plist"; sourceTree = "<group>"; };
 		A8CE80F820E606A6E546075C7F048DE2 /* JXPhotoBrowser-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JXPhotoBrowser-Info.plist"; sourceTree = "<group>"; };
@@ -462,7 +462,7 @@
 		B385429BDEB28895D4FD58A425606D82 /* TVMonogramView+Kingfisher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "TVMonogramView+Kingfisher.swift"; path = "Sources/Extensions/TVMonogramView+Kingfisher.swift"; sourceTree = "<group>"; };
 		B4350D76D2A55298C17B32429DB720FB /* JXPhotoBrowserDefaultPageIndicator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JXPhotoBrowserDefaultPageIndicator.swift; path = Sources/JXPhotoBrowser/JXPhotoBrowserDefaultPageIndicator.swift; sourceTree = "<group>"; };
 		B46380DE27D506D96450294F00C41180 /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Sources/Utility/Result.swift; sourceTree = "<group>"; };
-		B4D3DE8A86C9B45F733E48A9E74DCCC6 /* es.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = es.lproj; path = TLPhotoPicker/es.lproj; sourceTree = "<group>"; };
+		B4D3DE8A86C9B45F733E48A9E74DCCC6 /* es.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = es.lproj; path = TLPhotoPicker/es.lproj; sourceTree = "<group>"; };
 		B587A00FAF9AF360389DC7AF9EB97939 /* Date+Compare.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Date+Compare.swift"; path = "XYZTimeKit/Source/SwiftDate/Date/Date+Compare.swift"; sourceTree = "<group>"; };
 		B5D24FD1894D339AAB41A0A674927154 /* JXPhotoBrowserLog.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JXPhotoBrowserLog.swift; path = Sources/JXPhotoBrowser/JXPhotoBrowserLog.swift; sourceTree = "<group>"; };
 		B7B83CE6E234A53A84D0C150BEA4DB5C /* XYZTimeKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XYZTimeKit.release.xcconfig; sourceTree = "<group>"; };
@@ -476,16 +476,16 @@
 		C0984AED8E9B0A3888945BF92017E677 /* CPListItem+Kingfisher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CPListItem+Kingfisher.swift"; path = "Sources/Extensions/CPListItem+Kingfisher.swift"; sourceTree = "<group>"; };
 		C141CB22AA3711819F832E660F53CCB5 /* Runtime.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Runtime.swift; path = Sources/Utility/Runtime.swift; sourceTree = "<group>"; };
 		C19518F6678F2626F8B810FC7C59F7A8 /* XYZTime_SeparateDate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XYZTime_SeparateDate.swift; path = XYZTimeKit/Source/XYZTime_SeparateDate.swift; sourceTree = "<group>"; };
-		C19E2DE61E41F08B04D1AB27E4AF081F /* ne.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = ne.lproj; path = TLPhotoPicker/ne.lproj; sourceTree = "<group>"; };
+		C19E2DE61E41F08B04D1AB27E4AF081F /* ne.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = ne.lproj; path = TLPhotoPicker/ne.lproj; sourceTree = "<group>"; };
 		C1DA1EF1E9184DB17D827253D5421266 /* TLAlbumPopView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TLAlbumPopView.swift; path = TLPhotoPicker/Classes/TLAlbumPopView.swift; sourceTree = "<group>"; };
 		C313B54FFC28E41D412D90D6A60D5C49 /* DateInRegion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DateInRegion.swift; path = XYZTimeKit/Source/SwiftDate/DateInRegion/DateInRegion.swift; sourceTree = "<group>"; };
 		C338C0810720D495C4C88305B46EF553 /* XYZTime_XYZDate_CountDays.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XYZTime_XYZDate_CountDays.swift; path = XYZTimeKit/Source/XYZTime_XYZDate_CountDays.swift; sourceTree = "<group>"; };
-		C3F44C782D64D7EB20B61CE3844EBFAD /* Kingfisher */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Kingfisher; path = Kingfisher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3F44C782D64D7EB20B61CE3844EBFAD /* Kingfisher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Kingfisher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C441C965F72956EB275D4B7C5BCBCA54 /* XYZPath_UIDocumentBrowser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XYZPath_UIDocumentBrowser.swift; path = XYZPathKit/Source/XYZPath_UIDocumentBrowser.swift; sourceTree = "<group>"; };
 		C50FB2CB54DBD3FE7698FD9CE446BF9E /* TextFile.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextFile.swift; path = XYZPathKit/Source/Sources/TextFile.swift; sourceTree = "<group>"; };
 		C5BBF8D5CA6B6BAA25CBD886C0B332C2 /* Pods-XYZPhotoKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XYZPhotoKit.modulemap"; sourceTree = "<group>"; };
 		C803CF25A1D703E544647EA81FB4070F /* DispatchWatcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DispatchWatcher.swift; path = XYZPathKit/Source/Sources/DispatchWatcher.swift; sourceTree = "<group>"; };
-		C8C6E1BE6D4ADFD0CEC50AE8305BF3CD /* TLPhotoPicker-TLPhotoPicker */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "TLPhotoPicker-TLPhotoPicker"; path = TLPhotoPicker.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8C6E1BE6D4ADFD0CEC50AE8305BF3CD /* TLPhotoPicker.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TLPhotoPicker.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8EDDAF072C849BDEA56201A76ED71E8 /* Pods-XYZPhotoKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XYZPhotoKit-dummy.m"; sourceTree = "<group>"; };
 		C900F350DB7E3E6230A0664FF3A06E18 /* UIButton+Kingfisher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIButton+Kingfisher.swift"; path = "Sources/Extensions/UIButton+Kingfisher.swift"; sourceTree = "<group>"; };
 		CA9659026855F72CF540B66D0C494C6F /* NSTextAttachment+Kingfisher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSTextAttachment+Kingfisher.swift"; path = "Sources/Extensions/NSTextAttachment+Kingfisher.swift"; sourceTree = "<group>"; };
@@ -628,7 +628,6 @@
 				9E26F1E87C29A8B85C18B269C3A6334D /* JXPhotoBrowserZoomSupportedCell.swift */,
 				9F5B38FB29934860206234F55485E2EC /* Support Files */,
 			);
-			name = JXPhotoBrowser;
 			path = JXPhotoBrowser;
 			sourceTree = "<group>";
 		};
@@ -768,7 +767,6 @@
 				DAFD2D57531D3959FBAB473564335DBB /* WKInterfaceImage+Kingfisher.swift */,
 				58B834AFA1CE1FDE9C26168FAD72FD3D /* Support Files */,
 			);
-			name = Kingfisher;
 			path = Kingfisher;
 			sourceTree = "<group>";
 		};
@@ -804,7 +802,6 @@
 				E0D0C2615C23BF3755D2147F1BB11ECE /* Resources */,
 				31561013BCFCB32DBEDB8F534949BE3E /* Support Files */,
 			);
-			name = TLPhotoPicker;
 			path = TLPhotoPicker;
 			sourceTree = "<group>";
 		};
@@ -870,7 +867,6 @@
 				CBAC1DAC90D96B3157DA313AA30746B0 /* Zones.swift */,
 				E72FF27E2D4BD24C77BF06388C591E42 /* Support Files */,
 			);
-			name = XYZTimeKit;
 			path = XYZTimeKit;
 			sourceTree = "<group>";
 		};
@@ -975,7 +971,6 @@
 				F9E0FA6F276F26B9D9E9C20BF36B2260 /* XYZPathKit_XYZFIle_Ex.swift */,
 				F3B5708639F2E1213913FCD33FD66AD6 /* Support Files */,
 			);
-			name = XYZPathKit;
 			path = XYZPathKit;
 			sourceTree = "<group>";
 		};
@@ -997,11 +992,11 @@
 		FE4209AE772D17F891A00B149589918D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				117887665FB3C7A539BB6F806956A01A /* JXPhotoBrowser */,
-				C3F44C782D64D7EB20B61CE3844EBFAD /* Kingfisher */,
+				117887665FB3C7A539BB6F806956A01A /* JXPhotoBrowser.framework */,
+				C3F44C782D64D7EB20B61CE3844EBFAD /* Kingfisher.framework */,
 				40B308AFF8FB9B03791D1F8A9AC7D33F /* Pods-XYZPhotoKit */,
-				28FEBF03C2D5B028D0C55D99B129793A /* TLPhotoPicker */,
-				C8C6E1BE6D4ADFD0CEC50AE8305BF3CD /* TLPhotoPicker-TLPhotoPicker */,
+				28FEBF03C2D5B028D0C55D99B129793A /* TLPhotoPicker.framework */,
+				C8C6E1BE6D4ADFD0CEC50AE8305BF3CD /* TLPhotoPicker.bundle */,
 				F17E16B10081CF713DE5F4525FE49F32 /* XYZPathKit */,
 				B9A0D0D87001D7F775DD60CB32E7B1C9 /* XYZTimeKit */,
 			);
@@ -1076,7 +1071,7 @@
 			);
 			name = "TLPhotoPicker-TLPhotoPicker";
 			productName = TLPhotoPicker;
-			productReference = C8C6E1BE6D4ADFD0CEC50AE8305BF3CD /* TLPhotoPicker-TLPhotoPicker */;
+			productReference = C8C6E1BE6D4ADFD0CEC50AE8305BF3CD /* TLPhotoPicker.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
 		4F95B73DC51D7024E7E7321B80A2589B /* JXPhotoBrowser */ = {
@@ -1094,7 +1089,7 @@
 			);
 			name = JXPhotoBrowser;
 			productName = JXPhotoBrowser;
-			productReference = 117887665FB3C7A539BB6F806956A01A /* JXPhotoBrowser */;
+			productReference = 117887665FB3C7A539BB6F806956A01A /* JXPhotoBrowser.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		A46AE710A81CE05AE221743513ED00AE /* Pods-XYZPhotoKit */ = {
@@ -1172,7 +1167,7 @@
 			);
 			name = Kingfisher;
 			productName = Kingfisher;
-			productReference = C3F44C782D64D7EB20B61CE3844EBFAD /* Kingfisher */;
+			productReference = C3F44C782D64D7EB20B61CE3844EBFAD /* Kingfisher.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		F9241C3812D02BCBB2AA4D3936BD3909 /* TLPhotoPicker */ = {
@@ -1191,7 +1186,7 @@
 			);
 			name = TLPhotoPicker;
 			productName = TLPhotoPicker;
-			productReference = 28FEBF03C2D5B028D0C55D99B129793A /* TLPhotoPicker */;
+			productReference = 28FEBF03C2D5B028D0C55D99B129793A /* TLPhotoPicker.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -1201,7 +1196,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1240;
-				LastUpgradeCheck = 1240;
+				LastUpgradeCheck = 1300;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 10.0";
@@ -1246,7 +1241,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				11C9252356C20E8C3C5F1C8A33F3C92B /* TLPhotoPicker-TLPhotoPicker in Resources */,
+				11C9252356C20E8C3C5F1C8A33F3C92B /* TLPhotoPicker.bundle in Resources */,
 				0A5E9586B8A402ADCC576C12715F9CBD /* TLPhotoPickerController.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1673,7 +1668,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/JXPhotoBrowser/JXPhotoBrowser-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/JXPhotoBrowser/JXPhotoBrowser-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1882,7 +1877,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/Kingfisher/Kingfisher-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/Kingfisher/Kingfisher-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -2016,7 +2011,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/TLPhotoPicker/TLPhotoPicker-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/TLPhotoPicker/TLPhotoPicker-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -2050,7 +2045,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/Kingfisher/Kingfisher-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/Kingfisher/Kingfisher-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -2077,7 +2072,7 @@
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TLPhotoPicker";
 				IBSC_MODULE = TLPhotoPicker;
 				INFOPLIST_FILE = "Target Support Files/TLPhotoPicker/ResourceBundle-TLPhotoPicker-TLPhotoPicker-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				PRODUCT_NAME = TLPhotoPicker;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -2101,7 +2096,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/TLPhotoPicker/TLPhotoPicker-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/TLPhotoPicker/TLPhotoPicker-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -2127,7 +2122,7 @@
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TLPhotoPicker";
 				IBSC_MODULE = TLPhotoPicker;
 				INFOPLIST_FILE = "Target Support Files/TLPhotoPicker/ResourceBundle-TLPhotoPicker-TLPhotoPicker-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				PRODUCT_NAME = TLPhotoPicker;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -2151,7 +2146,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/JXPhotoBrowser/JXPhotoBrowser-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/JXPhotoBrowser/JXPhotoBrowser-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
