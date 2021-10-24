@@ -39,7 +39,6 @@
 		D6947D5023A7BE0600EBDF12 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = D6947D4D23A7BE0600EBDF12 /* README.md */; };
 		D6947D5123A7BE0600EBDF12 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = D6947D4E23A7BE0600EBDF12 /* LICENSE */; };
 		D6C9367B24B4634300E3BABF /* XYZQR_TLPhotoPickerNeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C9367A24B4634300E3BABF /* XYZQR_TLPhotoPickerNeed.swift */; };
-		D6EAB60A272576B2001BB0AF /* XYZPhoto_XYZPicExif_ExifKeys.plist in Resources */ = {isa = PBXBuildFile; fileRef = D6105499271160B8006B9725 /* XYZPhoto_XYZPicExif_ExifKeys.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -138,6 +137,7 @@
 				D6947CFA23A7AC0F00EBDF12 /* AppDelegate.swift */,
 				D6947CFC23A7AC0F00EBDF12 /* SceneDelegate.swift */,
 				D6947CFE23A7AC0F00EBDF12 /* ViewController.swift */,
+				D6105499271160B8006B9725 /* XYZPhoto_XYZPicExif_ExifKeys.plist */,
 				D6947D0E23A7AC8F00EBDF12 /* Source */,
 				D6947D0023A7AC0F00EBDF12 /* Main.storyboard */,
 				D6947D0323A7AC1000EBDF12 /* Assets.xcassets */,
@@ -171,7 +171,6 @@
 				D610549127115D7C006B9725 /* XYZPhoto_XYZPicExif_ToDelete.swift */,
 				D610549327115DA3006B9725 /* XYZPhoto_XYZPicExif_ToDelete_2.swift */,
 				D61054972711609D006B9725 /* XYZPhoto_XYZPicExif_Exif.swift */,
-				D6105499271160B8006B9725 /* XYZPhoto_XYZPicExif_ExifKeys.plist */,
 				D610549527116032006B9725 /* TLPhotoPicker_Ex.swift */,
 			);
 			path = Source;
@@ -243,7 +242,6 @@
 				D6947D0723A7AC1000EBDF12 /* LaunchScreen.storyboard in Resources */,
 				D6947D4F23A7BE0600EBDF12 /* XYZPhotoKit.podspec in Resources */,
 				D6947D5023A7BE0600EBDF12 /* README.md in Resources */,
-				D6EAB60A272576B2001BB0AF /* XYZPhoto_XYZPicExif_ExifKeys.plist in Resources */,
 				D6947D0423A7AC1000EBDF12 /* Assets.xcassets in Resources */,
 				D6947D0223A7AC0F00EBDF12 /* Main.storyboard in Resources */,
 				D6855A3D24B44CFB00EACB3C /* CustomCameraCell.xib in Resources */,
