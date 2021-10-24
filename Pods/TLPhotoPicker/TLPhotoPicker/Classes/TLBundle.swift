@@ -19,7 +19,7 @@ open class TLBundle {
     }
     
     open class func tr(_ table: String, _ key: String, _ args: CVarArg...) -> String {
-        var bundle = TLBundle.bundle()
+        var bundle = bundle()
         if let languagePackPath = bundle.path(forResource: SharedLocaleManager.shared.locale.languageCode, ofType: "lproj"),
            let languageBundle = Bundle(path: languagePackPath) {
             bundle = languageBundle
