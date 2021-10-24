@@ -30,7 +30,7 @@ public extension XYZTLPhotoPickerObject{
         //        configure.allowedVideo = false
         configure.allowedAlbumCloudShared = false
         configure.allowedVideoRecording = false
-        configure.doneTitle = doneTitle
+//        configure.doneTitle = doneTitle
         //                let options = PHFetchOptions()
         //                options.sortDescriptors = [NSSortDescriptor(key: "creationDate", ascending: true)]
         //
@@ -66,7 +66,7 @@ public extension XYZTLPhotoPickerObject{
         configure.singleSelectedMode = true
         configure.usedCameraButton = true
         configure.allowedVideo = false
-        configure.doneTitle = doneTitle
+//        configure.doneTitle = doneTitle
         viewController.configure = configure
         //弹出VC
         DispatchQueue.main.async {
@@ -92,7 +92,7 @@ public extension XYZTLPhotoPickerObject{
         configure.maxSelectedAssets = 1
         configure.usedCameraButton = false
         configure.allowedVideo = false
-        configure.doneTitle = doneTitle
+//        configure.doneTitle = doneTitle
         viewController.configure = configure
         //        viewController.selectedAssets = self.selectedAssets
         viewController.modalPresentationStyle = .fullScreen
@@ -118,7 +118,7 @@ public extension XYZTLPhotoPickerObject{
         configure.singleSelectedMode = true
         configure.usedCameraButton = true
         configure.allowedVideo = false
-        configure.doneTitle = doneTitle
+//        configure.doneTitle = doneTitle
         viewController.configure = configure
         //            viewController.selectedAssets = self.selectedAssets
         //弹出VC

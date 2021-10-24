@@ -51,7 +51,7 @@ public extension XYZTLPhotoPickerObject{
         configure.supportedInterfaceOrientations = [.all]
         configure.mediaType = .video
         configure.numberOfColumn = numberOfColumn
-        configure.doneTitle = doneTitle
+//        configure. = doneTitle
         //如果是会员在这个进行判断
         
         //        if VTLMakerSystemSet.读取是否购买VR360(){
@@ -138,7 +138,7 @@ public extension XYZTLPhotoPickerObject{
         configure.maxSelectedAssets = 1
         //        configure.usedCameraButton = true
         //        configure.allowedVideo = false
-        configure.doneTitle = doneTitle
+//        configure.doneTitle = doneTitle
         viewController.configure = configure
 //        viewController.selectedAssets = self.selectedAssets
         viewController.modalPresentationStyle = .fullScreen
@@ -177,7 +177,7 @@ public extension XYZTLPhotoPickerObject{
         //        }
         configure.singleSelectedMode = true
         configure.usedCameraButton = false
-        configure.doneTitle = doneTitle
+//        configure.doneTitle = doneTitle
         viewController.configure = configure
 //        viewController.selectedAssets = self.selectedAssets
         viewController.modalPresentationStyle = .fullScreen
@@ -210,7 +210,7 @@ public extension XYZTLPhotoPickerObject{
         configure.singleSelectedMode = true
         configure.usedCameraButton = false
         viewController.configure = configure
-        configure.doneTitle = doneTitle
+//        configure.doneTitle = doneTitle
 //        viewController.selectedAssets = self.selectedAssets
         viewController.modalPresentationStyle = .fullScreen
         //弹出VC
