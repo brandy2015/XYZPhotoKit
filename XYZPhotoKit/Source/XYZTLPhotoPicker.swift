@@ -133,7 +133,7 @@ public extension XYZTLPhotoPickerObject{
         var configure = TLPhotosPickerConfigure()
         configure.fetchCollectionTypes = [(.smartAlbum, .smartAlbumAnimated)]
         configure.numberOfColumn = 3
-        configure.singleSelectedMode = false
+        configure.singleSelectedMode = true
         configure.supportedInterfaceOrientations = [.all]
         configure.maxSelectedAssets = 1
         //        configure.usedCameraButton = true

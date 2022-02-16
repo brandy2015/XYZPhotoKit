@@ -7,8 +7,7 @@
 //
 
 import UIKit
-import JXPhotoBrowser
-//import SHPathManager
+import JXPhotoBrowser 
 import Kingfisher
 import XYZPathKit
 
