@@ -8,33 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		00BEA6029C428FEE644AC3D42AD83282 /* ImagePrefetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0685CB3F7FF7BDEC50807384379C08FA /* ImagePrefetcher.swift */; };
+		01EEFD36760A8B443CB55D28AB0E7466 /* Date+Compare.swift in Sources */ = {isa = PBXBuildFile; fileRef = B587A00FAF9AF360389DC7AF9EB97939 /* Date+Compare.swift */; };
 		0285857A24F66E925987A5876F0BE63B /* ImageDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D706C0576A4D2E519E32C2A1FF2CB14 /* ImageDataProvider.swift */; };
 		02DFCEA2589CBA816719FE2CB65C7502 /* DictionaryFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0421C6B40D733C886422A580FA1FCFD6 /* DictionaryFile.swift */; };
-		03E31B2DAD354DAB8F599B8D567FF6E9 /* TLPhotoCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 86D5925D013DD189414CF39643843CFC /* TLPhotoCollectionViewCell.xib */; };
-		047A263C7D0DD2EAE04D4C8D5D77174F /* XYZTime_SeparateDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19518F6678F2626F8B810FC7C59F7A8 /* XYZTime_SeparateDate.swift */; };
+		031B4555DCF0C344ADCDDEF0881A75EF /* Int+DateComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EBBAE9ADFF1E23DB56A2539315095D6 /* Int+DateComponents.swift */; };
+		04585C603A12D5DE253B455721CBC5D2 /* TimePeriod+Support.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11FF0267ABB3CD2A11CFD469CC743BF /* TimePeriod+Support.swift */; };
 		04AC917D64C2C92507C3739FB00A4E07 /* JXPhotoBrowserFadeAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398F596B910E37568CDA64CC60F303B0 /* JXPhotoBrowserFadeAnimator.swift */; };
-		04EC2CB9E072E0901CA86DAE0516193D /* DateRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E0C0E681D908AF148874CB67D8C6300 /* DateRepresentable.swift */; };
 		0506D3D941895D78CD74358AA59BF1A5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4207BEE6DFA63E5CF69828DD467E9674 /* Foundation.framework */; };
 		0510E8EA51914CB2176AD0F173937FAB /* KFImageRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14EB783AF6A2088D3FE7B377A19DD3B1 /* KFImageRenderer.swift */; };
 		05228565AAA7FCED4BAFB2B7EF71D53D /* KingfisherOptionsInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F3C8BDE23D90AC5C25EEB8098B99FD0 /* KingfisherOptionsInfo.swift */; };
 		05554F674CD3292DB0A61E3C686EE0A3 /* NSDictionary+FileKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4EFE6DAD9520E3EF574A1E1A385A812 /* NSDictionary+FileKit.swift */; };
 		059639E700DEFAEF08F56484E5F67BE7 /* NSButton+Kingfisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7E1125BF90A30DDB766C22F443A5FC /* NSButton+Kingfisher.swift */; };
+		0754A7EBB8123CA9CE2CE9FB34638924 /* XYZTime_DateToString_ForApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB9610C9E3FD411807821C58D45EEAE /* XYZTime_DateToString_ForApp.swift */; };
 		082EDC820D76DF95C71A5018112DE512 /* UIButton+Kingfisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = C900F350DB7E3E6230A0664FF3A06E18 /* UIButton+Kingfisher.swift */; };
-		0A00E6FD6811891ABE30392D65838D8C /* XYZTimeKit_XYZDate_DateToString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D980F46C345858B80B0148D77D1CDA3 /* XYZTimeKit_XYZDate_DateToString.swift */; };
-		0A5E9586B8A402ADCC576C12715F9CBD /* TLPhotoPickerController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9E77E9E16D13933EC18F8E55D2D8D28A /* TLPhotoPickerController.bundle */; };
+		0A5E9586B8A402ADCC576C12715F9CBD /* TLPhotoPickerController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CF160DF9B52F81D430528EB2866D49EA /* TLPhotoPickerController.bundle */; };
 		0B827BE59F37E341273E7B3908484EBF /* XYZPathKit_GetPaths.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E01CEB62E348FC83351CB84D5F2A852 /* XYZPathKit_GetPaths.swift */; };
 		0BC9516A533D54E2E02F68C5D141E57F /* XYZPathKit_Bundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7779905E97A1A615A911E56B48C7EFCB /* XYZPathKit_Bundle.swift */; };
+		0BCEABA9DC63191CC5BF3B0DCB30C5FA /* Region.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E287B98E136AD77FE8401B453AFB1B8 /* Region.swift */; };
+		0BFEFC7C899D1BB738F435A5C10572DA /* XYZTimeKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6B02F454203FC5B6A65F3B931D9123 /* XYZTimeKit.swift */; };
 		0CC082EB0A45FC300EE3FDAD1CD6C842 /* JXPhotoBrowserSmoothZoomAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C79F91A20A9273BE3D3B97C7B4ACCD /* JXPhotoBrowserSmoothZoomAnimator.swift */; };
-		0DA7046AF168E71B863EB22AECA459BD /* TLPhotoPicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AFE90D18BAF6CD57EE6AB2AC3A839C2B /* TLPhotoPicker-dummy.m */; };
+		0DA7046AF168E71B863EB22AECA459BD /* TLPhotoPicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 41DD3E85E4E85EAD7B2D2E8D303002A5 /* TLPhotoPicker-dummy.m */; };
 		0ED8FBFD9A86D21BF69137EC9350E575 /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A308E45F99B7F3FE8C7B2D06DA31FD7 /* SessionDelegate.swift */; };
 		0FA7A01E18989089F2E03169769224B6 /* PropertyListType.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD8F6FA24F47F6915983048F9CC476D /* PropertyListType.swift */; };
 		1185A2B40E14F2FCBC761FC99777CAD8 /* ExtensionHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CBAD068AF0FDF948D10459A040122C /* ExtensionHelpers.swift */; };
-		11C9252356C20E8C3C5F1C8A33F3C92B /* TLPhotoPicker.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C8C6E1BE6D4ADFD0CEC50AE8305BF3CD /* TLPhotoPicker.bundle */; };
+		11C9252356C20E8C3C5F1C8A33F3C92B /* TLPhotoPicker-TLPhotoPicker in Resources */ = {isa = PBXBuildFile; fileRef = C8C6E1BE6D4ADFD0CEC50AE8305BF3CD /* TLPhotoPicker-TLPhotoPicker */; };
 		122980E44B15C64CF0B14DC94D7EB5C9 /* Kingfisher-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AC14B678721F1CFEFFF0F8772664DBCD /* Kingfisher-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		129EAD618DBCDC9A97AD50C01F84C3E3 /* Locales.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ACC579E269E70042A701B03DD170E42 /* Locales.swift */; };
-		1371C465D17425F82021B94CCE265773 /* RelativeFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CCF410D0080BE25C7AACE9CFE8F75C /* RelativeFormatter.swift */; };
 		1952485AFF7A1BCCA4D4B142E82FE627 /* AnimatedImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5522313EF88C881F37AA942673AEC0C2 /* AnimatedImageView.swift */; };
-		19B18AA769CA5FD25D318DA07F821EA1 /* RelativeFormatterLanguage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13533B84614E216882E2A08603E0BDFB /* RelativeFormatterLanguage.swift */; };
 		1A086B8E121EF54C7F08FDCB04EC352C /* FileKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1ABB134C351DAC29B67B86B32857DD7 /* FileKit.swift */; };
 		1AA89F327105C026976BF6E831B193A2 /* ImageBinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE7188A83811F924E8705B193CEEE47 /* ImageBinder.swift */; };
 		1B30158C58801C20967D7D8508974378 /* Pods-XYZPhotoKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C8EDDAF072C849BDEA56201A76ED71E8 /* Pods-XYZPhotoKit-dummy.m */; };
@@ -43,9 +42,6 @@
 		1FD2928BC156D990D68B105F518C60B6 /* MemoryStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D8BF860120821BAC32D8423394D02E /* MemoryStorage.swift */; };
 		1FE693B5ACC6AD7320CEFC20B64546E4 /* KingfisherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F29A264993EBD811AE96C7015C932C /* KingfisherManager.swift */; };
 		1FEE89BF952BE7ACA46E642DA2E48CA2 /* DiskStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54096150CF0E779CACF459CAFC60021B /* DiskStorage.swift */; };
-		20313BBE17FAA72025C1A357827FC8FE /* DateInRegion+Components.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9A32E827DD5D94893E41CE29061D75 /* DateInRegion+Components.swift */; };
-		206C35158F45C9221DE1FAC75FACDC8B /* XYZTimeKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 108F98AD19F5C6B49BB0921E28454B9E /* XYZTimeKit-dummy.m */; };
-		21980974E9770FC7F26B2A7BD2C15518 /* Calendars.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304BBE6D5114FF04874420AF24880128 /* Calendars.swift */; };
 		21A75C8BBFAB0FCA8EF3A4E27D813043 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4207BEE6DFA63E5CF69828DD467E9674 /* Foundation.framework */; };
 		21A9B42A0AC6BC54701066A8480B133E /* XYZPath_UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204336F5FF8236228E30AB94B8685312 /* XYZPath_UIImage.swift */; };
 		22216C300C763044344B9DBF97317E63 /* RetryStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48881373C34609A75E36DDEE82AA8F84 /* RetryStrategy.swift */; };
@@ -53,42 +49,36 @@
 		243D7CFE1D56ED80ACB2B3E71B4CB603 /* AuthenticationChallengeResponsable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37133E48811F58598BA59FC540FE04FB /* AuthenticationChallengeResponsable.swift */; };
 		24B809BE07B131946690A4D68ACDFDAD /* JXPhotoBrowserZoomAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5604780E685CE9081358A46A0F4D7F7 /* JXPhotoBrowserZoomAnimator.swift */; };
 		25FC036BEA33CAB5D80F5A41644535D3 /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA65A8955409B0C736F6368922AB132A /* Storage.swift */; };
-		2655AE2B8E78EF4053F32E225DC771C9 /* hi.lproj in Resources */ = {isa = PBXBuildFile; fileRef = A696A5F01323463658A725C17A79F562 /* hi.lproj */; };
-		2664BE10D49D4CD45E8F4361872198EF /* TLPhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86661D260ADE01B6C15195821AC8303A /* TLPhotoCollectionViewCell.swift */; };
-		27C25A3B5B83CA0AF29B2D8201C62210 /* String+Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD9F39164FBEE858066D5FD1FE9C021 /* String+Parser.swift */; };
-		282BA7286B6B920F5A811831DD83951F /* Date+Compare.swift in Sources */ = {isa = PBXBuildFile; fileRef = B587A00FAF9AF360389DC7AF9EB97939 /* Date+Compare.swift */; };
-		2848B4E8867ED80F26053D51416415FA /* DateInRegion+Create.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370C730405E726E8920A6D4E1B5D8D4C /* DateInRegion+Create.swift */; };
-		28AA4788522F13EAEDC0791714E19694 /* TimePeriodProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42B508C12E1BFC88C52B1ABECC02D47 /* TimePeriodProtocol.swift */; };
+		2664BE10D49D4CD45E8F4361872198EF /* TLPhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06AD707D05AC9050E5E3DA5275499707 /* TLPhotoCollectionViewCell.swift */; };
 		29C02BA706229923C34FF9ED95DEABD8 /* XYZPath_XYZMusic.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F08F6212A51D37267A2A74C4BC52A0 /* XYZPath_XYZMusic.swift */; };
-		29C402FFA584C7F79E9D99B7CBA34F1E /* es.lproj in Resources */ = {isa = PBXBuildFile; fileRef = B4D3DE8A86C9B45F733E48A9E74DCCC6 /* es.lproj */; };
 		29FF13E23FD52E46D30530549410AD7C /* ImageTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52FDE3C9B627C1105DD8A4F2D2C7096 /* ImageTransition.swift */; };
-		2A015E7D65A57E19D441FFC03CD9FC18 /* DateInRegion+Math.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40F0FE63D95B42CD41B4A8918FE9553 /* DateInRegion+Math.swift */; };
 		2BE89C24BFD3FB663E37C607C289B3B6 /* RedirectHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00FD6B018075123D3E0163F0F63E21B /* RedirectHandler.swift */; };
+		2D4273C468A735208011E1AE71A4930A /* RelativeFormatterLanguage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13533B84614E216882E2A08603E0BDFB /* RelativeFormatterLanguage.swift */; };
 		300DE07018F52FD103126736FC567403 /* XYZPathKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BD46DA0976F11EA47D10885C12164A6 /* XYZPathKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		36F3FD8EC46008ED997318EBD8858189 /* XYZTimeKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 025D34B5D3F9378733746CBF01224AD2 /* XYZTimeKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		37CF43BF1D9B354A68E890FE86491757 /* en.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 7502F155A2A8F86E4C508AF2683F30B0 /* en.lproj */; };
+		3074173E6F1E05494D542FFE62C8CE07 /* DotNetParserFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3607ABFD74267518DF4EE0646D975542 /* DotNetParserFormatter.swift */; };
+		3494E09F37E713BF346B3CA93C820BFD /* DateComponents+Extras.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DCC2040904E9C031691D45735114EC0 /* DateComponents+Extras.swift */; };
+		356EC3EB16F825949BED632CAED3E0C3 /* RelativeFormatter+Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD6703C28F64E4CA92F4DE2CD92F690 /* RelativeFormatter+Style.swift */; };
+		35980B8812BC3EA707D704CED8ABD9D5 /* DateInRegion+Math.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40F0FE63D95B42CD41B4A8918FE9553 /* DateInRegion+Math.swift */; };
 		37D72EE00AC00676BE0A8E48DA0C9671 /* String+FileKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8037A337250E339EEC0C74F5C82009CF /* String+FileKit.swift */; };
 		3AD5DBB915C2623991F7DBACD173BBB4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4207BEE6DFA63E5CF69828DD467E9674 /* Foundation.framework */; };
 		3AF7DB9AEFF47F1F7F91AF28440E4AC6 /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA05E6CDC88E4D151AD4F467A9ADBC7 /* Filter.swift */; };
-		3D38B56D7317B3B7B74EC75F3A744E42 /* TLCollectionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 019D0B6310A991F9F2E88089D999A9CB /* TLCollectionTableViewCell.xib */; };
-		3F36822B9E16E8937BBCF7C53BFF3BD1 /* DateInRegion.swift in Sources */ = {isa = PBXBuildFile; fileRef = C313B54FFC28E41D412D90D6A60D5C49 /* DateInRegion.swift */; };
+		3CF52634678BB29FB83FE4FBB7F2E10B /* ISOParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3444EA7BFF86C2586F8F06CA2694732E /* ISOParser.swift */; };
+		407D97A15AE10BAF3E9BA1DEFBC54488 /* XYZTime_SeparateDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19518F6678F2626F8B810FC7C59F7A8 /* XYZTime_SeparateDate.swift */; };
 		40B9952EC069F89A3C31E040A47D8D91 /* JXPhotoBrowserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A4031CB2480E21C21F8D583E1517273 /* JXPhotoBrowserView.swift */; };
-		413B14A18520CE9C2EBF1836C9F10CCE /* XYZTime_GoToAnotherDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 120923DBAF9D7F205886313FD354C42C /* XYZTime_GoToAnotherDate.swift */; };
 		420C200A05BB29E1D299D1BADE9139D2 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 872D7EFA572ECEE8EF993C27196E16DD /* CFNetwork.framework */; };
-		433688212A8C1614E0DDACB66350BDD9 /* XYZTime_XYZDate_CountDays.swift in Sources */ = {isa = PBXBuildFile; fileRef = C338C0810720D495C4C88305B46EF553 /* XYZTime_XYZDate_CountDays.swift */; };
 		44117D0750F7F877636EA812A7DA31D6 /* XYZPathKit_XYZFIle_Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E0FA6F276F26B9D9E9C20BF36B2260 /* XYZPathKit_XYZFIle_Ex.swift */; };
 		4412F43A1DEB9E0E65C8E1655C242D30 /* XYZFileTypeEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DAAC7572951B48B0D835F36CD669357 /* XYZFileTypeEnum.swift */; };
-		444B0434DEFE10B11826FC771F1D4A69 /* TLAssetPreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7EAADF6B932F2DB0EB88B4E374CE318 /* TLAssetPreviewViewController.swift */; };
+		44158186E71B502CC59670E6E7F20F5B /* XYZTime_GoToAnotherDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 120923DBAF9D7F205886313FD354C42C /* XYZTime_GoToAnotherDate.swift */; };
+		444B0434DEFE10B11826FC771F1D4A69 /* TLAssetPreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF1B31AC029D21772422396ECB54F8F /* TLAssetPreviewViewController.swift */; };
 		457BE444ED617FA7D6851D6DAA9D7234 /* Delegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E730EFB5B2D891AADA2B6234AF9D11BD /* Delegate.swift */; };
-		473D8BA4D872E7D72CAB972E51A3A8B3 /* TLAssetCollection+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0809EC8DC18185BEB3C079EC35B993F7 /* TLAssetCollection+Extension.swift */; };
+		473D8BA4D872E7D72CAB972E51A3A8B3 /* TLAssetCollection+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2E2C64B75C213595E254DA620068E8 /* TLAssetCollection+Extension.swift */; };
 		4D986E358AA4D6C5C04898E90759FF09 /* FileType.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC408B0F028E072C47F11E73F8CB82E3 /* FileType.swift */; };
 		4DCA9775E5CCF599460BDB46E77F6FA4 /* Kingfisher-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AFE0A13ADACA858268E60A6CE90431F3 /* Kingfisher-dummy.m */; };
-		4DCED9EE6C9886073B44FDD04452BB47 /* TimePeriodCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A83732A7DAD56F8EE1C6EC542A4196F /* TimePeriodCollection.swift */; };
 		4F37E521D341C47CE73DDCF21BA95A52 /* KingfisherError.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE982EBA2142BE57AE36EA423FB1EE7B /* KingfisherError.swift */; };
 		506128E1CC424E40E2691546D9547549 /* Placeholder.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC49C3BCA5E748DCF3E98C6E61515CD /* Placeholder.swift */; };
 		509490FB1D30FEC59AE4BC21AEEBB7BB /* RequestModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A94C4A74129D19D8F85659277F1A25 /* RequestModifier.swift */; };
-		52A311D9AB5776C871EA9A5AA2F0F2EE /* TimeStructures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B94C32647EE803873AF81D78FB4B860 /* TimeStructures.swift */; };
-		52AA78D3C219D02B1B7F797EB62FD0D3 /* XYZTimeKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6B02F454203FC5B6A65F3B931D9123 /* XYZTimeKit.swift */; };
+		50C1C8E12067BE36BEB190C6A4126FB3 /* DateRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E0C0E681D908AF148874CB67D8C6300 /* DateRepresentable.swift */; };
+		5186A9CB084F6147C5E33933F8F427A2 /* Date+Create.swift in Sources */ = {isa = PBXBuildFile; fileRef = E083D1E5D2974BC671D0F88CB63990E5 /* Date+Create.swift */; };
 		52DED996EC25004E3D0BEB0D5D8DC31F /* FileSystemEventStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753B9F6AF1D5BEA90D31AEF8A43DB413 /* FileSystemEventStream.swift */; };
 		53DD10CA0022141BDA0A24AA90B83028 /* NSString+FileKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA155209CF569EF3A2C1CB685F771129 /* NSString+FileKit.swift */; };
 		55A33D9D44F2E74E6116D25B2D541964 /* FileSystemEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383CAFF1195132958AE06C543EB44071 /* FileSystemEvent.swift */; };
@@ -100,107 +90,105 @@
 		5956022C036BDEF42DEB51F357B15D22 /* XYZPath_UIImage_ImageHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14859E756341C5AA37E43D81D7F7A56C /* XYZPath_UIImage_ImageHelper.swift */; };
 		59BC9047F4BEBBC06235608D974E230D /* NSTextAttachment+Kingfisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9659026855F72CF540B66D0C494C6F /* NSTextAttachment+Kingfisher.swift */; };
 		5ADB30DD9A03859018550A999ACB0652 /* KFImageOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BA81186804EF94FF1AA5A18C42DB7C4 /* KFImageOptions.swift */; };
-		5B988FB2868A261B18F6304EE16108D1 /* TLCollectionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F541C76C7EC5FD785838F40B868F6AE6 /* TLCollectionTableViewCell.swift */; };
-		5C5018AD3E087D5DFA1AC942D9AF6AF5 /* Date+Create.swift in Sources */ = {isa = PBXBuildFile; fileRef = E083D1E5D2974BC671D0F88CB63990E5 /* Date+Create.swift */; };
-		5CF126715A5EFFAB30AC107822C6BA8C /* TimeInterval+Formatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EE4F31E7D19A8DC5E711CEC5C5170F6 /* TimeInterval+Formatter.swift */; };
-		5D7C3BFE572E8DF8415FC6EF3131CB9A /* XYZTime_XYZDate_StringType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B90A3145619B443CF4897C40F64F6D27 /* XYZTime_XYZDate_StringType.swift */; };
+		5B988FB2868A261B18F6304EE16108D1 /* TLCollectionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3988CE26B95177E1A27181257B4E5371 /* TLCollectionTableViewCell.swift */; };
+		5DB0CE3C81B2AC9CEA644BEDDD7E0247 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A0124F7A37BF1674071B548E1911C76 /* Date.swift */; };
 		5E27DD292D3A55657712DD7AFA7B8FCA /* KFImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EBF0C175D4E4D5FE3F848EE5DA32C6A /* KFImage.swift */; };
-		5E5AE5D14D94EBDD3FC0B3AEA09DDFA9 /* Commons.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30BADDF2A63378293B2AD3AD0270367 /* Commons.swift */; };
 		5F852F38CBC282496CCBE37C51324B2F /* ImageProgressive.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBCB6FC5623A58245D1913C8C08D62EC /* ImageProgressive.swift */; };
 		5FDDF02ACF446E2AAF99DDC6BF49F0A0 /* JXPhotoBrowser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92ECF6560F9991F90FA6506027A456B5 /* JXPhotoBrowser.swift */; };
-		64885C7328C53FAF7598B8980E7D810F /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A0124F7A37BF1674071B548E1911C76 /* Date.swift */; };
-		64BEA7AFAB74691B61FA3D1E2FCBE83B /* TLPhotoLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03BA9D2FFA8617C872429FE6ABB4730 /* TLPhotoLibrary.swift */; };
+		64BEA7AFAB74691B61FA3D1E2FCBE83B /* TLPhotoLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B6F0AF19DB31F1BC359773F8D66B510 /* TLPhotoLibrary.swift */; };
 		6587A1ADF2C27C7D38939812F49FF84B /* XYZPath_XYZFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D77C2EB400B62C5792A827D806AE46 /* XYZPath_XYZFile.swift */; };
 		66477B8EC4B54DB887748C18B248EB7B /* FileKitError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C1119044EB1AA69DE39C1FB1FBB064 /* FileKitError.swift */; };
 		667A7E10F8F783CAAC29807BCB9F91BE /* DispatchEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8823D68303268C2EE255E3E481E30DCA /* DispatchEvent.swift */; };
+		66AF42216EB256A289968AA59098B639 /* DateInRegion.swift in Sources */ = {isa = PBXBuildFile; fileRef = C313B54FFC28E41D412D90D6A60D5C49 /* DateInRegion.swift */; };
 		678AAE01DDB80D03B1FC92D03E596971 /* Dictionary+File.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20E6968AC626754B50A427B0858E532 /* Dictionary+File.swift */; };
-		6D990EC657A9A6E5055F8E8E0234882E /* bn.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 9BE0F2FFC23A3790ABE2CFCC2FA47B21 /* bn.lproj */; };
+		6AD1B227AEF9DD0F35415FFA378E5CD2 /* DateInRegion+Components.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9A32E827DD5D94893E41CE29061D75 /* DateInRegion+Components.swift */; };
 		6E0CF30C3E5AAA01D8E151CC8B67B537 /* Pods-XYZPhotoKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D1E4923CE35CC53E4488CEB9B0A8C021 /* Pods-XYZPhotoKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7087257C29CE704042F86F4DCB56F12C /* TimePeriod.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFACB02D973FC210C0C889847F376CA3 /* TimePeriod.swift */; };
+		6E64CAC7DDFAE1E91E5E9392899FC602 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4207BEE6DFA63E5CF69828DD467E9674 /* Foundation.framework */; };
 		70FEC06F54286257E1BA1ECA0C99198D /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3967F627DA4692629A3561C3D32EBB88 /* Image.swift */; };
+		72D5F072A9A9DA06D6D627D2703F8DEF /* TLPhotoCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 98FF6F9C601732AF9C643A60B4587A1E /* TLPhotoCollectionViewCell.xib */; };
 		733F6BF96C91BECBDDB5F57A954930CA /* XYZPathKit_IsWhichType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE1831C1108F18D069A716BE78337B8 /* XYZPathKit_IsWhichType.swift */; };
 		741CF61FB7A2C1C3C651EF4B9F977D55 /* JXPhotoBrowserPageIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57234BF19BC58FE886EA0E58BF9CCE3A /* JXPhotoBrowserPageIndicator.swift */; };
 		744CA8A995247F72B75609CFA3077AFE /* NSArray+FileKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8854FE45D97500F2F2968818798A8485 /* NSArray+FileKit.swift */; };
 		74C8755118D8C35409214E3B8FF36D4D /* XYZImageGetScreenShot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032C0B1BB45144EBB11F4C99DDBB0662 /* XYZImageGetScreenShot.swift */; };
-		77170418B2F5003DA8B2CCFFE99F3F81 /* TLAssetsCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ACE73BF8D59FC6D180F20CC62B33671 /* TLAssetsCollection.swift */; };
+		75CD943A6AA70463B24B2E953BEC26FA /* Zones.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBAC1DAC90D96B3157DA313AA30746B0 /* Zones.swift */; };
+		77170418B2F5003DA8B2CCFFE99F3F81 /* TLAssetsCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E59ACD704A7E26B20B3A336442FA79 /* TLAssetsCollection.swift */; };
 		77958245AAEADB0FDF5DE746941E9A2A /* JXPhotoBrowserNumberPageIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56B4BA12E2836EAE1B67EB202157025E /* JXPhotoBrowserNumberPageIndicator.swift */; };
-		7980DE7F5C887EA8E2CA62AE8777C75C /* Int+DateComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EBBAE9ADFF1E23DB56A2539315095D6 /* Int+DateComponents.swift */; };
+		790F3E366AA276613225B0D0845A5429 /* DateInRegion+Create.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370C730405E726E8920A6D4E1B5D8D4C /* DateInRegion+Create.swift */; };
+		7A0244BE8F66240EF1AEEE11C245B88C /* ISOFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5239BCA648ABB57F374B3D47F3CCC0BB /* ISOFormatter.swift */; };
 		7C7418FF01DD7BB909719682B634A8A5 /* SessionDataTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBD81F76F0621CFA67611F38DF9AFCC /* SessionDataTask.swift */; };
-		7D097D4AC4D63964E31DADD86F87220D /* ur.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 25FB84CD4F43412B7B72A0944FFA2506 /* ur.lproj */; };
-		7E958A8F12A0AF0BC0E702933B738FF8 /* TLAlbumPopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DA1EF1E9184DB17D827253D5421266 /* TLAlbumPopView.swift */; };
+		7D99595B1B4737E6CEC40D8642142384 /* String+Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD9F39164FBEE858066D5FD1FE9C021 /* String+Parser.swift */; };
+		7E958A8F12A0AF0BC0E702933B738FF8 /* TLAlbumPopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC41DB33EF00E4EB2A5B91D38F0EE27E /* TLAlbumPopView.swift */; };
+		7F45EF575D88FEC0FE7DC0CE57118B83 /* TimeInterval+Formatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EE4F31E7D19A8DC5E711CEC5C5170F6 /* TimeInterval+Formatter.swift */; };
 		7FFE4021A4F14124342AD41CE1117B3E /* KFAnimatedImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BFE7B6FB3DEEEEB98A46BDDE14DC914 /* KFAnimatedImage.swift */; };
 		80738D8956C9987CCCEDF551961E5069 /* ImageDataProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AEE76100286BA262BC801A639CFF0EE /* ImageDataProcessor.swift */; };
-		808AD667C5B4CCD1E6B2BDB7A6484252 /* SynchronizedDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EBC2938341613BE88519FAB7087FF5B /* SynchronizedDictionary.swift */; };
-		8275BB71A35A31B44750C0B40ECD7C6E /* Zones.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBAC1DAC90D96B3157DA313AA30746B0 /* Zones.swift */; };
+		808AD667C5B4CCD1E6B2BDB7A6484252 /* SynchronizedDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6E4A436A26DF7C65E04874A51F2362 /* SynchronizedDictionary.swift */; };
 		83906350DE6A999BDDBD33442272F238 /* Bundle+FileKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = B924115D0CC66DC58784FE8F5FF60C33 /* Bundle+FileKit.swift */; };
 		839E3A56C85FDF30B01E36594A6E900C /* JXPhotoBrowserNoneAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9E51FD2B9ACE975F6E3FAB368D6123 /* JXPhotoBrowserNoneAnimator.swift */; };
+		8529506AB654C88F3077100CC5CAC469 /* MusicDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25E0427AAEFD2326D588319EB82BA95 /* MusicDate.swift */; };
 		85CA17801799E2B16F51C1DA2D4D8376 /* RelativePathType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82BAF6ABF2F11D82BD4C5B0ED2EFCB1 /* RelativePathType.swift */; };
 		881A35B28D93C56E46E305F6138B1A76 /* ImageDownloaderDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8674F0D23148A8FD8FBC1388E7F3A1F1 /* ImageDownloaderDelegate.swift */; };
-		882A83BCB25A36FEA9151316A0F26BD1 /* TimePeriodChain.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6703E205D3591BC3099953F32D98E6F /* TimePeriodChain.swift */; };
-		886E5085F51F86191F04F80C6E4074F0 /* XYZTime_XYZDate_FromString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95C05C2A472A48ADC157D2455DD08231 /* XYZTime_XYZDate_FromString.swift */; };
+		88E76C5A033893366276A73943D2ECCA /* TimePeriodProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42B508C12E1BFC88C52B1ABECC02D47 /* TimePeriodProtocol.swift */; };
 		895832D6D9F55145B4D4A35699CD4CB9 /* JXPhotoBrowserZoomSupportedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E26F1E87C29A8B85C18B269C3A6334D /* JXPhotoBrowserZoomSupportedCell.swift */; };
+		89CE2856B68543668CDBBF8C562149F7 /* TLPhotosPickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 298EE27D7B0F6FABC0BF626530993B70 /* TLPhotosPickerViewController.xib */; };
 		8B290D4C44429B71E15908205262FBFA /* JXPhotoBrowser-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 61B97066C2217440ED539575CBEACC57 /* JXPhotoBrowser-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8C2AE90E6B1576AE517E69163ABFA7FA /* DataType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D097991569E46232C8AE03D8E20F5B1A /* DataType.swift */; };
 		8C7C1FF9CD2D1793115605E47516DDC3 /* JSONType.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD0C20D631C26FEB224A5C2F7679C6B /* JSONType.swift */; };
-		8E7D76FC33AE76FB7101C24AB10E22FE /* or.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 60AD459ECE2035D93812B6FB6910A7DA /* or.lproj */; };
+		8CDB440CCEA1FD0CFA13B17BFCEF047E /* XYZTime_XYZDate_FromString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95C05C2A472A48ADC157D2455DD08231 /* XYZTime_XYZDate_FromString.swift */; };
+		8FCFC89854F55205A720FA9744434F4A /* Date+Components.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB9E884A6E9D2D84ED7FDA40C45C58E /* Date+Components.swift */; };
+		905DB472E70514C6310DA1A5F147CD86 /* TimePeriod.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFACB02D973FC210C0C889847F376CA3 /* TimePeriod.swift */; };
 		92D63822DB6877491657D174535ABB53 /* XYZPath_XYZString.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF38363BB9EA6F4E605453627AFB336F /* XYZPath_XYZString.swift */; };
-		940DE223C6E3AF383A3F640E2EA5A9E2 /* Region.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E287B98E136AD77FE8401B453AFB1B8 /* Region.swift */; };
 		940F34CA30CD425429BFB63CFA0297C2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4207BEE6DFA63E5CF69828DD467E9674 /* Foundation.framework */; };
 		94F702870C95A4AA0D594B33E2FC97D3 /* Image+FileKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C82DC6FF073183908F2C650BC77A53E /* Image+FileKit.swift */; };
 		9605326E8E4B0F49F74ACF88B7F6DA7E /* FilePermissions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C109A637793E7A3A6193E3A21F0FC5 /* FilePermissions.swift */; };
+		96DF261DDB89F2D3E14F76A724761CF6 /* Commons.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30BADDF2A63378293B2AD3AD0270367 /* Commons.swift */; };
 		9B0A78AC22E7EDA755F51D86527E2D9C /* Source.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88BCB18877A77F7182E56848182DAA3D /* Source.swift */; };
-		9C317165069FC3E05303D3B57CC60752 /* DateInRegion+Compare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4893EBCD04C907153BBDF6F3CCF31B3A /* DateInRegion+Compare.swift */; };
+		9BF937C864F98B281DCFDD33A76B783A /* RelativeFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CCF410D0080BE25C7AACE9CFE8F75C /* RelativeFormatter.swift */; };
 		9D5B5EB46351B0F3DDFD2F80393DA0A1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4207BEE6DFA63E5CF69828DD467E9674 /* Foundation.framework */; };
-		9D70A160F046C590F1E4A54639C181C0 /* XYZTime_DateToString_ForApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB9610C9E3FD411807821C58D45EEAE /* XYZTime_DateToString_ForApp.swift */; };
 		9E03908ED6520F2E574C068308BFDFB5 /* XYZPath_XYZFolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F8ABC30AE28A82B1E3F82F92BD83AE /* XYZPath_XYZFolder.swift */; };
 		9F5FE22DA95B66B8DC21CB13BE25EC9B /* WKInterfaceImage+Kingfisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFD2D57531D3959FBAB473564335DBB /* WKInterfaceImage+Kingfisher.swift */; };
-		A16200CE1D1708B3A1E5714F3E654CE5 /* pa.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 6347A09DB3E01A42BC9E6D4560B9E979 /* pa.lproj */; };
 		A316388A35648CB2987E761771456087 /* KFOptionsSetter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016BA686EE609E79981CE8ECF24BDAD4 /* KFOptionsSetter.swift */; };
 		A39D3555EC8B45B7D6B9505DDAF0F117 /* Kingfisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7140A4B4E0D2598F1AF8EBBE33280131 /* Kingfisher.swift */; };
 		A474634020DF6708D3FBF75160F7F468 /* DirectoryEnumerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 375FA83C5DAB990A0C2FB4DFF325FC00 /* DirectoryEnumerator.swift */; };
+		A4813047DB61B913E2369036D961ACDE /* Calendars.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304BBE6D5114FF04874420AF24880128 /* Calendars.swift */; };
 		A56FA112BA68BA27CC4748445434F913 /* JXPhotoBrowserImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE215C270CEBC405F702C0288427C83 /* JXPhotoBrowserImageView.swift */; };
-		A695D623F610C801EA1AAF7DE2D6A233 /* TLPhotosPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E535A3A47E53C30F16FB1574AAB3CF4 /* TLPhotosPickerViewController.swift */; };
-		A77C5FB1A41F789266AAC7483A7E83CB /* DotNetParserFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3607ABFD74267518DF4EE0646D975542 /* DotNetParserFormatter.swift */; };
-		A7CC2C913190C4E532EBDEEB25E2DD89 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4207BEE6DFA63E5CF69828DD467E9674 /* Foundation.framework */; };
+		A695D623F610C801EA1AAF7DE2D6A233 /* TLPhotosPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDDEA24D91B554105EF93650860BC4E /* TLPhotosPickerViewController.swift */; };
 		A88A844D5356E1690E445024CB796E09 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46380DE27D506D96450294F00C41180 /* Result.swift */; };
-		A9B030F1AF696CEF5D6CBD8718CC3C9D /* TimePeriod+Support.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11FF0267ABB3CD2A11CFD469CC743BF /* TimePeriod+Support.swift */; };
 		AB56BB902DC1576E5F51EA2E45028003 /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23596513622B09A65B80A873B5A4DE82 /* Operators.swift */; };
 		AC3822D9B02B83BFD475E173E3500541 /* NSData+FileKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69E7B3E4DE646A4628E04A9AFB0C06A /* NSData+FileKit.swift */; };
 		AFCD9099ED198E66CF73D71F71674816 /* FileSystemWatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE46F72986F310CC3EA816139019E411 /* FileSystemWatcher.swift */; };
+		B2193F2E051E4602D610912A30A09DC0 /* TLCollectionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C426522E36E9818AA1342FA52E784191 /* TLCollectionTableViewCell.xib */; };
 		B25E07EA645911443A38DA1E68166156 /* Box.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA66ED36D5AC41F4B08DB78644C135A /* Box.swift */; };
-		B4674097DB02CF9D1D5F49F29CD37451 /* MusicDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25E0427AAEFD2326D588319EB82BA95 /* MusicDate.swift */; };
+		B68D3BC14E6CC9AAD3A0DE7D49ADC4C3 /* TimePeriodCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A83732A7DAD56F8EE1C6EC542A4196F /* TimePeriodCollection.swift */; };
 		B6F227B73B76810B5330E8155AB06B61 /* Path.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E57848343E40C760F085062F52B23C /* Path.swift */; };
-		B731B10861BA94A1AB000CE4A5E6225B /* TLPhotoPicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 48ACF387126D4F6200538E8E2BD108BF /* TLPhotoPicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BA104B75C5EFCE47A0EA98B502C86CBC /* Formatter+Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09BF05C19359C158F39A16064518AA61 /* Formatter+Protocols.swift */; };
+		B731B10861BA94A1AB000CE4A5E6225B /* TLPhotoPicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 307E23E66A56EEAA0541B12E1C3089B7 /* TLPhotoPicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BD382E78580D295D10100678D4F66A76 /* String+MD5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18348598896C786C53352904620DDBB3 /* String+MD5.swift */; };
-		BDC2BC216A029B4138C9B8AF29533550 /* TimePeriodGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CABD2E824BC595B415BD5B3EA4319FB /* TimePeriodGroup.swift */; };
-		C12BC349DB4701A715CF3222CF8ECD3C /* DateComponents+Extras.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DCC2040904E9C031691D45735114EC0 /* DateComponents+Extras.swift */; };
-		C2B74526837F90924958D917DC3BE555 /* TLPhotopickerDataSourcesProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7ED19E2AD6C999A9E590C51C3E4435 /* TLPhotopickerDataSourcesProtocol.swift */; };
+		C2B74526837F90924958D917DC3BE555 /* TLPhotopickerDataSourcesProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0903BFC8BC2C3EC71F030D27DE5974 /* TLPhotopickerDataSourcesProtocol.swift */; };
+		C2F1BC77788068D46B2C8DE37165EEBB /* Date+Math.swift in Sources */ = {isa = PBXBuildFile; fileRef = 670C3BC0C7B76E6C798A041DD10F830D /* Date+Math.swift */; };
 		C40903B4D8C9D4FE38B215CDC6B2697B /* JXPhotoBrowserLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D24FD1894D339AAB41A0A674927154 /* JXPhotoBrowserLog.swift */; };
-		C6519EE3931C414B099054A5C303A5D6 /* Date+Components.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB9E884A6E9D2D84ED7FDA40C45C58E /* Date+Components.swift */; };
 		C68747A9B3AC63C66B8065DBC07B130C /* Data+FileKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 769EA5E0E9AB551F84814DEC4E39B1BC /* Data+FileKit.swift */; };
+		C6DE4C3714EDEBC5B09105BF9705916C /* XYZTime_XYZDate_CountDays.swift in Sources */ = {isa = PBXBuildFile; fileRef = C338C0810720D495C4C88305B46EF553 /* XYZTime_XYZDate_CountDays.swift */; };
 		C6F600110A620AC3D9F0031C57A7CC0E /* ArrayFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A09346CE4EB4D7B4AD58EB6326ABE15 /* ArrayFile.swift */; };
-		C9B4AF510EF0F6A01C7801F8D4AD6E58 /* TLBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5163DD52C10A12AC957495BA025C354 /* TLBundle.swift */; };
+		C9AB20F19D093A210EB22E7FC46C1E2F /* AssociatedValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66DAAF845EC49EF1EB1914D7BDBE8D45 /* AssociatedValues.swift */; };
+		C9B4AF510EF0F6A01C7801F8D4AD6E58 /* TLBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7925B12B7E9C1943DF323A14B08DF6B /* TLBundle.swift */; };
 		CA9BFDF857D74B70465A3BF384353DF7 /* JXPhotoBrowserDefaultPageIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4350D76D2A55298C17B32429DB720FB /* JXPhotoBrowserDefaultPageIndicator.swift */; };
 		CBDA7D0BA5BD9C7625226EB1948AE552 /* DataFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9446B356170005ABABCF7B5EB4ED7FDE /* DataFile.swift */; };
-		CBDABD6327BA11813B27621F0A4142C5 /* XYZTime_XYZClock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC122A23EAFEBBD7F10E66049E26E58 /* XYZTime_XYZClock.swift */; };
+		CCC5995D601A7B4B617BD48994CC717A /* TimePeriodGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CABD2E824BC595B415BD5B3EA4319FB /* TimePeriodGroup.swift */; };
 		CD7AC3E1C98EA54F7C05C36C52805220 /* CacheSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795F2BE69DAD6A1ED928468AD9D33151 /* CacheSerializer.swift */; };
-		CEA7BCB981A9253CCF3DA30D186FEA22 /* ISOParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3444EA7BFF86C2586F8F06CA2694732E /* ISOParser.swift */; };
 		CF0D53DAB516295BA7AAED115439C005 /* XYZPathKit_URL_Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D163CECD184F18397A67645883095F /* XYZPathKit_URL_Extension.swift */; };
-		D2A46B00BA8FC0026D7D0EDBCAF1A414 /* AssociatedValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66DAAF845EC49EF1EB1914D7BDBE8D45 /* AssociatedValues.swift */; };
+		D31F61437A1B7918F1046E4DF24EB773 /* XYZTime_XYZDate_StringType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B90A3145619B443CF4897C40F64F6D27 /* XYZTime_XYZDate_StringType.swift */; };
+		D4777C97E7BAA7F1A0145B1903744C47 /* Formatter+Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09BF05C19359C158F39A16064518AA61 /* Formatter+Protocols.swift */; };
 		D603AA58EF97D461A57B2B1BCB883868 /* AVAssetImageDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9357320BAAE54DB1F1D9ECFB8E009EEB /* AVAssetImageDataProvider.swift */; };
 		D6F63BC6F42A0BECB8B5D45E08969F0C /* XYZPath_XYZVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E447A3A68F594EFF3EAE41939086C3C5 /* XYZPath_XYZVideo.swift */; };
 		D732CBE07A20CB8FFEFCAE6896FEA30C /* FileProtection.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB584D128355A11673C5B6B82EEEB971 /* FileProtection.swift */; };
-		D7E0BB78AB41C688AB4045A71F24DAE2 /* TLPhotosPickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7F74E682AA3AB18FF8272A8CC4536B1A /* TLPhotosPickerViewController.xib */; };
+		D74374EF7114E743D5E96B0E7D3A3BFD /* XYZTimeKit_XYZDate_DateToString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D980F46C345858B80B0148D77D1CDA3 /* XYZTimeKit_XYZDate_DateToString.swift */; };
 		D8F3100382F1D9E5CCFCDE6265E7E2B7 /* XYZPathKit_UserDevicePath.swift in Sources */ = {isa = PBXBuildFile; fileRef = E258F1373FA372E24B26C5C36B079B07 /* XYZPathKit_UserDevicePath.swift */; };
 		DAFC6CE6321395CF4523DD66DADBB9BA /* ImageDrawing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371C7EC033FDDD84A558906DAA8496C5 /* ImageDrawing.swift */; };
 		DBB8088E14A2ADEDB1CD840BAC835267 /* CPListItem+Kingfisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0984AED8E9B0A3888945BF92017E677 /* CPListItem+Kingfisher.swift */; };
 		DD72DC30CF19FFC81AB19CD0B074000D /* ImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46FCF6A2A5424967DC429DFD73030CD6 /* ImageDownloader.swift */; };
+		DE159A98E212A077BFF73B7716EA03D1 /* TimePeriodChain.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6703E205D3591BC3099953F32D98E6F /* TimePeriodChain.swift */; };
 		DE532EF7D50A9CF68587DAD4C1A02BD7 /* FormatIndicatedCacheSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464A1A7032BDCCC5C4F4E475DB8EFC7D /* FormatIndicatedCacheSerializer.swift */; };
 		DF4563832C19B8582C810BF502A5CA29 /* KF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C9624F94CA32D4DAE2FE0ED9B4C0128 /* KF.swift */; };
 		DFCDE4638265B4CCD494ECA5D560DBEE /* Indicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC50C3B1AB9042D722C61C8CC3423DC /* Indicator.swift */; };
-		E086A214D3ECF03D5C3A8BE2BBE4F158 /* Date+Math.swift in Sources */ = {isa = PBXBuildFile; fileRef = 670C3BC0C7B76E6C798A041DD10F830D /* Date+Math.swift */; };
-		E08B49778E8E909221ED7306D1CB1272 /* ne.lproj in Resources */ = {isa = PBXBuildFile; fileRef = C19E2DE61E41F08B04D1AB27E4AF081F /* ne.lproj */; };
 		E1873928E744AF3C6C67A409F03B818B /* XYZPath_UIDocumentBrowser.swift in Sources */ = {isa = PBXBuildFile; fileRef = C441C965F72956EB275D4B7C5BCBCA54 /* XYZPath_UIDocumentBrowser.swift */; };
 		E1FE49AC7F41BEA42D1F92A230204ADF /* XYZPathKit_ManipulatePath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 340589C3246BB960976816519BD9AF4C /* XYZPathKit_ManipulatePath.swift */; };
 		E2ECA2FDCDAD4C0CCC41229F705F761D /* JXPhotoBrowserImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D0FCF27D7215E37BE9E324A99F9F52F /* JXPhotoBrowserImageCell.swift */; };
@@ -208,82 +196,85 @@
 		E5B664771063F1A9A372519A8466860B /* ImageView+Kingfisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = A734C26897944DD29C561661B3A10147 /* ImageView+Kingfisher.swift */; };
 		E6D6C7D5E458A05CC736C340F853E9F6 /* ImageFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96AA30D6D16AFE14E57A0E4A1F441A11 /* ImageFormat.swift */; };
 		E719A3B025B9DACE693130120BD9B927 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52554E1C9731D5352FDE9E63F8C5466B /* Accelerate.framework */; };
-		E8D7611C8AF8141BC57C704E5842328F /* SwiftDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40344F660A0F65A9C2C0D323AF0A6FB7 /* SwiftDate.swift */; };
+		E76B9DC8F8EECE7D448154D904F26E15 /* Locales.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ACC579E269E70042A701B03DD170E42 /* Locales.swift */; };
+		E78B7C35683F3EB9C356E088ABC83F2D /* TimeStructures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B94C32647EE803873AF81D78FB4B860 /* TimeStructures.swift */; };
 		EBB32304E8DD4BA115454E0050D47DED /* Runtime.swift in Sources */ = {isa = PBXBuildFile; fileRef = C141CB22AA3711819F832E660F53CCB5 /* Runtime.swift */; };
 		ECEC77E13E991AEB5D500916F0781FC5 /* NSDataFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C32DFB22F5C2AED07820367185B3872 /* NSDataFile.swift */; };
 		ED0C8BA7560D7324587B353E0960479F /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B93B2FEF77106B37B0D6F392D513203 /* ImageCache.swift */; };
-		EE8619DC481D91D4D5BEC919D0BF0EBF /* RelativeFormatter+Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD6703C28F64E4CA92F4DE2CD92F690 /* RelativeFormatter+Style.swift */; };
 		EF9C4588CDA85AED8BBCF77451B2A35B /* ImageProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D3EE0A2ADDF4373A2909C170CE8199 /* ImageProcessor.swift */; };
 		F00613F09F2F3146D73A95E6F99DA659 /* DispatchWatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = C803CF25A1D703E544647EA81FB4070F /* DispatchWatcher.swift */; };
+		F097733BD6E5FC9EE8D38D5FBEF4D49B /* XYZTime_XYZClock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC122A23EAFEBBD7F10E66049E26E58 /* XYZTime_XYZClock.swift */; };
 		F17B1F8F2B6580343025237455A29D61 /* TVMonogramView+Kingfisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = B385429BDEB28895D4FD58A425606D82 /* TVMonogramView+Kingfisher.swift */; };
 		F24021BDE9B42D604E3341CAD8E34759 /* GIFAnimatedImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBFB8E786A41FA67B4F0107679DB7D10 /* GIFAnimatedImage.swift */; };
+		F3AB1C9DE9C91DCA5837CE8A343AAE6A /* XYZTimeKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 108F98AD19F5C6B49BB0921E28454B9E /* XYZTimeKit-dummy.m */; };
 		F49327AC773E2D59BE5DF9502730C395 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16014A9AA6757A32C430E3A42D31757D /* File.swift */; };
 		F4BD19761B5649DAAF9A69DDDC404B43 /* Process+FileKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D2B116B105567CE90033248ED4DC4D /* Process+FileKit.swift */; };
 		F5414F8A5B40521D0E4AEEB28378CB49 /* ImageContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = A581AAC1E0438750243B675BD83FEA86 /* ImageContext.swift */; };
 		F54DE563418B1783D6EC491A0C3A05DB /* ImageModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3EA5CA68E4E2B63E41A7DA6715D89D /* ImageModifier.swift */; };
 		F6D21E3720DB4029B84A90DB0DF91AAB /* XYZFileExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD78D6042A3A86B8C2F1C122422F50D /* XYZFileExtension.swift */; };
-		F74C41FA06F47503CD46FBD0B65F991B /* ISOFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5239BCA648ABB57F374B3D47F3CCC0BB /* ISOFormatter.swift */; };
 		F9537B023E24AC4A724E301F7E372491 /* KFImageProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA42A1F80FA4A4CF06036D179E09345 /* KFImageProtocol.swift */; };
 		FA7887D7538CF009CCA3139BA46BCF05 /* JXPhotoBrowser-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BCEA0D875185ACC9D323A21AC3D2E2B7 /* JXPhotoBrowser-dummy.m */; };
+		FAE2C8F2423FF2CB48944720C75EA5CC /* SwiftDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40344F660A0F65A9C2C0D323AF0A6FB7 /* SwiftDate.swift */; };
+		FB0C9C1666DE4CD79C92AEE3DFD881FA /* DateInRegion+Compare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4893EBCD04C907153BBDF6F3CCF31B3A /* DateInRegion+Compare.swift */; };
 		FB57FB5FDF24121CA54CD6F2A4C60B62 /* TextFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50FB2CB54DBD3FE7698FD9CE446BF9E /* TextFile.swift */; };
+		FE11CA4E9C845352198F14A7A9F01683 /* XYZTimeKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 025D34B5D3F9378733746CBF01224AD2 /* XYZTimeKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FF09824309346665E2F1F7F5A45FB10F /* CallbackQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD24FA51F22CCE66DF7AA895970F2181 /* CallbackQueue.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		39742BBC218BD0FC5EC277A3D9B1F83F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = DA3E37AB6B1FDCFB42E3501C7C465044;
-			remoteInfo = XYZPathKit;
-		};
-		5945F5079A7CA5B3C128033B3A08CF17 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4F95B73DC51D7024E7E7321B80A2589B;
-			remoteInfo = JXPhotoBrowser;
-		};
-		6BCF7E7C4C31030A05E7D4F9FB366F66 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E8022D22FAA6690B5E1C379C1BCE1491;
-			remoteInfo = Kingfisher;
-		};
-		B5C9648F6761BE0808A635BCF8C3D1E0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E521B8F5FDEF0A99B724D1B30712A006;
-			remoteInfo = XYZTimeKit;
-		};
-		C022C3DB8DB1ABC808244EADFC358213 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0E25D4105A6FD573D0B380E936CC9E11;
-			remoteInfo = "TLPhotoPicker-TLPhotoPicker";
-		};
-		F432365FF6B1D4EC37B34DFE4136D7E1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E521B8F5FDEF0A99B724D1B30712A006;
-			remoteInfo = XYZTimeKit;
-		};
-		FEC0714D244B615E6C73FC82B39CEFB2 /* PBXContainerItemProxy */ = {
+		8803E81B699F3558B80675C9C9A5571F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = F9241C3812D02BCBB2AA4D3936BD3909;
 			remoteInfo = TLPhotoPicker;
 		};
+		C6A3EACF6AC8A975F9A10B9E38984B38 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E521B8F5FDEF0A99B724D1B30712A006;
+			remoteInfo = XYZTimeKit;
+		};
+		CB71013DECC153F95BB8509872BCC5AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0E25D4105A6FD573D0B380E936CC9E11;
+			remoteInfo = "TLPhotoPicker-TLPhotoPicker";
+		};
+		CC74B9AAA9BF2E5EF0DB45BD8985C228 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E521B8F5FDEF0A99B724D1B30712A006;
+			remoteInfo = XYZTimeKit;
+		};
+		F01D35C68D43289E335C71C2662A8F50 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E8022D22FAA6690B5E1C379C1BCE1491;
+			remoteInfo = Kingfisher;
+		};
+		F57809D03F821B69923FA5A4DE445343 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F95B73DC51D7024E7E7321B80A2589B;
+			remoteInfo = JXPhotoBrowser;
+		};
+		FB05275FA3FC36B9272DD570C1FE6217 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA3E37AB6B1FDCFB42E3501C7C465044;
+			remoteInfo = XYZPathKit;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		016BA686EE609E79981CE8ECF24BDAD4 /* KFOptionsSetter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KFOptionsSetter.swift; path = Sources/General/KFOptionsSetter.swift; sourceTree = "<group>"; };
-		019D0B6310A991F9F2E88089D999A9CB /* TLCollectionTableViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = TLCollectionTableViewCell.xib; path = TLPhotoPicker/Classes/TLCollectionTableViewCell.xib; sourceTree = "<group>"; };
 		01CB70C58611BE92CF198C49FB04C733 /* JXPhotoBrowserAnimatedTransitioning.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JXPhotoBrowserAnimatedTransitioning.swift; path = Sources/JXPhotoBrowser/JXPhotoBrowserAnimatedTransitioning.swift; sourceTree = "<group>"; };
 		025D34B5D3F9378733746CBF01224AD2 /* XYZTimeKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XYZTimeKit-umbrella.h"; sourceTree = "<group>"; };
 		032C0B1BB45144EBB11F4C99DDBB0662 /* XYZImageGetScreenShot.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XYZImageGetScreenShot.swift; path = XYZPathKit/Source/XYZImageGetScreenShot.swift; sourceTree = "<group>"; };
@@ -291,7 +282,7 @@
 		0421C6B40D733C886422A580FA1FCFD6 /* DictionaryFile.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DictionaryFile.swift; path = XYZPathKit/Source/Sources/DictionaryFile.swift; sourceTree = "<group>"; };
 		04C109A637793E7A3A6193E3A21F0FC5 /* FilePermissions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FilePermissions.swift; path = XYZPathKit/Source/Sources/FilePermissions.swift; sourceTree = "<group>"; };
 		0685CB3F7FF7BDEC50807384379C08FA /* ImagePrefetcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImagePrefetcher.swift; path = Sources/Networking/ImagePrefetcher.swift; sourceTree = "<group>"; };
-		0809EC8DC18185BEB3C079EC35B993F7 /* TLAssetCollection+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "TLAssetCollection+Extension.swift"; path = "TLPhotoPicker/Classes/TLAssetCollection+Extension.swift"; sourceTree = "<group>"; };
+		06AD707D05AC9050E5E3DA5275499707 /* TLPhotoCollectionViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TLPhotoCollectionViewCell.swift; path = TLPhotoPicker/Classes/TLPhotoCollectionViewCell.swift; sourceTree = "<group>"; };
 		09BF05C19359C158F39A16064518AA61 /* Formatter+Protocols.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Formatter+Protocols.swift"; path = "XYZTimeKit/Source/SwiftDate/Formatters/Formatter+Protocols.swift"; sourceTree = "<group>"; };
 		0AEE76100286BA262BC801A639CFF0EE /* ImageDataProcessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageDataProcessor.swift; path = Sources/Networking/ImageDataProcessor.swift; sourceTree = "<group>"; };
 		0D706C0576A4D2E519E32C2A1FF2CB14 /* ImageDataProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageDataProvider.swift; path = Sources/General/ImageSource/ImageDataProvider.swift; sourceTree = "<group>"; };
@@ -299,8 +290,9 @@
 		0EBF0C175D4E4D5FE3F848EE5DA32C6A /* KFImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KFImage.swift; path = Sources/SwiftUI/KFImage.swift; sourceTree = "<group>"; };
 		0FE1831C1108F18D069A716BE78337B8 /* XYZPathKit_IsWhichType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XYZPathKit_IsWhichType.swift; path = XYZPathKit/Source/XYZPathKit_IsWhichType.swift; sourceTree = "<group>"; };
 		108F98AD19F5C6B49BB0921E28454B9E /* XYZTimeKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XYZTimeKit-dummy.m"; sourceTree = "<group>"; };
+		10E59ACD704A7E26B20B3A336442FA79 /* TLAssetsCollection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TLAssetsCollection.swift; path = TLPhotoPicker/Classes/TLAssetsCollection.swift; sourceTree = "<group>"; };
 		117637E4DF85B222465DED177A01C914 /* Array+File.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Array+File.swift"; path = "XYZPathKit/Source/Sources/Array+File.swift"; sourceTree = "<group>"; };
-		117887665FB3C7A539BB6F806956A01A /* JXPhotoBrowser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JXPhotoBrowser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		117887665FB3C7A539BB6F806956A01A /* JXPhotoBrowser */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JXPhotoBrowser; path = JXPhotoBrowser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		120923DBAF9D7F205886313FD354C42C /* XYZTime_GoToAnotherDate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XYZTime_GoToAnotherDate.swift; path = XYZTimeKit/Source/XYZTime_GoToAnotherDate.swift; sourceTree = "<group>"; };
 		12725F4A7A3EC8D3B9FDCC4D3B01175B /* XYZTimeKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XYZTimeKit-prefix.pch"; sourceTree = "<group>"; };
 		13533B84614E216882E2A08603E0BDFB /* RelativeFormatterLanguage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RelativeFormatterLanguage.swift; path = XYZTimeKit/Source/SwiftDate/Formatters/RelativeFormatter/RelativeFormatterLanguage.swift; sourceTree = "<group>"; };
@@ -312,7 +304,6 @@
 		18C1119044EB1AA69DE39C1FB1FBB064 /* FileKitError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FileKitError.swift; path = XYZPathKit/Source/Sources/FileKitError.swift; sourceTree = "<group>"; };
 		19E57848343E40C760F085062F52B23C /* Path.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Path.swift; path = XYZPathKit/Source/Sources/Path.swift; sourceTree = "<group>"; };
 		1A4031CB2480E21C21F8D583E1517273 /* JXPhotoBrowserView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JXPhotoBrowserView.swift; path = Sources/JXPhotoBrowser/JXPhotoBrowserView.swift; sourceTree = "<group>"; };
-		1ACE73BF8D59FC6D180F20CC62B33671 /* TLAssetsCollection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TLAssetsCollection.swift; path = TLPhotoPicker/Classes/TLAssetsCollection.swift; sourceTree = "<group>"; };
 		1B7E1125BF90A30DDB766C22F443A5FC /* NSButton+Kingfisher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSButton+Kingfisher.swift"; path = "Sources/Extensions/NSButton+Kingfisher.swift"; sourceTree = "<group>"; };
 		1BA66ED36D5AC41F4B08DB78644C135A /* Box.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Box.swift; path = Sources/Utility/Box.swift; sourceTree = "<group>"; };
 		1BD46DA0976F11EA47D10885C12164A6 /* XYZPathKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XYZPathKit-umbrella.h"; sourceTree = "<group>"; };
@@ -323,20 +314,19 @@
 		1F3C8BDE23D90AC5C25EEB8098B99FD0 /* KingfisherOptionsInfo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KingfisherOptionsInfo.swift; path = Sources/General/KingfisherOptionsInfo.swift; sourceTree = "<group>"; };
 		204336F5FF8236228E30AB94B8685312 /* XYZPath_UIImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XYZPath_UIImage.swift; path = XYZPathKit/Source/XYZPath_UIImage.swift; sourceTree = "<group>"; };
 		23596513622B09A65B80A873B5A4DE82 /* Operators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Operators.swift; path = XYZPathKit/Source/Sources/Operators.swift; sourceTree = "<group>"; };
-		24163F4B7EE29FACB1309412EED659EF /* ResourceBundle-TLPhotoPicker-TLPhotoPicker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-TLPhotoPicker-TLPhotoPicker-Info.plist"; sourceTree = "<group>"; };
-		25FB84CD4F43412B7B72A0944FFA2506 /* ur.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = ur.lproj; path = TLPhotoPicker/ur.lproj; sourceTree = "<group>"; };
 		26D2B116B105567CE90033248ED4DC4D /* Process+FileKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Process+FileKit.swift"; path = "XYZPathKit/Source/Sources/Process+FileKit.swift"; sourceTree = "<group>"; };
 		26D3F1A891CBCBA90A53144A04E95B03 /* Kingfisher.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Kingfisher.release.xcconfig; sourceTree = "<group>"; };
 		281BB3FBB0293DA4035BA50C7D088253 /* XYZPathKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XYZPathKit.debug.xcconfig; sourceTree = "<group>"; };
-		28FEBF03C2D5B028D0C55D99B129793A /* TLPhotoPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TLPhotoPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		28FEBF03C2D5B028D0C55D99B129793A /* TLPhotoPicker */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TLPhotoPicker; path = TLPhotoPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		298EE27D7B0F6FABC0BF626530993B70 /* TLPhotosPickerViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = TLPhotosPickerViewController.xib; path = TLPhotoPicker/Classes/TLPhotosPickerViewController.xib; sourceTree = "<group>"; };
 		2BFE7B6FB3DEEEEB98A46BDDE14DC914 /* KFAnimatedImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KFAnimatedImage.swift; path = Sources/SwiftUI/KFAnimatedImage.swift; sourceTree = "<group>"; };
 		2DCC2040904E9C031691D45735114EC0 /* DateComponents+Extras.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DateComponents+Extras.swift"; path = "XYZTimeKit/Source/SwiftDate/Foundation+Extras/DateComponents+Extras.swift"; sourceTree = "<group>"; };
 		304BBE6D5114FF04874420AF24880128 /* Calendars.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Calendars.swift; path = XYZTimeKit/Source/SwiftDate/Supports/Calendars.swift; sourceTree = "<group>"; };
+		307E23E66A56EEAA0541B12E1C3089B7 /* TLPhotoPicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TLPhotoPicker-umbrella.h"; sourceTree = "<group>"; };
 		31C79F91A20A9273BE3D3B97C7B4ACCD /* JXPhotoBrowserSmoothZoomAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JXPhotoBrowserSmoothZoomAnimator.swift; path = Sources/JXPhotoBrowser/JXPhotoBrowserSmoothZoomAnimator.swift; sourceTree = "<group>"; };
 		33D3EE0A2ADDF4373A2909C170CE8199 /* ImageProcessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageProcessor.swift; path = Sources/Image/ImageProcessor.swift; sourceTree = "<group>"; };
 		340589C3246BB960976816519BD9AF4C /* XYZPathKit_ManipulatePath.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XYZPathKit_ManipulatePath.swift; path = XYZPathKit/Source/XYZPathKit_ManipulatePath.swift; sourceTree = "<group>"; };
 		3444EA7BFF86C2586F8F06CA2694732E /* ISOParser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ISOParser.swift; path = XYZTimeKit/Source/SwiftDate/Formatters/ISOParser.swift; sourceTree = "<group>"; };
-		358954EEE723174AADC2C73EE3A2B903 /* TLPhotoPicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TLPhotoPicker.modulemap; sourceTree = "<group>"; };
 		3607ABFD74267518DF4EE0646D975542 /* DotNetParserFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DotNetParserFormatter.swift; path = XYZTimeKit/Source/SwiftDate/Formatters/DotNetParserFormatter.swift; sourceTree = "<group>"; };
 		370C730405E726E8920A6D4E1B5D8D4C /* DateInRegion+Create.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DateInRegion+Create.swift"; path = "XYZTimeKit/Source/SwiftDate/DateInRegion/DateInRegion+Create.swift"; sourceTree = "<group>"; };
 		37133E48811F58598BA59FC540FE04FB /* AuthenticationChallengeResponsable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AuthenticationChallengeResponsable.swift; path = Sources/Networking/AuthenticationChallengeResponsable.swift; sourceTree = "<group>"; };
@@ -345,6 +335,7 @@
 		383CAFF1195132958AE06C543EB44071 /* FileSystemEvent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FileSystemEvent.swift; path = XYZPathKit/Source/Sources/FileSystemEvent.swift; sourceTree = "<group>"; };
 		3903B45AE4601D7CD961A381D8577FA7 /* JXPhotoBrowserCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JXPhotoBrowserCell.swift; path = Sources/JXPhotoBrowser/JXPhotoBrowserCell.swift; sourceTree = "<group>"; };
 		3967F627DA4692629A3561C3D32EBB88 /* Image.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Image.swift; path = Sources/Image/Image.swift; sourceTree = "<group>"; };
+		3988CE26B95177E1A27181257B4E5371 /* TLCollectionTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TLCollectionTableViewCell.swift; path = TLPhotoPicker/Classes/TLCollectionTableViewCell.swift; sourceTree = "<group>"; };
 		398F596B910E37568CDA64CC60F303B0 /* JXPhotoBrowserFadeAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JXPhotoBrowserFadeAnimator.swift; path = Sources/JXPhotoBrowser/JXPhotoBrowserFadeAnimator.swift; sourceTree = "<group>"; };
 		3A308E45F99B7F3FE8C7B2D06DA31FD7 /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Sources/Networking/SessionDelegate.swift; sourceTree = "<group>"; };
 		3AB9610C9E3FD411807821C58D45EEAE /* XYZTime_DateToString_ForApp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XYZTime_DateToString_ForApp.swift; path = XYZTimeKit/Source/XYZTime_DateToString_ForApp.swift; sourceTree = "<group>"; };
@@ -353,24 +344,25 @@
 		3CABD2E824BC595B415BD5B3EA4319FB /* TimePeriodGroup.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TimePeriodGroup.swift; path = XYZTimeKit/Source/SwiftDate/TimePeriod/Groups/TimePeriodGroup.swift; sourceTree = "<group>"; };
 		3DC122A23EAFEBBD7F10E66049E26E58 /* XYZTime_XYZClock.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XYZTime_XYZClock.swift; path = XYZTimeKit/Source/XYZTime_XYZClock.swift; sourceTree = "<group>"; };
 		3DE215C270CEBC405F702C0288427C83 /* JXPhotoBrowserImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JXPhotoBrowserImageView.swift; path = Sources/JXPhotoBrowser/JXPhotoBrowserImageView.swift; sourceTree = "<group>"; };
-		3E535A3A47E53C30F16FB1574AAB3CF4 /* TLPhotosPickerViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TLPhotosPickerViewController.swift; path = TLPhotoPicker/Classes/TLPhotosPickerViewController.swift; sourceTree = "<group>"; };
 		3E917DCAE5F245A8185BFA3576DF2E45 /* Pods-XYZPhotoKit-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XYZPhotoKit-acknowledgements.markdown"; sourceTree = "<group>"; };
 		3EE4F31E7D19A8DC5E711CEC5C5170F6 /* TimeInterval+Formatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "TimeInterval+Formatter.swift"; path = "XYZTimeKit/Source/SwiftDate/Foundation+Extras/TimeInterval+Formatter.swift"; sourceTree = "<group>"; };
 		3FD6703C28F64E4CA92F4DE2CD92F690 /* RelativeFormatter+Style.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "RelativeFormatter+Style.swift"; path = "XYZTimeKit/Source/SwiftDate/Formatters/RelativeFormatter/RelativeFormatter+Style.swift"; sourceTree = "<group>"; };
 		40344F660A0F65A9C2C0D323AF0A6FB7 /* SwiftDate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftDate.swift; path = XYZTimeKit/Source/SwiftDate/SwiftDate.swift; sourceTree = "<group>"; };
 		40B308AFF8FB9B03791D1F8A9AC7D33F /* Pods-XYZPhotoKit */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-XYZPhotoKit"; path = Pods_XYZPhotoKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		41DD3E85E4E85EAD7B2D2E8D303002A5 /* TLPhotoPicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TLPhotoPicker-dummy.m"; sourceTree = "<group>"; };
 		4207BEE6DFA63E5CF69828DD467E9674 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		464A1A7032BDCCC5C4F4E475DB8EFC7D /* FormatIndicatedCacheSerializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormatIndicatedCacheSerializer.swift; path = Sources/Cache/FormatIndicatedCacheSerializer.swift; sourceTree = "<group>"; };
 		46FCF6A2A5424967DC429DFD73030CD6 /* ImageDownloader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageDownloader.swift; path = Sources/Networking/ImageDownloader.swift; sourceTree = "<group>"; };
 		48881373C34609A75E36DDEE82AA8F84 /* RetryStrategy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RetryStrategy.swift; path = Sources/Networking/RetryStrategy.swift; sourceTree = "<group>"; };
 		4893EBCD04C907153BBDF6F3CCF31B3A /* DateInRegion+Compare.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DateInRegion+Compare.swift"; path = "XYZTimeKit/Source/SwiftDate/DateInRegion/DateInRegion+Compare.swift"; sourceTree = "<group>"; };
-		48ACF387126D4F6200538E8E2BD108BF /* TLPhotoPicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TLPhotoPicker-umbrella.h"; sourceTree = "<group>"; };
 		4A09346CE4EB4D7B4AD58EB6326ABE15 /* ArrayFile.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ArrayFile.swift; path = XYZPathKit/Source/Sources/ArrayFile.swift; sourceTree = "<group>"; };
 		4C82DC6FF073183908F2C650BC77A53E /* Image+FileKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Image+FileKit.swift"; path = "XYZPathKit/Source/Sources/Image+FileKit.swift"; sourceTree = "<group>"; };
 		4C9624F94CA32D4DAE2FE0ED9B4C0128 /* KF.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KF.swift; path = Sources/General/KF.swift; sourceTree = "<group>"; };
+		4E20E0B18DEF03AD79AE29CDA6BF5137 /* TLPhotoPicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TLPhotoPicker.modulemap; sourceTree = "<group>"; };
 		4E287B98E136AD77FE8401B453AFB1B8 /* Region.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Region.swift; path = XYZTimeKit/Source/SwiftDate/DateInRegion/Region.swift; sourceTree = "<group>"; };
 		4F6C39A85F4852613B97E361C1ABABF9 /* SizeExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SizeExtensions.swift; path = Sources/Utility/SizeExtensions.swift; sourceTree = "<group>"; };
 		50A94C4A74129D19D8F85659277F1A25 /* RequestModifier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestModifier.swift; path = Sources/Networking/RequestModifier.swift; sourceTree = "<group>"; };
+		522D954C543A35E315CF4284922E52E7 /* TLPhotoPicker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TLPhotoPicker-Info.plist"; sourceTree = "<group>"; };
 		5239BCA648ABB57F374B3D47F3CCC0BB /* ISOFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ISOFormatter.swift; path = XYZTimeKit/Source/SwiftDate/Formatters/ISOFormatter.swift; sourceTree = "<group>"; };
 		52522E00439F0B3DD9D2B98EE3ED63BA /* Kingfisher.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Kingfisher.modulemap; sourceTree = "<group>"; };
 		52554E1C9731D5352FDE9E63F8C5466B /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Accelerate.framework; sourceTree = DEVELOPER_DIR; };
@@ -389,16 +381,15 @@
 		5C6B02F454203FC5B6A65F3B931D9123 /* XYZTimeKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XYZTimeKit.swift; path = XYZTimeKit/Source/XYZTimeKit.swift; sourceTree = "<group>"; };
 		5D980F46C345858B80B0148D77D1CDA3 /* XYZTimeKit_XYZDate_DateToString.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XYZTimeKit_XYZDate_DateToString.swift; path = XYZTimeKit/Source/XYZTimeKit_XYZDate_DateToString.swift; sourceTree = "<group>"; };
 		5DA05E6CDC88E4D151AD4F467A9ADBC7 /* Filter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Filter.swift; path = Sources/Image/Filter.swift; sourceTree = "<group>"; };
-		5E1DA3900C2132F3E29AB06523FB2F8A /* TLPhotoPicker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TLPhotoPicker-Info.plist"; sourceTree = "<group>"; };
 		5FC50C3B1AB9042D722C61C8CC3423DC /* Indicator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Indicator.swift; path = Sources/Views/Indicator.swift; sourceTree = "<group>"; };
-		60AD459ECE2035D93812B6FB6910A7DA /* or.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = or.lproj; path = TLPhotoPicker/or.lproj; sourceTree = "<group>"; };
 		618F0ED67DA48261BEED60CA0BCE63A4 /* JXPhotoBrowser-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JXPhotoBrowser-prefix.pch"; sourceTree = "<group>"; };
 		61B97066C2217440ED539575CBEACC57 /* JXPhotoBrowser-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JXPhotoBrowser-umbrella.h"; sourceTree = "<group>"; };
-		6347A09DB3E01A42BC9E6D4560B9E979 /* pa.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = pa.lproj; path = TLPhotoPicker/pa.lproj; sourceTree = "<group>"; };
 		65D163CECD184F18397A67645883095F /* XYZPathKit_URL_Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XYZPathKit_URL_Extension.swift; path = XYZPathKit/Source/XYZPathKit_URL_Extension.swift; sourceTree = "<group>"; };
+		661D85B14053192B6706929B0869C0C9 /* TLPhotoPicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TLPhotoPicker-prefix.pch"; sourceTree = "<group>"; };
 		66DAAF845EC49EF1EB1914D7BDBE8D45 /* AssociatedValues.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AssociatedValues.swift; path = XYZTimeKit/Source/SwiftDate/Supports/AssociatedValues.swift; sourceTree = "<group>"; };
 		670C3BC0C7B76E6C798A041DD10F830D /* Date+Math.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Date+Math.swift"; path = "XYZTimeKit/Source/SwiftDate/Date/Date+Math.swift"; sourceTree = "<group>"; };
 		68B25E43F58BFBE3773B204E6998236E /* XYZTimeKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "XYZTimeKit-Info.plist"; sourceTree = "<group>"; };
+		6B6F0AF19DB31F1BC359773F8D66B510 /* TLPhotoLibrary.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TLPhotoLibrary.swift; path = TLPhotoPicker/Classes/TLPhotoLibrary.swift; sourceTree = "<group>"; };
 		6BA81186804EF94FF1AA5A18C42DB7C4 /* KFImageOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KFImageOptions.swift; path = Sources/SwiftUI/KFImageOptions.swift; sourceTree = "<group>"; };
 		6DB9E884A6E9D2D84ED7FDA40C45C58E /* Date+Components.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Date+Components.swift"; path = "XYZTimeKit/Source/SwiftDate/Date/Date+Components.swift"; sourceTree = "<group>"; };
 		6EBBAE9ADFF1E23DB56A2539315095D6 /* Int+DateComponents.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Int+DateComponents.swift"; path = "XYZTimeKit/Source/SwiftDate/Foundation+Extras/Int+DateComponents.swift"; sourceTree = "<group>"; };
@@ -406,63 +397,56 @@
 		7140A4B4E0D2598F1AF8EBBE33280131 /* Kingfisher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Kingfisher.swift; path = Sources/General/Kingfisher.swift; sourceTree = "<group>"; };
 		73E823F908E65A8801E181FFB2316D9A /* JXPhotoBrowser.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JXPhotoBrowser.release.xcconfig; sourceTree = "<group>"; };
 		743904A32F60CB7D4760BA9A926FCBD4 /* XYZPathKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XYZPathKit.release.xcconfig; sourceTree = "<group>"; };
-		7502F155A2A8F86E4C508AF2683F30B0 /* en.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = en.lproj; path = TLPhotoPicker/en.lproj; sourceTree = "<group>"; };
 		753B9F6AF1D5BEA90D31AEF8A43DB413 /* FileSystemEventStream.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FileSystemEventStream.swift; path = XYZPathKit/Source/Sources/FileSystemEventStream.swift; sourceTree = "<group>"; };
 		769EA5E0E9AB551F84814DEC4E39B1BC /* Data+FileKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Data+FileKit.swift"; path = "XYZPathKit/Source/Sources/Data+FileKit.swift"; sourceTree = "<group>"; };
 		7779905E97A1A615A911E56B48C7EFCB /* XYZPathKit_Bundle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XYZPathKit_Bundle.swift; path = XYZPathKit/Source/XYZPathKit_Bundle.swift; sourceTree = "<group>"; };
 		77B7D9E3DB773AE2BCC949D74B34DD00 /* Pods-XYZPhotoKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XYZPhotoKit.debug.xcconfig"; sourceTree = "<group>"; };
 		795F2BE69DAD6A1ED928468AD9D33151 /* CacheSerializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CacheSerializer.swift; path = Sources/Cache/CacheSerializer.swift; sourceTree = "<group>"; };
+		7EDDEA24D91B554105EF93650860BC4E /* TLPhotosPickerViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TLPhotosPickerViewController.swift; path = TLPhotoPicker/Classes/TLPhotosPickerViewController.swift; sourceTree = "<group>"; };
 		7F1B9F3E5E78DBFE41B24B0D9B239B02 /* Pods-XYZPhotoKit-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XYZPhotoKit-frameworks.sh"; sourceTree = "<group>"; };
-		7F74E682AA3AB18FF8272A8CC4536B1A /* TLPhotosPickerViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = TLPhotosPickerViewController.xib; path = TLPhotoPicker/Classes/TLPhotosPickerViewController.xib; sourceTree = "<group>"; };
 		8037A337250E339EEC0C74F5C82009CF /* String+FileKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+FileKit.swift"; path = "XYZPathKit/Source/Sources/String+FileKit.swift"; sourceTree = "<group>"; };
 		81CBAD068AF0FDF948D10459A040122C /* ExtensionHelpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExtensionHelpers.swift; path = Sources/Utility/ExtensionHelpers.swift; sourceTree = "<group>"; };
-		86661D260ADE01B6C15195821AC8303A /* TLPhotoCollectionViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TLPhotoCollectionViewCell.swift; path = TLPhotoPicker/Classes/TLPhotoCollectionViewCell.swift; sourceTree = "<group>"; };
 		8674F0D23148A8FD8FBC1388E7F3A1F1 /* ImageDownloaderDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageDownloaderDelegate.swift; path = Sources/Networking/ImageDownloaderDelegate.swift; sourceTree = "<group>"; };
-		86D5925D013DD189414CF39643843CFC /* TLPhotoCollectionViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = TLPhotoCollectionViewCell.xib; path = TLPhotoPicker/Classes/TLPhotoCollectionViewCell.xib; sourceTree = "<group>"; };
 		872D7EFA572ECEE8EF993C27196E16DD /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
 		8823D68303268C2EE255E3E481E30DCA /* DispatchEvent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DispatchEvent.swift; path = XYZPathKit/Source/Sources/DispatchEvent.swift; sourceTree = "<group>"; };
 		8854FE45D97500F2F2968818798A8485 /* NSArray+FileKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSArray+FileKit.swift"; path = "XYZPathKit/Source/Sources/NSArray+FileKit.swift"; sourceTree = "<group>"; };
 		88BCB18877A77F7182E56848182DAA3D /* Source.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Source.swift; path = Sources/General/ImageSource/Source.swift; sourceTree = "<group>"; };
 		8A9A32E827DD5D94893E41CE29061D75 /* DateInRegion+Components.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DateInRegion+Components.swift"; path = "XYZTimeKit/Source/SwiftDate/DateInRegion/DateInRegion+Components.swift"; sourceTree = "<group>"; };
 		8ACC579E269E70042A701B03DD170E42 /* Locales.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Locales.swift; path = XYZTimeKit/Source/SwiftDate/Supports/Locales.swift; sourceTree = "<group>"; };
+		8D2E2C64B75C213595E254DA620068E8 /* TLAssetCollection+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "TLAssetCollection+Extension.swift"; path = "TLPhotoPicker/Classes/TLAssetCollection+Extension.swift"; sourceTree = "<group>"; };
 		8D9355994B28E7911D6AACF664722C07 /* Kingfisher.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Kingfisher.debug.xcconfig; sourceTree = "<group>"; };
-		8EBC2938341613BE88519FAB7087FF5B /* SynchronizedDictionary.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SynchronizedDictionary.swift; path = TLPhotoPicker/Classes/SynchronizedDictionary.swift; sourceTree = "<group>"; };
 		92ECF6560F9991F90FA6506027A456B5 /* JXPhotoBrowser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JXPhotoBrowser.swift; path = Sources/JXPhotoBrowser/JXPhotoBrowser.swift; sourceTree = "<group>"; };
 		9357320BAAE54DB1F1D9ECFB8E009EEB /* AVAssetImageDataProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AVAssetImageDataProvider.swift; path = Sources/General/ImageSource/AVAssetImageDataProvider.swift; sourceTree = "<group>"; };
+		936AEB3483C94C382BF6DF97C62DFDE3 /* TLPhotoPicker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TLPhotoPicker.debug.xcconfig; sourceTree = "<group>"; };
 		9446B356170005ABABCF7B5EB4ED7FDE /* DataFile.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DataFile.swift; path = XYZPathKit/Source/Sources/DataFile.swift; sourceTree = "<group>"; };
 		95C05C2A472A48ADC157D2455DD08231 /* XYZTime_XYZDate_FromString.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XYZTime_XYZDate_FromString.swift; path = XYZTimeKit/Source/XYZTime_XYZDate_FromString.swift; sourceTree = "<group>"; };
 		96AA30D6D16AFE14E57A0E4A1F441A11 /* ImageFormat.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageFormat.swift; path = Sources/Image/ImageFormat.swift; sourceTree = "<group>"; };
+		98FF6F9C601732AF9C643A60B4587A1E /* TLPhotoCollectionViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = TLPhotoCollectionViewCell.xib; path = TLPhotoPicker/Classes/TLPhotoCollectionViewCell.xib; sourceTree = "<group>"; };
 		9A7FF77154B805C9270AD6F905CD69E4 /* XYZPath_JudgeFileType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XYZPath_JudgeFileType.swift; path = XYZPathKit/Source/XYZPath_JudgeFileType.swift; sourceTree = "<group>"; };
 		9AB1934C2D20B0EB6F838118DD726C7A /* XYZPathKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XYZPathKit.modulemap; sourceTree = "<group>"; };
-		9BE0F2FFC23A3790ABE2CFCC2FA47B21 /* bn.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = bn.lproj; path = TLPhotoPicker/bn.lproj; sourceTree = "<group>"; };
 		9D0FC399645B483256E22A9E9A2CC6DB /* Resource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Resource.swift; path = Sources/General/ImageSource/Resource.swift; sourceTree = "<group>"; };
 		9D0FCF27D7215E37BE9E324A99F9F52F /* JXPhotoBrowserImageCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JXPhotoBrowserImageCell.swift; path = Sources/JXPhotoBrowser/JXPhotoBrowserImageCell.swift; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E26F1E87C29A8B85C18B269C3A6334D /* JXPhotoBrowserZoomSupportedCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JXPhotoBrowserZoomSupportedCell.swift; path = Sources/JXPhotoBrowser/JXPhotoBrowserZoomSupportedCell.swift; sourceTree = "<group>"; };
-		9E77E9E16D13933EC18F8E55D2D8D28A /* TLPhotoPickerController.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = TLPhotoPickerController.bundle; path = TLPhotoPicker/TLPhotoPickerController.bundle; sourceTree = "<group>"; };
 		A1D8BF860120821BAC32D8423394D02E /* MemoryStorage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MemoryStorage.swift; path = Sources/Cache/MemoryStorage.swift; sourceTree = "<group>"; };
 		A236D190069B816E30AF12CE3DA9D8B2 /* JXPhotoBrowser.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JXPhotoBrowser.debug.xcconfig; sourceTree = "<group>"; };
 		A30BADDF2A63378293B2AD3AD0270367 /* Commons.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Commons.swift; path = XYZTimeKit/Source/SwiftDate/Supports/Commons.swift; sourceTree = "<group>"; };
-		A39FF14A3645C728C0FB2E88681115CD /* TLPhotoPicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TLPhotoPicker-prefix.pch"; sourceTree = "<group>"; };
 		A40F0FE63D95B42CD41B4A8918FE9553 /* DateInRegion+Math.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DateInRegion+Math.swift"; path = "XYZTimeKit/Source/SwiftDate/DateInRegion/DateInRegion+Math.swift"; sourceTree = "<group>"; };
 		A581AAC1E0438750243B675BD83FEA86 /* ImageContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageContext.swift; path = Sources/SwiftUI/ImageContext.swift; sourceTree = "<group>"; };
-		A696A5F01323463658A725C17A79F562 /* hi.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = hi.lproj; path = TLPhotoPicker/hi.lproj; sourceTree = "<group>"; };
 		A734C26897944DD29C561661B3A10147 /* ImageView+Kingfisher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ImageView+Kingfisher.swift"; path = "Sources/Extensions/ImageView+Kingfisher.swift"; sourceTree = "<group>"; };
 		A815C7CA28175C331B7083B58E8A4DF3 /* Pods-XYZPhotoKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XYZPhotoKit-Info.plist"; sourceTree = "<group>"; };
 		A8CE80F820E606A6E546075C7F048DE2 /* JXPhotoBrowser-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JXPhotoBrowser-Info.plist"; sourceTree = "<group>"; };
-		AB7ED19E2AD6C999A9E590C51C3E4435 /* TLPhotopickerDataSourcesProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TLPhotopickerDataSourcesProtocol.swift; path = TLPhotoPicker/Classes/TLPhotopickerDataSourcesProtocol.swift; sourceTree = "<group>"; };
 		AC14B678721F1CFEFFF0F8772664DBCD /* Kingfisher-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Kingfisher-umbrella.h"; sourceTree = "<group>"; };
 		ACBD81F76F0621CFA67611F38DF9AFCC /* SessionDataTask.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDataTask.swift; path = Sources/Networking/SessionDataTask.swift; sourceTree = "<group>"; };
 		ADE7188A83811F924E8705B193CEEE47 /* ImageBinder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageBinder.swift; path = Sources/SwiftUI/ImageBinder.swift; sourceTree = "<group>"; };
 		AE46F72986F310CC3EA816139019E411 /* FileSystemWatcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FileSystemWatcher.swift; path = XYZPathKit/Source/Sources/FileSystemWatcher.swift; sourceTree = "<group>"; };
 		AF38363BB9EA6F4E605453627AFB336F /* XYZPath_XYZString.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XYZPath_XYZString.swift; path = XYZPathKit/Source/XYZPath_XYZString.swift; sourceTree = "<group>"; };
+		AF72D6600772875B766CF124BC07CF69 /* ResourceBundle-TLPhotoPicker-TLPhotoPicker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-TLPhotoPicker-TLPhotoPicker-Info.plist"; sourceTree = "<group>"; };
 		AFE0A13ADACA858268E60A6CE90431F3 /* Kingfisher-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Kingfisher-dummy.m"; sourceTree = "<group>"; };
-		AFE90D18BAF6CD57EE6AB2AC3A839C2B /* TLPhotoPicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TLPhotoPicker-dummy.m"; sourceTree = "<group>"; };
 		B1ABB134C351DAC29B67B86B32857DD7 /* FileKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FileKit.swift; path = XYZPathKit/Source/Sources/FileKit.swift; sourceTree = "<group>"; };
 		B385429BDEB28895D4FD58A425606D82 /* TVMonogramView+Kingfisher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "TVMonogramView+Kingfisher.swift"; path = "Sources/Extensions/TVMonogramView+Kingfisher.swift"; sourceTree = "<group>"; };
 		B4350D76D2A55298C17B32429DB720FB /* JXPhotoBrowserDefaultPageIndicator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JXPhotoBrowserDefaultPageIndicator.swift; path = Sources/JXPhotoBrowser/JXPhotoBrowserDefaultPageIndicator.swift; sourceTree = "<group>"; };
 		B46380DE27D506D96450294F00C41180 /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Sources/Utility/Result.swift; sourceTree = "<group>"; };
-		B4D3DE8A86C9B45F733E48A9E74DCCC6 /* es.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = es.lproj; path = TLPhotoPicker/es.lproj; sourceTree = "<group>"; };
 		B587A00FAF9AF360389DC7AF9EB97939 /* Date+Compare.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Date+Compare.swift"; path = "XYZTimeKit/Source/SwiftDate/Date/Date+Compare.swift"; sourceTree = "<group>"; };
 		B5D24FD1894D339AAB41A0A674927154 /* JXPhotoBrowserLog.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JXPhotoBrowserLog.swift; path = Sources/JXPhotoBrowser/JXPhotoBrowserLog.swift; sourceTree = "<group>"; };
 		B7B83CE6E234A53A84D0C150BEA4DB5C /* XYZTimeKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XYZTimeKit.release.xcconfig; sourceTree = "<group>"; };
@@ -470,29 +454,31 @@
 		B924115D0CC66DC58784FE8F5FF60C33 /* Bundle+FileKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Bundle+FileKit.swift"; path = "XYZPathKit/Source/Sources/Bundle+FileKit.swift"; sourceTree = "<group>"; };
 		B9A0D0D87001D7F775DD60CB32E7B1C9 /* XYZTimeKit */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = XYZTimeKit; path = XYZTimeKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA3EA5CA68E4E2B63E41A7DA6715D89D /* ImageModifier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageModifier.swift; path = Sources/Networking/ImageModifier.swift; sourceTree = "<group>"; };
+		BB0903BFC8BC2C3EC71F030D27DE5974 /* TLPhotopickerDataSourcesProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TLPhotopickerDataSourcesProtocol.swift; path = TLPhotoPicker/Classes/TLPhotopickerDataSourcesProtocol.swift; sourceTree = "<group>"; };
 		BBFB8E786A41FA67B4F0107679DB7D10 /* GIFAnimatedImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GIFAnimatedImage.swift; path = Sources/Image/GIFAnimatedImage.swift; sourceTree = "<group>"; };
+		BC41DB33EF00E4EB2A5B91D38F0EE27E /* TLAlbumPopView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TLAlbumPopView.swift; path = TLPhotoPicker/Classes/TLAlbumPopView.swift; sourceTree = "<group>"; };
 		BCEA0D875185ACC9D323A21AC3D2E2B7 /* JXPhotoBrowser-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JXPhotoBrowser-dummy.m"; sourceTree = "<group>"; };
 		C00FD6B018075123D3E0163F0F63E21B /* RedirectHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RedirectHandler.swift; path = Sources/Networking/RedirectHandler.swift; sourceTree = "<group>"; };
 		C0984AED8E9B0A3888945BF92017E677 /* CPListItem+Kingfisher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CPListItem+Kingfisher.swift"; path = "Sources/Extensions/CPListItem+Kingfisher.swift"; sourceTree = "<group>"; };
 		C141CB22AA3711819F832E660F53CCB5 /* Runtime.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Runtime.swift; path = Sources/Utility/Runtime.swift; sourceTree = "<group>"; };
 		C19518F6678F2626F8B810FC7C59F7A8 /* XYZTime_SeparateDate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XYZTime_SeparateDate.swift; path = XYZTimeKit/Source/XYZTime_SeparateDate.swift; sourceTree = "<group>"; };
-		C19E2DE61E41F08B04D1AB27E4AF081F /* ne.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = ne.lproj; path = TLPhotoPicker/ne.lproj; sourceTree = "<group>"; };
-		C1DA1EF1E9184DB17D827253D5421266 /* TLAlbumPopView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TLAlbumPopView.swift; path = TLPhotoPicker/Classes/TLAlbumPopView.swift; sourceTree = "<group>"; };
 		C313B54FFC28E41D412D90D6A60D5C49 /* DateInRegion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DateInRegion.swift; path = XYZTimeKit/Source/SwiftDate/DateInRegion/DateInRegion.swift; sourceTree = "<group>"; };
 		C338C0810720D495C4C88305B46EF553 /* XYZTime_XYZDate_CountDays.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XYZTime_XYZDate_CountDays.swift; path = XYZTimeKit/Source/XYZTime_XYZDate_CountDays.swift; sourceTree = "<group>"; };
-		C3F44C782D64D7EB20B61CE3844EBFAD /* Kingfisher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Kingfisher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3F44C782D64D7EB20B61CE3844EBFAD /* Kingfisher */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Kingfisher; path = Kingfisher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C426522E36E9818AA1342FA52E784191 /* TLCollectionTableViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = TLCollectionTableViewCell.xib; path = TLPhotoPicker/Classes/TLCollectionTableViewCell.xib; sourceTree = "<group>"; };
 		C441C965F72956EB275D4B7C5BCBCA54 /* XYZPath_UIDocumentBrowser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XYZPath_UIDocumentBrowser.swift; path = XYZPathKit/Source/XYZPath_UIDocumentBrowser.swift; sourceTree = "<group>"; };
 		C50FB2CB54DBD3FE7698FD9CE446BF9E /* TextFile.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextFile.swift; path = XYZPathKit/Source/Sources/TextFile.swift; sourceTree = "<group>"; };
 		C5BBF8D5CA6B6BAA25CBD886C0B332C2 /* Pods-XYZPhotoKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XYZPhotoKit.modulemap"; sourceTree = "<group>"; };
 		C803CF25A1D703E544647EA81FB4070F /* DispatchWatcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DispatchWatcher.swift; path = XYZPathKit/Source/Sources/DispatchWatcher.swift; sourceTree = "<group>"; };
-		C8C6E1BE6D4ADFD0CEC50AE8305BF3CD /* TLPhotoPicker.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TLPhotoPicker.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8C6E1BE6D4ADFD0CEC50AE8305BF3CD /* TLPhotoPicker-TLPhotoPicker */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "TLPhotoPicker-TLPhotoPicker"; path = TLPhotoPicker.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8EDDAF072C849BDEA56201A76ED71E8 /* Pods-XYZPhotoKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XYZPhotoKit-dummy.m"; sourceTree = "<group>"; };
 		C900F350DB7E3E6230A0664FF3A06E18 /* UIButton+Kingfisher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIButton+Kingfisher.swift"; path = "Sources/Extensions/UIButton+Kingfisher.swift"; sourceTree = "<group>"; };
 		CA9659026855F72CF540B66D0C494C6F /* NSTextAttachment+Kingfisher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSTextAttachment+Kingfisher.swift"; path = "Sources/Extensions/NSTextAttachment+Kingfisher.swift"; sourceTree = "<group>"; };
 		CB584D128355A11673C5B6B82EEEB971 /* FileProtection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FileProtection.swift; path = XYZPathKit/Source/Sources/FileProtection.swift; sourceTree = "<group>"; };
 		CBAC1DAC90D96B3157DA313AA30746B0 /* Zones.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Zones.swift; path = XYZTimeKit/Source/SwiftDate/Supports/Zones.swift; sourceTree = "<group>"; };
 		CBD0C20D631C26FEB224A5C2F7679C6B /* JSONType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JSONType.swift; path = XYZPathKit/Source/Sources/JSONType.swift; sourceTree = "<group>"; };
-		D03BA9D2FFA8617C872429FE6ABB4730 /* TLPhotoLibrary.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TLPhotoLibrary.swift; path = TLPhotoPicker/Classes/TLPhotoLibrary.swift; sourceTree = "<group>"; };
+		CBF1B31AC029D21772422396ECB54F8F /* TLAssetPreviewViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TLAssetPreviewViewController.swift; path = TLPhotoPicker/Classes/TLAssetPreviewViewController.swift; sourceTree = "<group>"; };
+		CF160DF9B52F81D430528EB2866D49EA /* TLPhotoPickerController.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = TLPhotoPickerController.bundle; path = TLPhotoPicker/TLPhotoPickerController.bundle; sourceTree = "<group>"; };
 		D097991569E46232C8AE03D8E20F5B1A /* DataType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DataType.swift; path = XYZPathKit/Source/Sources/DataType.swift; sourceTree = "<group>"; };
 		D0CCF410D0080BE25C7AACE9CFE8F75C /* RelativeFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RelativeFormatter.swift; path = XYZTimeKit/Source/SwiftDate/Formatters/RelativeFormatter/RelativeFormatter.swift; sourceTree = "<group>"; };
 		D1E4923CE35CC53E4488CEB9B0A8C021 /* Pods-XYZPhotoKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XYZPhotoKit-umbrella.h"; sourceTree = "<group>"; };
@@ -501,6 +487,7 @@
 		D5604780E685CE9081358A46A0F4D7F7 /* JXPhotoBrowserZoomAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JXPhotoBrowserZoomAnimator.swift; path = Sources/JXPhotoBrowser/JXPhotoBrowserZoomAnimator.swift; sourceTree = "<group>"; };
 		D5B33A9604BC588B3D83D670CDFDFB62 /* XYZTimeKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XYZTimeKit.modulemap; sourceTree = "<group>"; };
 		D6703E205D3591BC3099953F32D98E6F /* TimePeriodChain.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TimePeriodChain.swift; path = XYZTimeKit/Source/SwiftDate/TimePeriod/Groups/TimePeriodChain.swift; sourceTree = "<group>"; };
+		D7925B12B7E9C1943DF323A14B08DF6B /* TLBundle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TLBundle.swift; path = TLPhotoPicker/Classes/TLBundle.swift; sourceTree = "<group>"; };
 		D7F29A264993EBD811AE96C7015C932C /* KingfisherManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KingfisherManager.swift; path = Sources/General/KingfisherManager.swift; sourceTree = "<group>"; };
 		D82BAF6ABF2F11D82BD4C5B0ED2EFCB1 /* RelativePathType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RelativePathType.swift; path = XYZPathKit/Source/Sources/RelativePathType.swift; sourceTree = "<group>"; };
 		DA155209CF569EF3A2C1CB685F771129 /* NSString+FileKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSString+FileKit.swift"; path = "XYZPathKit/Source/Sources/NSString+FileKit.swift"; sourceTree = "<group>"; };
@@ -510,7 +497,6 @@
 		DF9E51FD2B9ACE975F6E3FAB368D6123 /* JXPhotoBrowserNoneAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JXPhotoBrowserNoneAnimator.swift; path = Sources/JXPhotoBrowser/JXPhotoBrowserNoneAnimator.swift; sourceTree = "<group>"; };
 		E083D1E5D2974BC671D0F88CB63990E5 /* Date+Create.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Date+Create.swift"; path = "XYZTimeKit/Source/SwiftDate/Date/Date+Create.swift"; sourceTree = "<group>"; };
 		E0F08F6212A51D37267A2A74C4BC52A0 /* XYZPath_XYZMusic.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XYZPath_XYZMusic.swift; path = XYZPathKit/Source/XYZPath_XYZMusic.swift; sourceTree = "<group>"; };
-		E1CB071484FFB4EC06B4D36A1C07C718 /* TLPhotoPicker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TLPhotoPicker.release.xcconfig; sourceTree = "<group>"; };
 		E258F1373FA372E24B26C5C36B079B07 /* XYZPathKit_UserDevicePath.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XYZPathKit_UserDevicePath.swift; path = XYZPathKit/Source/XYZPathKit_UserDevicePath.swift; sourceTree = "<group>"; };
 		E25E0427AAEFD2326D588319EB82BA95 /* MusicDate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MusicDate.swift; path = XYZTimeKit/Source/MusicDate.swift; sourceTree = "<group>"; };
 		E42B508C12E1BFC88C52B1ABECC02D47 /* TimePeriodProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TimePeriodProtocol.swift; path = XYZTimeKit/Source/SwiftDate/TimePeriod/TimePeriodProtocol.swift; sourceTree = "<group>"; };
@@ -520,16 +506,14 @@
 		E730EFB5B2D891AADA2B6234AF9D11BD /* Delegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Delegate.swift; path = Sources/Utility/Delegate.swift; sourceTree = "<group>"; };
 		EA08B12B9006DA9FEF9849F1C9112A7F /* GraphicsContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GraphicsContext.swift; path = Sources/Image/GraphicsContext.swift; sourceTree = "<group>"; };
 		EA65A8955409B0C736F6368922AB132A /* Storage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Storage.swift; path = Sources/Cache/Storage.swift; sourceTree = "<group>"; };
+		EC6E4A436A26DF7C65E04874A51F2362 /* SynchronizedDictionary.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SynchronizedDictionary.swift; path = TLPhotoPicker/Classes/SynchronizedDictionary.swift; sourceTree = "<group>"; };
+		ED80FEA9D5429F99A7EDE253CEBF0450 /* TLPhotoPicker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TLPhotoPicker.release.xcconfig; sourceTree = "<group>"; };
 		EDC49C3BCA5E748DCF3E98C6E61515CD /* Placeholder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Placeholder.swift; path = Sources/Image/Placeholder.swift; sourceTree = "<group>"; };
-		EE73DF9C7E07324915FC043F22B0522B /* TLPhotoPicker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TLPhotoPicker.debug.xcconfig; sourceTree = "<group>"; };
 		EE982EBA2142BE57AE36EA423FB1EE7B /* KingfisherError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KingfisherError.swift; path = Sources/General/KingfisherError.swift; sourceTree = "<group>"; };
 		EFACB02D973FC210C0C889847F376CA3 /* TimePeriod.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TimePeriod.swift; path = XYZTimeKit/Source/SwiftDate/TimePeriod/TimePeriod.swift; sourceTree = "<group>"; };
 		F11FF0267ABB3CD2A11CFD469CC743BF /* TimePeriod+Support.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "TimePeriod+Support.swift"; path = "XYZTimeKit/Source/SwiftDate/TimePeriod/TimePeriod+Support.swift"; sourceTree = "<group>"; };
 		F17E16B10081CF713DE5F4525FE49F32 /* XYZPathKit */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = XYZPathKit; path = XYZPathKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F5163DD52C10A12AC957495BA025C354 /* TLBundle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TLBundle.swift; path = TLPhotoPicker/Classes/TLBundle.swift; sourceTree = "<group>"; };
-		F541C76C7EC5FD785838F40B868F6AE6 /* TLCollectionTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TLCollectionTableViewCell.swift; path = TLPhotoPicker/Classes/TLCollectionTableViewCell.swift; sourceTree = "<group>"; };
 		F7D406DD65814581759513CD81FD8EF4 /* XYZPathKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XYZPathKit-prefix.pch"; sourceTree = "<group>"; };
-		F7EAADF6B932F2DB0EB88B4E374CE318 /* TLAssetPreviewViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TLAssetPreviewViewController.swift; path = TLPhotoPicker/Classes/TLAssetPreviewViewController.swift; sourceTree = "<group>"; };
 		F9E0FA6F276F26B9D9E9C20BF36B2260 /* XYZPathKit_XYZFIle_Ex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XYZPathKit_XYZFIle_Ex.swift; path = XYZPathKit/Source/XYZPathKit_XYZFIle_Ex.swift; sourceTree = "<group>"; };
 		FC408B0F028E072C47F11E73F8CB82E3 /* FileType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FileType.swift; path = XYZPathKit/Source/Sources/FileType.swift; sourceTree = "<group>"; };
 		FD24FA51F22CCE66DF7AA895970F2181 /* CallbackQueue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CallbackQueue.swift; path = Sources/Utility/CallbackQueue.swift; sourceTree = "<group>"; };
@@ -540,18 +524,19 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2F661CD08666795B0640565E66CF1500 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		364E03A0F826FFE05801D9B8D323FDB1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				0506D3D941895D78CD74358AA59BF1A5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AFF1101FCDDFC4098B057AF8A235AA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E64CAC7DDFAE1E91E5E9392899FC602 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -573,11 +558,10 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BD3C7C1D7EBD01AF6B560259A91B5AC5 /* Frameworks */ = {
+		9F752C63ED4CB8DEC77D46DA3624F69C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A7CC2C913190C4E532EBDEEB25E2DD89 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -608,6 +592,17 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		1A1611278FD98044D4CD999DF5BBE3A1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C426522E36E9818AA1342FA52E784191 /* TLCollectionTableViewCell.xib */,
+				98FF6F9C601732AF9C643A60B4587A1E /* TLPhotoCollectionViewCell.xib */,
+				CF160DF9B52F81D430528EB2866D49EA /* TLPhotoPickerController.bundle */,
+				298EE27D7B0F6FABC0BF626530993B70 /* TLPhotosPickerViewController.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		2581758EFC92DB141CB63EA86824EFAF /* JXPhotoBrowser */ = {
 			isa = PBXGroup;
 			children = (
@@ -628,6 +623,7 @@
 				9E26F1E87C29A8B85C18B269C3A6334D /* JXPhotoBrowserZoomSupportedCell.swift */,
 				9F5B38FB29934860206234F55485E2EC /* Support Files */,
 			);
+			name = JXPhotoBrowser;
 			path = JXPhotoBrowser;
 			sourceTree = "<group>";
 		};
@@ -648,28 +644,12 @@
 			path = "Target Support Files/Pods-XYZPhotoKit";
 			sourceTree = "<group>";
 		};
-		31561013BCFCB32DBEDB8F534949BE3E /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				24163F4B7EE29FACB1309412EED659EF /* ResourceBundle-TLPhotoPicker-TLPhotoPicker-Info.plist */,
-				358954EEE723174AADC2C73EE3A2B903 /* TLPhotoPicker.modulemap */,
-				AFE90D18BAF6CD57EE6AB2AC3A839C2B /* TLPhotoPicker-dummy.m */,
-				5E1DA3900C2132F3E29AB06523FB2F8A /* TLPhotoPicker-Info.plist */,
-				A39FF14A3645C728C0FB2E88681115CD /* TLPhotoPicker-prefix.pch */,
-				48ACF387126D4F6200538E8E2BD108BF /* TLPhotoPicker-umbrella.h */,
-				EE73DF9C7E07324915FC043F22B0522B /* TLPhotoPicker.debug.xcconfig */,
-				E1CB071484FFB4EC06B4D36A1C07C718 /* TLPhotoPicker.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/TLPhotoPicker";
-			sourceTree = "<group>";
-		};
 		3E18F543E09DDC697A56B5FC3511C0B4 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
 				2581758EFC92DB141CB63EA86824EFAF /* JXPhotoBrowser */,
 				8F96E0B72CA03EC6B3671A38F7C7AD3B /* Kingfisher */,
-				CA39164ECC3C6DACC426B122228B30C0 /* TLPhotoPicker */,
+				8AEADEAD5BF42D4D3D51EE52BF49619B /* TLPhotoPicker */,
 				F1B9EB9219BE38B03F063346E27DC273 /* XYZPathKit */,
 				D4F60EEEEEEB39B674D35ACDFCA791D8 /* XYZTimeKit */,
 			);
@@ -699,6 +679,27 @@
 				4207BEE6DFA63E5CF69828DD467E9674 /* Foundation.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		8AEADEAD5BF42D4D3D51EE52BF49619B /* TLPhotoPicker */ = {
+			isa = PBXGroup;
+			children = (
+				EC6E4A436A26DF7C65E04874A51F2362 /* SynchronizedDictionary.swift */,
+				BC41DB33EF00E4EB2A5B91D38F0EE27E /* TLAlbumPopView.swift */,
+				8D2E2C64B75C213595E254DA620068E8 /* TLAssetCollection+Extension.swift */,
+				CBF1B31AC029D21772422396ECB54F8F /* TLAssetPreviewViewController.swift */,
+				10E59ACD704A7E26B20B3A336442FA79 /* TLAssetsCollection.swift */,
+				D7925B12B7E9C1943DF323A14B08DF6B /* TLBundle.swift */,
+				3988CE26B95177E1A27181257B4E5371 /* TLCollectionTableViewCell.swift */,
+				06AD707D05AC9050E5E3DA5275499707 /* TLPhotoCollectionViewCell.swift */,
+				6B6F0AF19DB31F1BC359773F8D66B510 /* TLPhotoLibrary.swift */,
+				BB0903BFC8BC2C3EC71F030D27DE5974 /* TLPhotopickerDataSourcesProtocol.swift */,
+				7EDDEA24D91B554105EF93650860BC4E /* TLPhotosPickerViewController.swift */,
+				1A1611278FD98044D4CD999DF5BBE3A1 /* Resources */,
+				AFAC9350013C819A172577941F6F3BA9 /* Support Files */,
+			);
+			name = TLPhotoPicker;
+			path = TLPhotoPicker;
 			sourceTree = "<group>";
 		};
 		8F96E0B72CA03EC6B3671A38F7C7AD3B /* Kingfisher */ = {
@@ -767,6 +768,7 @@
 				DAFD2D57531D3959FBAB473564335DBB /* WKInterfaceImage+Kingfisher.swift */,
 				58B834AFA1CE1FDE9C26168FAD72FD3D /* Support Files */,
 			);
+			name = Kingfisher;
 			path = Kingfisher;
 			sourceTree = "<group>";
 		};
@@ -785,24 +787,20 @@
 			path = "../Target Support Files/JXPhotoBrowser";
 			sourceTree = "<group>";
 		};
-		CA39164ECC3C6DACC426B122228B30C0 /* TLPhotoPicker */ = {
+		AFAC9350013C819A172577941F6F3BA9 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				8EBC2938341613BE88519FAB7087FF5B /* SynchronizedDictionary.swift */,
-				C1DA1EF1E9184DB17D827253D5421266 /* TLAlbumPopView.swift */,
-				0809EC8DC18185BEB3C079EC35B993F7 /* TLAssetCollection+Extension.swift */,
-				F7EAADF6B932F2DB0EB88B4E374CE318 /* TLAssetPreviewViewController.swift */,
-				1ACE73BF8D59FC6D180F20CC62B33671 /* TLAssetsCollection.swift */,
-				F5163DD52C10A12AC957495BA025C354 /* TLBundle.swift */,
-				F541C76C7EC5FD785838F40B868F6AE6 /* TLCollectionTableViewCell.swift */,
-				86661D260ADE01B6C15195821AC8303A /* TLPhotoCollectionViewCell.swift */,
-				D03BA9D2FFA8617C872429FE6ABB4730 /* TLPhotoLibrary.swift */,
-				AB7ED19E2AD6C999A9E590C51C3E4435 /* TLPhotopickerDataSourcesProtocol.swift */,
-				3E535A3A47E53C30F16FB1574AAB3CF4 /* TLPhotosPickerViewController.swift */,
-				E0D0C2615C23BF3755D2147F1BB11ECE /* Resources */,
-				31561013BCFCB32DBEDB8F534949BE3E /* Support Files */,
+				AF72D6600772875B766CF124BC07CF69 /* ResourceBundle-TLPhotoPicker-TLPhotoPicker-Info.plist */,
+				4E20E0B18DEF03AD79AE29CDA6BF5137 /* TLPhotoPicker.modulemap */,
+				41DD3E85E4E85EAD7B2D2E8D303002A5 /* TLPhotoPicker-dummy.m */,
+				522D954C543A35E315CF4284922E52E7 /* TLPhotoPicker-Info.plist */,
+				661D85B14053192B6706929B0869C0C9 /* TLPhotoPicker-prefix.pch */,
+				307E23E66A56EEAA0541B12E1C3089B7 /* TLPhotoPicker-umbrella.h */,
+				936AEB3483C94C382BF6DF97C62DFDE3 /* TLPhotoPicker.debug.xcconfig */,
+				ED80FEA9D5429F99A7EDE253CEBF0450 /* TLPhotoPicker.release.xcconfig */,
 			);
-			path = TLPhotoPicker;
+			name = "Support Files";
+			path = "../Target Support Files/TLPhotoPicker";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -867,6 +865,7 @@
 				CBAC1DAC90D96B3157DA313AA30746B0 /* Zones.swift */,
 				E72FF27E2D4BD24C77BF06388C591E42 /* Support Files */,
 			);
+			name = XYZTimeKit;
 			path = XYZTimeKit;
 			sourceTree = "<group>";
 		};
@@ -876,25 +875,6 @@
 				28EA84BE4655CBAFBD497D101C7581C4 /* Pods-XYZPhotoKit */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		E0D0C2615C23BF3755D2147F1BB11ECE /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				9BE0F2FFC23A3790ABE2CFCC2FA47B21 /* bn.lproj */,
-				7502F155A2A8F86E4C508AF2683F30B0 /* en.lproj */,
-				B4D3DE8A86C9B45F733E48A9E74DCCC6 /* es.lproj */,
-				A696A5F01323463658A725C17A79F562 /* hi.lproj */,
-				C19E2DE61E41F08B04D1AB27E4AF081F /* ne.lproj */,
-				60AD459ECE2035D93812B6FB6910A7DA /* or.lproj */,
-				6347A09DB3E01A42BC9E6D4560B9E979 /* pa.lproj */,
-				019D0B6310A991F9F2E88089D999A9CB /* TLCollectionTableViewCell.xib */,
-				86D5925D013DD189414CF39643843CFC /* TLPhotoCollectionViewCell.xib */,
-				9E77E9E16D13933EC18F8E55D2D8D28A /* TLPhotoPickerController.bundle */,
-				7F74E682AA3AB18FF8272A8CC4536B1A /* TLPhotosPickerViewController.xib */,
-				25FB84CD4F43412B7B72A0944FFA2506 /* ur.lproj */,
-			);
-			name = Resources;
 			sourceTree = "<group>";
 		};
 		E72FF27E2D4BD24C77BF06388C591E42 /* Support Files */ = {
@@ -971,6 +951,7 @@
 				F9E0FA6F276F26B9D9E9C20BF36B2260 /* XYZPathKit_XYZFIle_Ex.swift */,
 				F3B5708639F2E1213913FCD33FD66AD6 /* Support Files */,
 			);
+			name = XYZPathKit;
 			path = XYZPathKit;
 			sourceTree = "<group>";
 		};
@@ -992,11 +973,11 @@
 		FE4209AE772D17F891A00B149589918D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				117887665FB3C7A539BB6F806956A01A /* JXPhotoBrowser.framework */,
-				C3F44C782D64D7EB20B61CE3844EBFAD /* Kingfisher.framework */,
+				117887665FB3C7A539BB6F806956A01A /* JXPhotoBrowser */,
+				C3F44C782D64D7EB20B61CE3844EBFAD /* Kingfisher */,
 				40B308AFF8FB9B03791D1F8A9AC7D33F /* Pods-XYZPhotoKit */,
-				28FEBF03C2D5B028D0C55D99B129793A /* TLPhotoPicker.framework */,
-				C8C6E1BE6D4ADFD0CEC50AE8305BF3CD /* TLPhotoPicker.bundle */,
+				28FEBF03C2D5B028D0C55D99B129793A /* TLPhotoPicker */,
+				C8C6E1BE6D4ADFD0CEC50AE8305BF3CD /* TLPhotoPicker-TLPhotoPicker */,
 				F17E16B10081CF713DE5F4525FE49F32 /* XYZPathKit */,
 				B9A0D0D87001D7F775DD60CB32E7B1C9 /* XYZTimeKit */,
 			);
@@ -1006,11 +987,11 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		0F30EF25D2E7BAFD1A439BAA50585F18 /* Headers */ = {
+		082CB9EC068B1A81C19E0A06CEDC548A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				36F3FD8EC46008ED997318EBD8858189 /* XYZTimeKit-umbrella.h in Headers */,
+				FE11CA4E9C845352198F14A7A9F01683 /* XYZTimeKit-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1059,11 +1040,11 @@
 /* Begin PBXNativeTarget section */
 		0E25D4105A6FD573D0B380E936CC9E11 /* TLPhotoPicker-TLPhotoPicker */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 008A9DFFB5D52E993910E76B53F6013B /* Build configuration list for PBXNativeTarget "TLPhotoPicker-TLPhotoPicker" */;
+			buildConfigurationList = 9B328CE1E5757EA8F9B08D9C3828461C /* Build configuration list for PBXNativeTarget "TLPhotoPicker-TLPhotoPicker" */;
 			buildPhases = (
-				0CB06A98D0CD6ED053B26000051DDBFE /* Sources */,
-				2F661CD08666795B0640565E66CF1500 /* Frameworks */,
-				A5D956A8868907019EAE70F77AD4DA66 /* Resources */,
+				40A8E83E0E3A8B069B976B7B039141FC /* Sources */,
+				9F752C63ED4CB8DEC77D46DA3624F69C /* Frameworks */,
+				0E380162027E76A6222839833AC830C7 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -1071,7 +1052,7 @@
 			);
 			name = "TLPhotoPicker-TLPhotoPicker";
 			productName = TLPhotoPicker;
-			productReference = C8C6E1BE6D4ADFD0CEC50AE8305BF3CD /* TLPhotoPicker.bundle */;
+			productReference = C8C6E1BE6D4ADFD0CEC50AE8305BF3CD /* TLPhotoPicker-TLPhotoPicker */;
 			productType = "com.apple.product-type.bundle";
 		};
 		4F95B73DC51D7024E7E7321B80A2589B /* JXPhotoBrowser */ = {
@@ -1089,7 +1070,7 @@
 			);
 			name = JXPhotoBrowser;
 			productName = JXPhotoBrowser;
-			productReference = 117887665FB3C7A539BB6F806956A01A /* JXPhotoBrowser.framework */;
+			productReference = 117887665FB3C7A539BB6F806956A01A /* JXPhotoBrowser */;
 			productType = "com.apple.product-type.framework";
 		};
 		A46AE710A81CE05AE221743513ED00AE /* Pods-XYZPhotoKit */ = {
@@ -1104,11 +1085,11 @@
 			buildRules = (
 			);
 			dependencies = (
-				DB7E6B6A466D7F45D703CEE0CBEDA944 /* PBXTargetDependency */,
-				A5A99608228DDBCF0C937C68D64775FD /* PBXTargetDependency */,
-				F3C1685620EEFA4D186D2D2899C8FEA7 /* PBXTargetDependency */,
-				5A642AF6DD53F22C14F2759B1E8D9477 /* PBXTargetDependency */,
-				C58969BCE80B381E899A6D7A326FD5CE /* PBXTargetDependency */,
+				F0CF4D5A13B4E4791F01433A987E6704 /* PBXTargetDependency */,
+				19DB26DE04C9911087BAB191C4BFC799 /* PBXTargetDependency */,
+				694DED355B788FBD7A07B252F30269F4 /* PBXTargetDependency */,
+				B1679E3C9790AB82ECB115E81F160FAE /* PBXTargetDependency */,
+				491B8BD4D8C71CD641ADA69193D2BC2D /* PBXTargetDependency */,
 			);
 			name = "Pods-XYZPhotoKit";
 			productName = Pods_XYZPhotoKit;
@@ -1127,7 +1108,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				EEC092F7839650282F455429AA4B9AEA /* PBXTargetDependency */,
+				B7025AB2BA8997AE67DDD2EA34541690 /* PBXTargetDependency */,
 			);
 			name = XYZPathKit;
 			productName = XYZPathKit;
@@ -1136,12 +1117,12 @@
 		};
 		E521B8F5FDEF0A99B724D1B30712A006 /* XYZTimeKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A9DF62DF46E9D1B54ED840022AA0E08F /* Build configuration list for PBXNativeTarget "XYZTimeKit" */;
+			buildConfigurationList = 94A7F8AF95F5CB7FF9F7031B5720B229 /* Build configuration list for PBXNativeTarget "XYZTimeKit" */;
 			buildPhases = (
-				0F30EF25D2E7BAFD1A439BAA50585F18 /* Headers */,
-				687C105EF7FDB42580D5CBDDCA8CAAF1 /* Sources */,
-				BD3C7C1D7EBD01AF6B560259A91B5AC5 /* Frameworks */,
-				CDED85BD038F9FDD5E8270F59A54F41B /* Resources */,
+				082CB9EC068B1A81C19E0A06CEDC548A /* Headers */,
+				32021CBD5432D83BCC9BF29CDCF69081 /* Sources */,
+				6AFF1101FCDDFC4098B057AF8A235AA7 /* Frameworks */,
+				73F90785D32DC30DFF53DDED16B6F421 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -1167,7 +1148,7 @@
 			);
 			name = Kingfisher;
 			productName = Kingfisher;
-			productReference = C3F44C782D64D7EB20B61CE3844EBFAD /* Kingfisher.framework */;
+			productReference = C3F44C782D64D7EB20B61CE3844EBFAD /* Kingfisher */;
 			productType = "com.apple.product-type.framework";
 		};
 		F9241C3812D02BCBB2AA4D3936BD3909 /* TLPhotoPicker */ = {
@@ -1182,11 +1163,11 @@
 			buildRules = (
 			);
 			dependencies = (
-				413D8AE2715124A9B6C0E58E4D04ADFD /* PBXTargetDependency */,
+				23CA133D104F545C75C90416DE240437 /* PBXTargetDependency */,
 			);
 			name = TLPhotoPicker;
 			productName = TLPhotoPicker;
-			productReference = 28FEBF03C2D5B028D0C55D99B129793A /* TLPhotoPicker.framework */;
+			productReference = 28FEBF03C2D5B028D0C55D99B129793A /* TLPhotoPicker */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -1196,7 +1177,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1240;
-				LastUpgradeCheck = 1300;
+				LastUpgradeCheck = 1240;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 10.0";
@@ -1204,14 +1185,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				Base,
-				bn,
 				en,
-				es,
-				hi,
-				ne,
-				or,
-				pa,
-				ur,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
 			productRefGroup = FE4209AE772D17F891A00B149589918D /* Products */;
@@ -1230,7 +1204,24 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		0E380162027E76A6222839833AC830C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2193F2E051E4602D610912A30A09DC0 /* TLCollectionTableViewCell.xib in Resources */,
+				72D5F072A9A9DA06D6D627D2703F8DEF /* TLPhotoCollectionViewCell.xib in Resources */,
+				89CE2856B68543668CDBBF8C562149F7 /* TLPhotosPickerViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5B520133E30275A73467B8D451E512AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73F90785D32DC30DFF53DDED16B6F421 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1241,37 +1232,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				11C9252356C20E8C3C5F1C8A33F3C92B /* TLPhotoPicker.bundle in Resources */,
+				11C9252356C20E8C3C5F1C8A33F3C92B /* TLPhotoPicker-TLPhotoPicker in Resources */,
 				0A5E9586B8A402ADCC576C12715F9CBD /* TLPhotoPickerController.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		99B409CB0E14A38129F9E97F1123605E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A5D956A8868907019EAE70F77AD4DA66 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6D990EC657A9A6E5055F8E8E0234882E /* bn.lproj in Resources */,
-				37CF43BF1D9B354A68E890FE86491757 /* en.lproj in Resources */,
-				29C402FFA584C7F79E9D99B7CBA34F1E /* es.lproj in Resources */,
-				2655AE2B8E78EF4053F32E225DC771C9 /* hi.lproj in Resources */,
-				E08B49778E8E909221ED7306D1CB1272 /* ne.lproj in Resources */,
-				8E7D76FC33AE76FB7101C24AB10E22FE /* or.lproj in Resources */,
-				A16200CE1D1708B3A1E5714F3E654CE5 /* pa.lproj in Resources */,
-				3D38B56D7317B3B7B74EC75F3A744E42 /* TLCollectionTableViewCell.xib in Resources */,
-				03E31B2DAD354DAB8F599B8D567FF6E9 /* TLPhotoCollectionViewCell.xib in Resources */,
-				D7E0BB78AB41C688AB4045A71F24DAE2 /* TLPhotosPickerViewController.xib in Resources */,
-				7D097D4AC4D63964E31DADD86F87220D /* ur.lproj in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CDED85BD038F9FDD5E8270F59A54F41B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1295,18 +1261,65 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0CB06A98D0CD6ED053B26000051DDBFE /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		15BBF16C95F11FB0ED6B4347B2713D08 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				1B30158C58801C20967D7D8508974378 /* Pods-XYZPhotoKit-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32021CBD5432D83BCC9BF29CDCF69081 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9AB20F19D093A210EB22E7FC46C1E2F /* AssociatedValues.swift in Sources */,
+				A4813047DB61B913E2369036D961ACDE /* Calendars.swift in Sources */,
+				96DF261DDB89F2D3E14F76A724761CF6 /* Commons.swift in Sources */,
+				5DB0CE3C81B2AC9CEA644BEDDD7E0247 /* Date.swift in Sources */,
+				01EEFD36760A8B443CB55D28AB0E7466 /* Date+Compare.swift in Sources */,
+				8FCFC89854F55205A720FA9744434F4A /* Date+Components.swift in Sources */,
+				5186A9CB084F6147C5E33933F8F427A2 /* Date+Create.swift in Sources */,
+				C2F1BC77788068D46B2C8DE37165EEBB /* Date+Math.swift in Sources */,
+				3494E09F37E713BF346B3CA93C820BFD /* DateComponents+Extras.swift in Sources */,
+				66AF42216EB256A289968AA59098B639 /* DateInRegion.swift in Sources */,
+				FB0C9C1666DE4CD79C92AEE3DFD881FA /* DateInRegion+Compare.swift in Sources */,
+				6AD1B227AEF9DD0F35415FFA378E5CD2 /* DateInRegion+Components.swift in Sources */,
+				790F3E366AA276613225B0D0845A5429 /* DateInRegion+Create.swift in Sources */,
+				35980B8812BC3EA707D704CED8ABD9D5 /* DateInRegion+Math.swift in Sources */,
+				50C1C8E12067BE36BEB190C6A4126FB3 /* DateRepresentable.swift in Sources */,
+				3074173E6F1E05494D542FFE62C8CE07 /* DotNetParserFormatter.swift in Sources */,
+				D4777C97E7BAA7F1A0145B1903744C47 /* Formatter+Protocols.swift in Sources */,
+				031B4555DCF0C344ADCDDEF0881A75EF /* Int+DateComponents.swift in Sources */,
+				7A0244BE8F66240EF1AEEE11C245B88C /* ISOFormatter.swift in Sources */,
+				3CF52634678BB29FB83FE4FBB7F2E10B /* ISOParser.swift in Sources */,
+				E76B9DC8F8EECE7D448154D904F26E15 /* Locales.swift in Sources */,
+				8529506AB654C88F3077100CC5CAC469 /* MusicDate.swift in Sources */,
+				0BCEABA9DC63191CC5BF3B0DCB30C5FA /* Region.swift in Sources */,
+				9BF937C864F98B281DCFDD33A76B783A /* RelativeFormatter.swift in Sources */,
+				356EC3EB16F825949BED632CAED3E0C3 /* RelativeFormatter+Style.swift in Sources */,
+				2D4273C468A735208011E1AE71A4930A /* RelativeFormatterLanguage.swift in Sources */,
+				7D99595B1B4737E6CEC40D8642142384 /* String+Parser.swift in Sources */,
+				FAE2C8F2423FF2CB48944720C75EA5CC /* SwiftDate.swift in Sources */,
+				7F45EF575D88FEC0FE7DC0CE57118B83 /* TimeInterval+Formatter.swift in Sources */,
+				905DB472E70514C6310DA1A5F147CD86 /* TimePeriod.swift in Sources */,
+				04585C603A12D5DE253B455721CBC5D2 /* TimePeriod+Support.swift in Sources */,
+				DE159A98E212A077BFF73B7716EA03D1 /* TimePeriodChain.swift in Sources */,
+				B68D3BC14E6CC9AAD3A0DE7D49ADC4C3 /* TimePeriodCollection.swift in Sources */,
+				CCC5995D601A7B4B617BD48994CC717A /* TimePeriodGroup.swift in Sources */,
+				88E76C5A033893366276A73943D2ECCA /* TimePeriodProtocol.swift in Sources */,
+				E78B7C35683F3EB9C356E088ABC83F2D /* TimeStructures.swift in Sources */,
+				0754A7EBB8123CA9CE2CE9FB34638924 /* XYZTime_DateToString_ForApp.swift in Sources */,
+				44158186E71B502CC59670E6E7F20F5B /* XYZTime_GoToAnotherDate.swift in Sources */,
+				407D97A15AE10BAF3E9BA1DEFBC54488 /* XYZTime_SeparateDate.swift in Sources */,
+				F097733BD6E5FC9EE8D38D5FBEF4D49B /* XYZTime_XYZClock.swift in Sources */,
+				C6DE4C3714EDEBC5B09105BF9705916C /* XYZTime_XYZDate_CountDays.swift in Sources */,
+				8CDB440CCEA1FD0CFA13B17BFCEF047E /* XYZTime_XYZDate_FromString.swift in Sources */,
+				D31F61437A1B7918F1046E4DF24EB773 /* XYZTime_XYZDate_StringType.swift in Sources */,
+				0BFEFC7C899D1BB738F435A5C10572DA /* XYZTimeKit.swift in Sources */,
+				F3AB1C9DE9C91DCA5837CE8A343AAE6A /* XYZTimeKit-dummy.m in Sources */,
+				D74374EF7114E743D5E96B0E7D3A3BFD /* XYZTimeKit_XYZDate_DateToString.swift in Sources */,
+				75CD943A6AA70463B24B2E953BEC26FA /* Zones.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1379,6 +1392,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		40A8E83E0E3A8B069B976B7B039141FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5C1AA455999EB2AE318F40D5CA1567A7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1395,60 +1415,6 @@
 				0DA7046AF168E71B863EB22AECA459BD /* TLPhotoPicker-dummy.m in Sources */,
 				C2B74526837F90924958D917DC3BE555 /* TLPhotopickerDataSourcesProtocol.swift in Sources */,
 				A695D623F610C801EA1AAF7DE2D6A233 /* TLPhotosPickerViewController.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		687C105EF7FDB42580D5CBDDCA8CAAF1 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D2A46B00BA8FC0026D7D0EDBCAF1A414 /* AssociatedValues.swift in Sources */,
-				21980974E9770FC7F26B2A7BD2C15518 /* Calendars.swift in Sources */,
-				5E5AE5D14D94EBDD3FC0B3AEA09DDFA9 /* Commons.swift in Sources */,
-				64885C7328C53FAF7598B8980E7D810F /* Date.swift in Sources */,
-				282BA7286B6B920F5A811831DD83951F /* Date+Compare.swift in Sources */,
-				C6519EE3931C414B099054A5C303A5D6 /* Date+Components.swift in Sources */,
-				5C5018AD3E087D5DFA1AC942D9AF6AF5 /* Date+Create.swift in Sources */,
-				E086A214D3ECF03D5C3A8BE2BBE4F158 /* Date+Math.swift in Sources */,
-				C12BC349DB4701A715CF3222CF8ECD3C /* DateComponents+Extras.swift in Sources */,
-				3F36822B9E16E8937BBCF7C53BFF3BD1 /* DateInRegion.swift in Sources */,
-				9C317165069FC3E05303D3B57CC60752 /* DateInRegion+Compare.swift in Sources */,
-				20313BBE17FAA72025C1A357827FC8FE /* DateInRegion+Components.swift in Sources */,
-				2848B4E8867ED80F26053D51416415FA /* DateInRegion+Create.swift in Sources */,
-				2A015E7D65A57E19D441FFC03CD9FC18 /* DateInRegion+Math.swift in Sources */,
-				04EC2CB9E072E0901CA86DAE0516193D /* DateRepresentable.swift in Sources */,
-				A77C5FB1A41F789266AAC7483A7E83CB /* DotNetParserFormatter.swift in Sources */,
-				BA104B75C5EFCE47A0EA98B502C86CBC /* Formatter+Protocols.swift in Sources */,
-				7980DE7F5C887EA8E2CA62AE8777C75C /* Int+DateComponents.swift in Sources */,
-				F74C41FA06F47503CD46FBD0B65F991B /* ISOFormatter.swift in Sources */,
-				CEA7BCB981A9253CCF3DA30D186FEA22 /* ISOParser.swift in Sources */,
-				129EAD618DBCDC9A97AD50C01F84C3E3 /* Locales.swift in Sources */,
-				B4674097DB02CF9D1D5F49F29CD37451 /* MusicDate.swift in Sources */,
-				940DE223C6E3AF383A3F640E2EA5A9E2 /* Region.swift in Sources */,
-				1371C465D17425F82021B94CCE265773 /* RelativeFormatter.swift in Sources */,
-				EE8619DC481D91D4D5BEC919D0BF0EBF /* RelativeFormatter+Style.swift in Sources */,
-				19B18AA769CA5FD25D318DA07F821EA1 /* RelativeFormatterLanguage.swift in Sources */,
-				27C25A3B5B83CA0AF29B2D8201C62210 /* String+Parser.swift in Sources */,
-				E8D7611C8AF8141BC57C704E5842328F /* SwiftDate.swift in Sources */,
-				5CF126715A5EFFAB30AC107822C6BA8C /* TimeInterval+Formatter.swift in Sources */,
-				7087257C29CE704042F86F4DCB56F12C /* TimePeriod.swift in Sources */,
-				A9B030F1AF696CEF5D6CBD8718CC3C9D /* TimePeriod+Support.swift in Sources */,
-				882A83BCB25A36FEA9151316A0F26BD1 /* TimePeriodChain.swift in Sources */,
-				4DCED9EE6C9886073B44FDD04452BB47 /* TimePeriodCollection.swift in Sources */,
-				BDC2BC216A029B4138C9B8AF29533550 /* TimePeriodGroup.swift in Sources */,
-				28AA4788522F13EAEDC0791714E19694 /* TimePeriodProtocol.swift in Sources */,
-				52A311D9AB5776C871EA9A5AA2F0F2EE /* TimeStructures.swift in Sources */,
-				9D70A160F046C590F1E4A54639C181C0 /* XYZTime_DateToString_ForApp.swift in Sources */,
-				413B14A18520CE9C2EBF1836C9F10CCE /* XYZTime_GoToAnotherDate.swift in Sources */,
-				047A263C7D0DD2EAE04D4C8D5D77174F /* XYZTime_SeparateDate.swift in Sources */,
-				CBDABD6327BA11813B27621F0A4142C5 /* XYZTime_XYZClock.swift in Sources */,
-				433688212A8C1614E0DDACB66350BDD9 /* XYZTime_XYZDate_CountDays.swift in Sources */,
-				886E5085F51F86191F04F80C6E4074F0 /* XYZTime_XYZDate_FromString.swift in Sources */,
-				5D7C3BFE572E8DF8415FC6EF3131CB9A /* XYZTime_XYZDate_StringType.swift in Sources */,
-				52AA78D3C219D02B1B7F797EB62FD0D3 /* XYZTimeKit.swift in Sources */,
-				206C35158F45C9221DE1FAC75FACDC8B /* XYZTimeKit-dummy.m in Sources */,
-				0A00E6FD6811891ABE30392D65838D8C /* XYZTimeKit_XYZDate_DateToString.swift in Sources */,
-				8275BB71A35A31B44750C0B40ECD7C6E /* Zones.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1540,51 +1506,85 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		413D8AE2715124A9B6C0E58E4D04ADFD /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "TLPhotoPicker-TLPhotoPicker";
-			target = 0E25D4105A6FD573D0B380E936CC9E11 /* TLPhotoPicker-TLPhotoPicker */;
-			targetProxy = C022C3DB8DB1ABC808244EADFC358213 /* PBXContainerItemProxy */;
-		};
-		5A642AF6DD53F22C14F2759B1E8D9477 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = XYZPathKit;
-			target = DA3E37AB6B1FDCFB42E3501C7C465044 /* XYZPathKit */;
-			targetProxy = 39742BBC218BD0FC5EC277A3D9B1F83F /* PBXContainerItemProxy */;
-		};
-		A5A99608228DDBCF0C937C68D64775FD /* PBXTargetDependency */ = {
+		19DB26DE04C9911087BAB191C4BFC799 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Kingfisher;
 			target = E8022D22FAA6690B5E1C379C1BCE1491 /* Kingfisher */;
-			targetProxy = 6BCF7E7C4C31030A05E7D4F9FB366F66 /* PBXContainerItemProxy */;
+			targetProxy = F01D35C68D43289E335C71C2662A8F50 /* PBXContainerItemProxy */;
 		};
-		C58969BCE80B381E899A6D7A326FD5CE /* PBXTargetDependency */ = {
+		23CA133D104F545C75C90416DE240437 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "TLPhotoPicker-TLPhotoPicker";
+			target = 0E25D4105A6FD573D0B380E936CC9E11 /* TLPhotoPicker-TLPhotoPicker */;
+			targetProxy = CB71013DECC153F95BB8509872BCC5AF /* PBXContainerItemProxy */;
+		};
+		491B8BD4D8C71CD641ADA69193D2BC2D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = XYZTimeKit;
 			target = E521B8F5FDEF0A99B724D1B30712A006 /* XYZTimeKit */;
-			targetProxy = B5C9648F6761BE0808A635BCF8C3D1E0 /* PBXContainerItemProxy */;
+			targetProxy = C6A3EACF6AC8A975F9A10B9E38984B38 /* PBXContainerItemProxy */;
 		};
-		DB7E6B6A466D7F45D703CEE0CBEDA944 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = JXPhotoBrowser;
-			target = 4F95B73DC51D7024E7E7321B80A2589B /* JXPhotoBrowser */;
-			targetProxy = 5945F5079A7CA5B3C128033B3A08CF17 /* PBXContainerItemProxy */;
-		};
-		EEC092F7839650282F455429AA4B9AEA /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = XYZTimeKit;
-			target = E521B8F5FDEF0A99B724D1B30712A006 /* XYZTimeKit */;
-			targetProxy = F432365FF6B1D4EC37B34DFE4136D7E1 /* PBXContainerItemProxy */;
-		};
-		F3C1685620EEFA4D186D2D2899C8FEA7 /* PBXTargetDependency */ = {
+		694DED355B788FBD7A07B252F30269F4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = TLPhotoPicker;
 			target = F9241C3812D02BCBB2AA4D3936BD3909 /* TLPhotoPicker */;
-			targetProxy = FEC0714D244B615E6C73FC82B39CEFB2 /* PBXContainerItemProxy */;
+			targetProxy = 8803E81B699F3558B80675C9C9A5571F /* PBXContainerItemProxy */;
+		};
+		B1679E3C9790AB82ECB115E81F160FAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = XYZPathKit;
+			target = DA3E37AB6B1FDCFB42E3501C7C465044 /* XYZPathKit */;
+			targetProxy = FB05275FA3FC36B9272DD570C1FE6217 /* PBXContainerItemProxy */;
+		};
+		B7025AB2BA8997AE67DDD2EA34541690 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = XYZTimeKit;
+			target = E521B8F5FDEF0A99B724D1B30712A006 /* XYZTimeKit */;
+			targetProxy = CC74B9AAA9BF2E5EF0DB45BD8985C228 /* PBXContainerItemProxy */;
+		};
+		F0CF4D5A13B4E4791F01433A987E6704 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JXPhotoBrowser;
+			target = 4F95B73DC51D7024E7E7321B80A2589B /* JXPhotoBrowser */;
+			targetProxy = F57809D03F821B69923FA5A4DE445343 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		21059E7F294A432CF680C0A2F0C53255 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0367782A9233FA5A3C8D27436AA42AEC /* XYZTimeKit.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/XYZTimeKit/XYZTimeKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XYZTimeKit/XYZTimeKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/XYZTimeKit/XYZTimeKit.modulemap";
+				PRODUCT_MODULE_NAME = XYZTimeKit;
+				PRODUCT_NAME = XYZTimeKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		37A1BA6B3B4813612EAAE9BC7947989F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 281BB3FBB0293DA4035BA50C7D088253 /* XYZPathKit.debug.xcconfig */;
@@ -1619,9 +1619,25 @@
 			};
 			name = Debug;
 		};
-		58424C755990ACC833FDE9B46ECACB04 /* Debug */ = {
+		5076EFCE8F4DDC3BCCE26F8FBAD06810 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0367782A9233FA5A3C8D27436AA42AEC /* XYZTimeKit.debug.xcconfig */;
+			baseConfigurationReference = ED80FEA9D5429F99A7EDE253CEBF0450 /* TLPhotoPicker.release.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TLPhotoPicker";
+				IBSC_MODULE = TLPhotoPicker;
+				INFOPLIST_FILE = "Target Support Files/TLPhotoPicker/ResourceBundle-TLPhotoPicker-TLPhotoPicker-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_NAME = TLPhotoPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		50B0E0EAD9B1AE68365ECC61B1B9F456 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7B83CE6E234A53A84D0C150BEA4DB5C /* XYZTimeKit.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1648,10 +1664,11 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		859FB53B46CF7ADC0D7200183724B8D8 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1688,40 +1705,21 @@
 			};
 			name = Release;
 		};
-		89E0AB679C616B850DFA20A4B2BBACDF /* Release */ = {
+		8BA7FC6C35A3EECEAF681BB741E8BB02 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B7B83CE6E234A53A84D0C150BEA4DB5C /* XYZTimeKit.release.xcconfig */;
+			baseConfigurationReference = 936AEB3483C94C382BF6DF97C62DFDE3 /* TLPhotoPicker.debug.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/XYZTimeKit/XYZTimeKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/XYZTimeKit/XYZTimeKit-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TLPhotoPicker";
+				IBSC_MODULE = TLPhotoPicker;
+				INFOPLIST_FILE = "Target Support Files/TLPhotoPicker/ResourceBundle-TLPhotoPicker-TLPhotoPicker-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/XYZTimeKit/XYZTimeKit.modulemap";
-				PRODUCT_MODULE_NAME = XYZTimeKit;
-				PRODUCT_NAME = XYZTimeKit;
+				PRODUCT_NAME = TLPhotoPicker;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				WRAPPER_EXTENSION = bundle;
 			};
-			name = Release;
+			name = Debug;
 		};
 		8DE5143C03248BB6CD542DE3963D6F3A /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1998,7 +1996,7 @@
 		};
 		B226340C03233065B6E9193090C93A7B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EE73DF9C7E07324915FC043F22B0522B /* TLPhotoPicker.debug.xcconfig */;
+			baseConfigurationReference = 936AEB3483C94C382BF6DF97C62DFDE3 /* TLPhotoPicker.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -2065,25 +2063,9 @@
 			};
 			name = Release;
 		};
-		EAAE91F739E3C22CCB1A92C82366E49C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = EE73DF9C7E07324915FC043F22B0522B /* TLPhotoPicker.debug.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TLPhotoPicker";
-				IBSC_MODULE = TLPhotoPicker;
-				INFOPLIST_FILE = "Target Support Files/TLPhotoPicker/ResourceBundle-TLPhotoPicker-TLPhotoPicker-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				PRODUCT_NAME = TLPhotoPicker;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
 		EC28953B31D96E588B8EEDB1CB69004F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E1CB071484FFB4EC06B4D36A1C07C718 /* TLPhotoPicker.release.xcconfig */;
+			baseConfigurationReference = ED80FEA9D5429F99A7EDE253CEBF0450 /* TLPhotoPicker.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -2112,22 +2094,6 @@
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		F4F3F116836FAA9A4F0500E09FACEFA1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E1CB071484FFB4EC06B4D36A1C07C718 /* TLPhotoPicker.release.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TLPhotoPicker";
-				IBSC_MODULE = TLPhotoPicker;
-				INFOPLIST_FILE = "Target Support Files/TLPhotoPicker/ResourceBundle-TLPhotoPicker-TLPhotoPicker-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				PRODUCT_NAME = TLPhotoPicker;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
 			};
 			name = Release;
 		};
@@ -2168,15 +2134,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		008A9DFFB5D52E993910E76B53F6013B /* Build configuration list for PBXNativeTarget "TLPhotoPicker-TLPhotoPicker" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				EAAE91F739E3C22CCB1A92C82366E49C /* Debug */,
-				F4F3F116836FAA9A4F0500E09FACEFA1 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8922DE2085E6C71F0356EF4437E85E /* Build configuration list for PBXNativeTarget "XYZPathKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -2222,11 +2179,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A9DF62DF46E9D1B54ED840022AA0E08F /* Build configuration list for PBXNativeTarget "XYZTimeKit" */ = {
+		94A7F8AF95F5CB7FF9F7031B5720B229 /* Build configuration list for PBXNativeTarget "XYZTimeKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				58424C755990ACC833FDE9B46ECACB04 /* Debug */,
-				89E0AB679C616B850DFA20A4B2BBACDF /* Release */,
+				21059E7F294A432CF680C0A2F0C53255 /* Debug */,
+				50B0E0EAD9B1AE68365ECC61B1B9F456 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B328CE1E5757EA8F9B08D9C3828461C /* Build configuration list for PBXNativeTarget "TLPhotoPicker-TLPhotoPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BA7FC6C35A3EECEAF681BB741E8BB02 /* Debug */,
+				5076EFCE8F4DDC3BCCE26F8FBAD06810 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
