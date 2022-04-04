@@ -15,6 +15,8 @@
 		D610549427115DA3006B9725 /* XYZPhoto_XYZPicExif_ToDelete_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D610549327115DA3006B9725 /* XYZPhoto_XYZPicExif_ToDelete_2.swift */; };
 		D610549627116032006B9725 /* TLPhotoPicker_Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = D610549527116032006B9725 /* TLPhotoPicker_Ex.swift */; };
 		D61054982711609D006B9725 /* XYZPhoto_XYZPicExif_Exif.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61054972711609D006B9725 /* XYZPhoto_XYZPicExif_Exif.swift */; };
+		D658756927FB1BBE0095DEBE /* XYZ_BrowserOpen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D658756827FB1BBE0095DEBE /* XYZ_BrowserOpen.swift */; };
+		D658756C27FB1BF40095DEBE /* TLPhotoPicker_Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D658756B27FB1BF40095DEBE /* TLPhotoPicker_Extension.swift */; };
 		D6855A3C24B44CFB00EACB3C /* PreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6855A3024B44CFB00EACB3C /* PreviewView.swift */; };
 		D6855A3D24B44CFB00EACB3C /* CustomCameraCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6855A3124B44CFB00EACB3C /* CustomCameraCell.xib */; };
 		D6855A3E24B44CFB00EACB3C /* CustomCell_Instagram.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6855A3224B44CFB00EACB3C /* CustomCell_Instagram.xib */; };
@@ -52,6 +54,8 @@
 		D610549527116032006B9725 /* TLPhotoPicker_Ex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TLPhotoPicker_Ex.swift; sourceTree = "<group>"; };
 		D61054972711609D006B9725 /* XYZPhoto_XYZPicExif_Exif.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XYZPhoto_XYZPicExif_Exif.swift; sourceTree = "<group>"; };
 		D6105499271160B8006B9725 /* XYZPhoto_XYZPicExif_ExifKeys.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = XYZPhoto_XYZPicExif_ExifKeys.plist; sourceTree = "<group>"; };
+		D658756827FB1BBE0095DEBE /* XYZ_BrowserOpen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XYZ_BrowserOpen.swift; sourceTree = "<group>"; };
+		D658756B27FB1BF40095DEBE /* TLPhotoPicker_Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TLPhotoPicker_Extension.swift; sourceTree = "<group>"; };
 		D6855A3024B44CFB00EACB3C /* PreviewView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreviewView.swift; sourceTree = "<group>"; };
 		D6855A3124B44CFB00EACB3C /* CustomCameraCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomCameraCell.xib; sourceTree = "<group>"; };
 		D6855A3224B44CFB00EACB3C /* CustomCell_Instagram.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomCell_Instagram.xib; sourceTree = "<group>"; };
@@ -168,6 +172,8 @@
 				D610548F27115CE3006B9725 /* XYZPhoto_XYZFIleEx.swift */,
 				D610548D27115CAC006B9725 /* XYZPhoto_XYZPicObject.swift */,
 				D610548A27115C69006B9725 /* XYZPhoto_Exif.swift */,
+				D658756827FB1BBE0095DEBE /* XYZ_BrowserOpen.swift */,
+				D658756B27FB1BF40095DEBE /* TLPhotoPicker_Extension.swift */,
 				D610549127115D7C006B9725 /* XYZPhoto_XYZPicExif_ToDelete.swift */,
 				D610549327115DA3006B9725 /* XYZPhoto_XYZPicExif_ToDelete_2.swift */,
 				D61054972711609D006B9725 /* XYZPhoto_XYZPicExif_Exif.swift */,
@@ -301,6 +307,7 @@
 				D6947CFF23A7AC0F00EBDF12 /* ViewController.swift in Sources */,
 				D610549627116032006B9725 /* TLPhotoPicker_Ex.swift in Sources */,
 				D6947CFB23A7AC0F00EBDF12 /* AppDelegate.swift in Sources */,
+				D658756C27FB1BF40095DEBE /* TLPhotoPicker_Extension.swift in Sources */,
 				D6855A4124B44CFB00EACB3C /* CustomCameraCell.swift in Sources */,
 				D6855A4824B451FB00EACB3C /* XYZTLPhotoPicker.swift in Sources */,
 				D610549427115DA3006B9725 /* XYZPhoto_XYZPicExif_ToDelete_2.swift in Sources */,
@@ -315,6 +322,7 @@
 				D6855A4024B44CFB00EACB3C /* PhotoCaptureDelegate.swift in Sources */,
 				D610549027115CE3006B9725 /* XYZPhoto_XYZFIleEx.swift in Sources */,
 				D6C9367B24B4634300E3BABF /* XYZQR_TLPhotoPickerNeed.swift in Sources */,
+				D658756927FB1BBE0095DEBE /* XYZ_BrowserOpen.swift in Sources */,
 				D6855A4324B44CFB00EACB3C /* TLPhotosPicker+Extension.swift in Sources */,
 				D6855A4424B44CFB00EACB3C /* ImagePreviewViewController.swift in Sources */,
 				D610548B27115C69006B9725 /* XYZPhoto_Exif.swift in Sources */,
