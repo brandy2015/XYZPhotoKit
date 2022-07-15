@@ -40,6 +40,7 @@
 		D6947D4F23A7BE0600EBDF12 /* XYZPhotoKit.podspec in Resources */ = {isa = PBXBuildFile; fileRef = D6947D4C23A7BE0600EBDF12 /* XYZPhotoKit.podspec */; };
 		D6947D5023A7BE0600EBDF12 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = D6947D4D23A7BE0600EBDF12 /* README.md */; };
 		D6947D5123A7BE0600EBDF12 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = D6947D4E23A7BE0600EBDF12 /* LICENSE */; };
+		D6BA36C22880F01700AD6A81 /* XYZFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6BA36C12880F01700AD6A81 /* XYZFilter.swift */; };
 		D6C9367B24B4634300E3BABF /* XYZQR_TLPhotoPickerNeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C9367A24B4634300E3BABF /* XYZQR_TLPhotoPickerNeed.swift */; };
 /* End PBXBuildFile section */
 
@@ -81,6 +82,7 @@
 		D6947D4C23A7BE0600EBDF12 /* XYZPhotoKit.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = XYZPhotoKit.podspec; sourceTree = "<group>"; };
 		D6947D4D23A7BE0600EBDF12 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		D6947D4E23A7BE0600EBDF12 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		D6BA36C12880F01700AD6A81 /* XYZFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XYZFilter.swift; sourceTree = "<group>"; };
 		D6C9367A24B4634300E3BABF /* XYZQR_TLPhotoPickerNeed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XYZQR_TLPhotoPickerNeed.swift; sourceTree = "<group>"; };
 		F2DAD203847A6EE080510985 /* Pods_XYZPhotoKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XYZPhotoKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -178,6 +180,7 @@
 				D610549327115DA3006B9725 /* XYZPhoto_XYZPicExif_ToDelete_2.swift */,
 				D61054972711609D006B9725 /* XYZPhoto_XYZPicExif_Exif.swift */,
 				D610549527116032006B9725 /* TLPhotoPicker_Ex.swift */,
+				D6BA36C12880F01700AD6A81 /* XYZFilter.swift */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -313,6 +316,7 @@
 				D610549427115DA3006B9725 /* XYZPhoto_XYZPicExif_ToDelete_2.swift in Sources */,
 				D6947D1023A7ACCE00EBDF12 /* XYZPHAsset.swift in Sources */,
 				D6855A4624B44CFB00EACB3C /* PhotoPickerWithNavigationViewController.swift in Sources */,
+				D6BA36C22880F01700AD6A81 /* XYZFilter.swift in Sources */,
 				D61054982711609D006B9725 /* XYZPhoto_XYZPicExif_Exif.swift in Sources */,
 				D610548E27115CAC006B9725 /* XYZPhoto_XYZPicObject.swift in Sources */,
 				D610549227115D7C006B9725 /* XYZPhoto_XYZPicExif_ToDelete.swift in Sources */,
