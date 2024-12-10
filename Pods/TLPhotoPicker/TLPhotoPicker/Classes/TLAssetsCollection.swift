@@ -321,7 +321,7 @@ public struct TLPHAsset {
         }
     }
     
-    init(asset: PHAsset?) {
+    public init(asset: PHAsset?) {
         self.phAsset = asset
     }
 
@@ -356,6 +356,11 @@ public struct TLAssetsCollection {
         get {
             guard let count = self.fetchResult?.count, count > 0 else { return self.useCameraButton ? 1 : 0 }
             return count + (self.useCameraButton ? 1 : 0)
+        }
+    }
+    var assetCount: Int {
+        get {
+            return self.fetchResult?.count ?? 0
         }
     }
     

@@ -60,8 +60,18 @@ public extension URLArray{
         browser.reloadCellAtIndex = { context in
             let browserCell = context.cell as? JXPhotoBrowserImageCell;
             let indexPath = IndexPath(item: context.index, section: 0)
-            browserCell?.imageView.kf.indicatorType = .activity
-            browserCell?.imageView.kf.setImage(with:  self[indexPath.item])
+//            browserCell?.imageView.kf.indicatorType = .activity
+//            browserCell?.imageView.kf.setImage(with:  self[indexPath.item])
+            
+            // 确保 UI 相关操作在主线程上进行
+                      DispatchQueue.main.async {
+                          // 设置图片加载指示器
+                          browserCell?.imageView.kf.indicatorType = .activity
+                          
+                          // 加载图片
+                          browserCell?.imageView.kf.setImage(with: self[indexPath.item])
+                      }
+            
             browserCell?.index = context.index
             browserCell?.longPressedAction = { cell, _ in
                 self.longPress(cell: cell)
