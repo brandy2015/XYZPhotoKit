@@ -10,10 +10,139 @@ import UIKit
 import JXPhotoBrowser 
 import Kingfisher
 import XYZPathKit
+import ObjectiveC
 
-public extension JXPhotoBrowser{
+public typealias JXPhotoBrowserImageCell = JXZoomImageCell
+
+public struct JXPhotoBrowserReloadContext {
+    public let cell: JXPhotoBrowserAnyCell
+    public let index: Int
+}
+
+private final class JXPhotoBrowserLegacyDelegate: NSObject, JXPhotoBrowserDelegate {
+    var numberOfItemsHandler: (() -> Int)?
+    var reloadCellHandler: ((JXPhotoBrowserReloadContext) -> Void)?
+
+    func numberOfItems(in browser: JXPhotoBrowserViewController) -> Int {
+        max(0, numberOfItemsHandler?() ?? 0)
+    }
+
+    func photoBrowser(_ browser: JXPhotoBrowserViewController, cellForItemAt index: Int, at indexPath: IndexPath) -> JXPhotoBrowserAnyCell {
+        browser.dequeueReusableCell(withReuseIdentifier: JXZoomImageCell.reuseIdentifier, for: indexPath)
+    }
+
+    func photoBrowser(_ browser: JXPhotoBrowserViewController, willDisplay cell: JXPhotoBrowserAnyCell, at index: Int) {
+        if let zoomCell = cell as? JXZoomImageCell {
+            zoomCell.index = index
+            zoomCell.installLegacyLongPressIfNeeded()
+        }
+        reloadCellHandler?(JXPhotoBrowserReloadContext(cell: cell, index: index))
+    }
+}
+
+private enum JXPhotoBrowserLegacyAssociatedKey {
+    static var delegate: UInt8 = 0
+    static var index: UInt8 = 1
+    static var longPressAction: UInt8 = 2
+    static var hasLongPress: UInt8 = 3
+}
+
+public extension JXPhotoBrowserViewController {
+    private var legacyDelegate: JXPhotoBrowserLegacyDelegate {
+        if let obj = objc_getAssociatedObject(self, &JXPhotoBrowserLegacyAssociatedKey.delegate) as? JXPhotoBrowserLegacyDelegate {
+            return obj
+        }
+        let obj = JXPhotoBrowserLegacyDelegate()
+        objc_setAssociatedObject(self, &JXPhotoBrowserLegacyAssociatedKey.delegate, obj, .OBJC_ASSOCIATION_RETAIN_NONATOMIC)
+        return obj
+    }
+
+    var numberOfItems: (() -> Int)? {
+        get { legacyDelegate.numberOfItemsHandler }
+        set {
+            let bridge = legacyDelegate
+            bridge.numberOfItemsHandler = newValue
+            delegate = bridge
+        }
+    }
+
+    var reloadCellAtIndex: ((JXPhotoBrowserReloadContext) -> Void)? {
+        get { legacyDelegate.reloadCellHandler }
+        set {
+            let bridge = legacyDelegate
+            bridge.reloadCellHandler = newValue
+            delegate = bridge
+        }
+    }
+
+    func show() {
+        guard let presenter = JXPhotoBrowserLegacyPresenter.topViewController() else { return }
+        present(from: presenter)
+    }
+}
+
+public extension JXZoomImageCell {
+    var index: Int {
+        get { (objc_getAssociatedObject(self, &JXPhotoBrowserLegacyAssociatedKey.index) as? NSNumber)?.intValue ?? 0 }
+        set {
+            objc_setAssociatedObject(self, &JXPhotoBrowserLegacyAssociatedKey.index, NSNumber(value: newValue), .OBJC_ASSOCIATION_RETAIN_NONATOMIC)
+        }
+    }
+
+    var photoBrowser: JXPhotoBrowserViewController? {
+        browser
+    }
+
+    var longPressedAction: ((JXPhotoBrowserImageCell, UILongPressGestureRecognizer) -> Void)? {
+        get {
+            objc_getAssociatedObject(self, &JXPhotoBrowserLegacyAssociatedKey.longPressAction) as? ((JXPhotoBrowserImageCell, UILongPressGestureRecognizer) -> Void)
+        }
+        set {
+            objc_setAssociatedObject(self, &JXPhotoBrowserLegacyAssociatedKey.longPressAction, newValue, .OBJC_ASSOCIATION_COPY_NONATOMIC)
+            installLegacyLongPressIfNeeded()
+        }
+    }
+
+    fileprivate func installLegacyLongPressIfNeeded() {
+        let hasLongPress = (objc_getAssociatedObject(self, &JXPhotoBrowserLegacyAssociatedKey.hasLongPress) as? NSNumber)?.boolValue ?? false
+        guard !hasLongPress else { return }
+
+        let gesture = UILongPressGestureRecognizer(target: self, action: #selector(handleLegacyLongPress(_:)))
+        scrollView.addGestureRecognizer(gesture)
+        objc_setAssociatedObject(self, &JXPhotoBrowserLegacyAssociatedKey.hasLongPress, NSNumber(value: true), .OBJC_ASSOCIATION_RETAIN_NONATOMIC)
+    }
+
+    @objc private func handleLegacyLongPress(_ gesture: UILongPressGestureRecognizer) {
+        guard gesture.state == .began, let action = longPressedAction else { return }
+        action(self, gesture)
+    }
+}
+
+private enum JXPhotoBrowserLegacyPresenter {
+    static func topViewController(base: UIViewController? = rootViewController()) -> UIViewController? {
+        if let nav = base as? UINavigationController {
+            return topViewController(base: nav.visibleViewController)
+        }
+        if let tab = base as? UITabBarController {
+            return topViewController(base: tab.selectedViewController)
+        }
+        if let presented = base?.presentedViewController {
+            return topViewController(base: presented)
+        }
+        return base
+    }
+
+    private static func rootViewController() -> UIViewController? {
+        let scenes = UIApplication.shared.connectedScenes.compactMap { $0 as? UIWindowScene }
+        let activeScene = scenes.first(where: { $0.activationState == .foregroundActive }) ?? scenes.first
+        let keyWindow = activeScene?.windows.first(where: \.isKeyWindow) ?? activeScene?.windows.first
+        return keyWindow?.rootViewController
+    }
+}
+
+public extension JXPhotoBrowserViewController{
     static func openPhotoBrowser(index: Int,ImageURLs:[URL]) {
-        let browser = JXPhotoBrowser()
+        let browser = JXPhotoBrowserViewController()
         browser.numberOfItems = {
             ImageURLs.count
         }
@@ -29,10 +158,10 @@ public extension JXPhotoBrowser{
             browserCell.index = context.index
             // 添加长按事件
             browserCell.longPressedAction = { cell, _ in
-                JXPhotoBrowser.longPress(cell: cell)
+                JXPhotoBrowserViewController.longPress(cell: cell)
             }
         }
-        browser.pageIndex = index
+        browser.initialIndex = index
         browser.show()
     }
     static func longPress(cell: JXPhotoBrowserImageCell) {

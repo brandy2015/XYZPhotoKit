@@ -9,8 +9,7 @@
 import UIKit
 import CoreAudio
 import AVKit
-import AVFoundation
-import AssetsLibrary
+import AVFoundation 
  
 
 public class XYZVideo: NSObject {
