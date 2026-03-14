@@ -17,7 +17,7 @@ public extension UIImageView{
     }
      
     @objc private func openPhotoBrowserx(With Index:Int = 0)  { 
-        let browser = JXPhotoBrowser()
+        let browser = JXPhotoBrowserViewController()
         browser.numberOfItems = {return 1}
         browser.reloadCellAtIndex = { context in
             let browserCell = context.cell as? JXPhotoBrowserImageCell
@@ -27,7 +27,7 @@ public extension UIImageView{
                 self.longPress(cell: cell)
             }
         }
-        browser.pageIndex = Index
+        browser.initialIndex = Index
         browser.show()
     }
     
@@ -55,7 +55,7 @@ public extension UIImageView{
 public typealias URLArray = [URL]
 public extension URLArray{
     func XYZ_BrowserOpen(With Index:Int = 0) {
-        let browser = JXPhotoBrowser()
+        let browser = JXPhotoBrowserViewController()
         browser.numberOfItems = { self.count}
         browser.reloadCellAtIndex = { context in
             let browserCell = context.cell as? JXPhotoBrowserImageCell;
@@ -77,7 +77,7 @@ public extension URLArray{
                 self.longPress(cell: cell)
             }
         }
-        browser.pageIndex = Index // 可指定打开时定位到哪一页
+        browser.initialIndex = Index // 可指定打开时定位到哪一页
         browser.show()// 展示
     }
     
@@ -103,14 +103,14 @@ public extension URLArray{
 public typealias UIImageArray = [UIImage]
 public extension UIImageArray{
     func XYZ_BrowserOpen(With Index:Int = 0) {
-        let browser = JXPhotoBrowser()
+        let browser = JXPhotoBrowserViewController()
         browser.numberOfItems = { self.count  }
         browser.reloadCellAtIndex = { context in
             let browserCell = context.cell as? JXPhotoBrowserImageCell;let indexPath = IndexPath(item: context.index, section: 0)
             browserCell?.imageView.image =  self[indexPath.item]
             browserCell?.index = context.index
         }
-        browser.pageIndex = Index
+        browser.initialIndex = Index
         browser.show()
     }
 }
